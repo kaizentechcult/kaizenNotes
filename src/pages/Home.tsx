@@ -1,9 +1,11 @@
-import type { Component } from "solid-js";
+import { Component } from 'solid-js';
 
-const Home: Component = () => {
-  return <div class="">Home</div>;
+const LearnHub: Component = () => {
+  return (
+    <main>
+      hello
+    </main>
+  );
 };
 
-
-
-export default Home;
+export default LearnHub;
