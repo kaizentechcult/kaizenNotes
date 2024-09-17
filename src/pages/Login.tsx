@@ -1,3 +1,4 @@
+import { Toaster } from "react-hot-toast";
 import { createSignal } from "solid-js";
 import { Component } from "solid-js";
 
@@ -31,6 +32,9 @@ export const Login: Component = () => {
 
   return (
     <div class="flex h-screen items-center justify-center bg-black ">
+      {/* <Toaster position="top-center" reverseOrder={false} /> */}
+      {/* {Loading()} */}
+
       <form
         onSubmit={handleSubmit}
         class="w-full max-w-sm bg-[#414141] rounded-lg shadow-md p-6"

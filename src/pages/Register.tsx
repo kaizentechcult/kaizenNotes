@@ -1,47 +1,92 @@
 import { createSignal } from "solid-js";
 import { Component } from "solid-js";
+import Loader from "../components/Loader/Loader";
+import Error from "../components/Error/Error";
 
-export const Login: Component = () => {
-  const [name, setName] = createSignal<string>("");
-  const [email, setEmail] = createSignal<string>("");
-  const [password, setPassword] = createSignal<string>("");
+export const Register: Component = () => {
+  const [name, setName] = createSignal("");
+  const [userEmail, setUserEmail] = createSignal("");
+  const [userPassword, setUserPassword] = createSignal("");
+  const [isLoading, setIsLoading] = createSignal(false);
+  const [error, setError] = createSignal("");
 
-  const handleSubmit = (e: SubmitEvent) => {
+  const apiKey = import.meta.env.VITE_BASE_URL;
+
+  const handleSubmit = async (e: SubmitEvent) => {
     e.preventDefault();
-    console.log({ name: name(), password: password() });
-  };
 
-  // console.log(import.meta.env.VITE_MONGO_URI);
+    const data = {
+      name: name(),
+      email: userEmail(),
+      password: userPassword(),
+    };
+
+    setIsLoading(true);
+
+    // const res = await fetch(apiKey.concat("/register"), {
+    const res = await fetch("http://localhost:8080/register", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    });
+    console.log(res.body);
+    const result = await res.json();
+    if (res.status == 409 || result.error) {
+      console.log("User already exists");
+      setError("User already exists");
+      setIsLoading(false);
+      return;
+    }
+    setIsLoading(false);
+    console.log("Data sent successfully:", result.error);
+  };
 
   return (
     <div class="flex h-screen items-center justify-center">
-      <form onSubmit={handleSubmit} class="flex flex-col bg-red-500 p-4">
-        <label>
-          name:
-          <input
-            type="text"
-            value={name()}
-            onChange={(e) => setName(e.currentTarget.value)}
-          />
-        </label>
-        <label>
-          Email:
-          <input
-            type="text"
-            value={email()}
-            onChange={(e) => setEmail(e.currentTarget.value)}
-          />
-        </label>
-        <label>
-          Password:
-          <input
-            type="password"
-            value={password()}
-            onChange={(e) => setPassword(e.currentTarget.value)}
-          />
-        </label>
-        <button type="submit">Login</button>
-      </form>
+      {error() ? <Error error={error()} /> : <></>}
+      {isLoading() ? (
+        <Loader />
+      ) : (
+        <form
+          onSubmit={handleSubmit}
+          class="flex flex-col bg-[#d1d1d1] p-4 rounded-md"
+        >
+          <label>
+            name:
+            <input
+              type="text"
+              value={name()}
+              onChange={(e) => setName(e.currentTarget.value)}
+              class="p-2 m-2 w-full"
+            />
+          </label>
+          <label>
+            Email:
+            <input
+              type="email"
+              value={userEmail()}
+              onChange={(e) => setUserEmail(e.currentTarget.value)}
+              class="p-2 m-2 w-full"
+            />
+          </label>
+          <label>
+            Password:
+            <input
+              type="password"
+              value={userPassword()}
+              onChange={(e) => setUserPassword(e.currentTarget.value)}
+              class="p-2 m-2 w-full"
+            />
+          </label>
+          <button type="submit" class="bg-blue-500 p-2 m-2 w-full">
+            Register
+          </button>
+        </form>
+      )}
     </div>
   );
 };
+
+export default Register;
