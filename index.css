@@ -1,0 +1,29 @@
+.navbar-nav {
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.nav-link {
+  color: #000;
+}
+.nav-link.active {
+  color: #007bff;
+}
+.card1{
+  height:120vh;
+  width: 25%;
+  border-radius: 20px;
+  background-color: #19485f;
+
+}
+.card2{
+  height: 120vh;
+  border-radius: 20px;
+  width: 75%;
+  background-color: #D9e0a4;
+}
+.flex{
+  display: flex;
+  margin-top: 2vh;
+  gap: 2vh;
+}
