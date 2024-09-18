@@ -15,7 +15,7 @@
     "vinxi": "^0.4.1"
   },
   "engines": {
-    "node": ">=18"
+    "node": "20"
   },
   "version": "1.0.0",
   "description": "Everything you need to build a Solid project, powered by [`solid-start`](https://start.solidjs.com);",
