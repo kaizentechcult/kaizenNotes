@@ -1,4 +1,4 @@
-import { createSignal } from "solid-js";
+import { Component, createSignal } from "solid-js";
 import RegisterImg from "../../assets/Register.png";
 import HandleRegister from "../../Auth/Register/HandleRegister";
 import AuthImg from "../../components/AuthImg/AuthImg";
@@ -8,7 +8,7 @@ import FormButton from "../../components/FormElement/FormButton";
 import Loader from "../../components/Loader/Loader";
 import Error from "../../components/Error/Error";
 
-const Register = () => {
+const Register: Component = () => {
   const [name, setName] = createSignal("");
   const [userEmail, setUserEmail] = createSignal("");
   const [userPassword, setUserPassword] = createSignal("");
