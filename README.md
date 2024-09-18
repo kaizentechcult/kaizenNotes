@@ -1,16 +1,14 @@
 # SolidStart
 
-Everything you need to build a Solid project, powered by [`solid-start`](https://start.solidjs.com);
+This directory is a brief example of a [SolidStart](https://github.com/ryansolid/solid-start) site that can be deployed to Vercel with zero configuration.
 
-## Creating a project
+## Deploy Your Own
 
-```bash
-# create a new project in the current directory
-npm init solid@latest
+Deploy your own SolidStart project with Vercel.
 
-# create a new project in my-app
-npm init solid@latest my-app
-```
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/solidstart&template=solidstart)
+
+_Live Example: https://solid-start-template.vercel.app_
 
 ## Developing
 
@@ -25,8 +23,8 @@ npm run dev -- --open
 
 ## Building
 
-Solid apps are built with _presets_, which optimise your project for deployment to different environments.
+This uses the [Vercel Adapter](https://github.com/solidjs/solid-start/tree/main/packages/start-vercel) for SolidStart.
 
-By default, `npm run build` will generate a Node app that you can run with `npm start`. To use a different preset, add it to the `devDependencies` in `package.json` and specify in your `app.config.js`.
-
-## This project was created with the [Solid CLI](https://solid-cli.netlify.app)
+```bash
+npm run build
+```

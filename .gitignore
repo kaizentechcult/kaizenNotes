@@ -1,14 +1,8 @@
-
 dist
+worker
 .solid
-.output
 .vercel
-.netlify
-.vinxi
-
-# Environment
-.env
-.env*.local
+.output
 
 # dependencies
 /node_modules
