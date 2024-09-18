@@ -14,7 +14,7 @@ const FormInput = (props: Props) => {
         type={props.type}
         id={props.id}
         placeholder={props.placeholder}
-        class="w-full p-3 border border-gray-300 rounded-3xl placeholder-gray-700 italic"
+        class="w-full p-3 border border-gray-300 rounded-3xl placeholder-gray-700 italic focus:outline-none"
         value={props.signal()}
         onChange={(e) => props.setSignal(e.currentTarget.value)}
       />
