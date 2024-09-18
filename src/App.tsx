@@ -1,22 +1,22 @@
-import type { Component } from "solid-js";
-import { Router, Route } from "@solidjs/router";
-import Login from "./pages/Login/Login";
-import Home from "./pages/Home/Home";
-import Register from "./pages/Register/Register";
+import { MetaProvider, Title } from "@solidjs/meta";
+import { Router } from "@solidjs/router";
+import { FileRoutes } from "@solidjs/start/router";
+import { Suspense } from "solid-js";
+import "./app.css";
 
-// import Home from "./pages/Home";
-// import { Login } from "./pages/Login";
-// import { Register } from "./pages/Register";
-const App: Component = () => {
+export default function App() {
   return (
-    <>
-      <Router>
-        <Route path="/login" component={Login} />
-        <Route path="/register" component={Register} />
-        <Route path="/home" component={Home} />
-      </Router>
-    </>
+    <Router
+      root={props => (
+        <MetaProvider>
+          <Title>SolidStart - Basic</Title>
+          <a href="/">Index</a>
+          <a href="/about">About</a>
+          <Suspense>{props.children}</Suspense>
+        </MetaProvider>
+      )}
+    >
+      <FileRoutes />
+    </Router>
   );
-};
-
-export default App;
+}

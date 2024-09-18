@@ -1,27 +1,26 @@
 {
-  "name": "vite-template-solid",
-  "version": "0.0.0",
-  "description": "",
+  "name": "example-basic",
+  "type": "module",
   "scripts": {
-    "start": "vite",
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.45",
-    "solid-devtools": "^0.29.2",
-    "tailwindcss": "^3.4.11",
-    "typescript": "^5.3.3",
-    "vite": "^5.0.11",
-    "vite-plugin-solid": "^2.8.2"
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start",
+    "version": "vinxi version"
   },
   "dependencies": {
-    "@solidjs/router": "^0.14.3",
-    "bcrypt": "^5.1.1",
-    "mongoose": "^8.6.2",
-    "solid-js": "^1.8.11"
-  }
+    "@solidjs/meta": "^0.29.4",
+    "@solidjs/router": "^0.14.1",
+    "@solidjs/start": "^1.0.6",
+    "solid-js": "^1.8.18",
+    "vinxi": "^0.4.1"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "version": "1.0.0",
+  "description": "Everything you need to build a Solid project, powered by [`solid-start`](https://start.solidjs.com);",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
