@@ -35,13 +35,13 @@
 //     const result = await response.json();
 //     if (response.status == 409 || result.error) {
 //       console.log("User already exists");
-//       setError("User already exists");
-//       setIsLoading(false);
 //       return;
 //     }
-//     setIsLoading(false);
 //     console.log("Data sent successfully:", result.error);
-//   };
+// };
+// setIsLoading(false);
+// setIsLoading(false);
+// setError("User already exists");
 
 //   return (
 //     <div class="flex h-screen items-center justify-center">

@@ -1,68 +1,56 @@
-
+import { createSignal, For } from "solid-js";
+import LoginImg from "../../assets/Login.svg";
+import HandleLogin from "../../Auth/Login/HandleLogin";
+import AuthImg from "../../components/AuthImg/AuthImg";
+import FormInput from "../../components/FormElement/FormInput";
+import ForgetPass from "../../components/FormElement/ForgetPass";
+import FormButton from "../../components/FormElement/FormButton";
+import DontHave from "../../components/FormElement/DontHave";
 
 const Login = () => {
-  return (
-    <div >
-        <div class="flex h-screen" style={{ "background-color": '#E7F0FF' }}>
-      
-      <div class="w-1/2  flex items-center justify-center">
-        <img
-          src="./login-img-removebg.png  "
-          alt="Login-img"
-          class="object-contain h-3/4 w-auto"  
-        />
-      </div>
+  const [email, setEmail] = createSignal<string>("");
+  const [password, setPassword] = createSignal<string>("");
 
-      
-      <div class="w-1/2 flex flex-col justify-center items-center px-12">
-        <h2 class="text-4xl font-semibold mb-8 text-center">Login</h2>
-        <form class="w-full max-w-md mx-auto">
-          <div class="mb-4">
-            <label for="email" class="block text-lg font-medium mb-2">
-            </label>
-            <input
+  const [isLoading, setIsLoading] = createSignal(false);
+  const [error, setError] = createSignal("");
+
+  const handleSubmit = async (event: SubmitEvent) => {
+    event.preventDefault();
+    setIsLoading(true);
+    HandleLogin({ data: { email: email(), password: password() } });
+  };
+
+  return (
+    <div>
+      <div class="flex h-screen bg-[#e7f0ff]">
+        <AuthImg imgSrc={LoginImg} />
+        <div class="lg:w-1/2 flex flex-col justify-center items-center px-12 w-full">
+          <h2 class="text-4xl font-semibold mb-8 text-center">Login</h2>
+          <form class="w-full max-w-md mx-auto" onSubmit={handleSubmit}>
+            <FormInput
               type="email"
+              signal={email}
+              setSignal={setEmail}
               id="email"
               placeholder="Email"
-              class="w-full p-3 border border-gray-300 rounded-3xl placeholder-gray-700"
             />
-          </div>
-
-          <div class="mb-6">
-            <label for="password" class="block text-lg font-medium mb-2">
-            </label>
-            <input
+            <FormInput
               type="password"
+              signal={password}
+              setSignal={setPassword}
               id="password"
-              placeholder="Enter your password"
-              class="w-full p-3 border border-gray-300 rounded-3xl placeholder-gray-700"
+              placeholder="Password"
             />
-          </div>
-
-          <div class="flex justify-end mb-6">
-            <a href="#" class="text-linkBlue hover:underline">
-              Forgot Password?
-            </a>
-          </div>
-
-          <button
-            type="submit"
-            class="w-full bg-DarkBlue hover:bg-blue-600 text-white font-semibold py-3 rounded-3xl"
-          >
-            <b>Log In</b>
-          </button>
-
-          <div class="flex justify-end mt-3 mb-6">
-          Don't have an account?
-            <a href="" class="text-linkBlue hover:underline">
-             Register
-            </a>
-          </div>
-
-
-        </form>
+            <ForgetPass />
+            <FormButton button="Login" />
+            <DontHave
+              dontText="Don't have an account?"
+              text="Register"
+              link="/register"
+            />
+          </form>
+        </div>
       </div>
-    </div>
     </div>
   );
 };
