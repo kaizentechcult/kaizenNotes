@@ -1,5 +1,11 @@
+import App from "./App";
+
 const Navbar = () => {
-  return <div>Navbar</div>;
+  return (
+    <div>
+      <App />
+    </div>
+  );
 };
 
 export default Navbar;
