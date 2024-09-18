@@ -1,26 +1,17 @@
 {
-  "name": "example-basic",
+  "name": "example-bare",
   "type": "module",
   "scripts": {
     "dev": "vinxi dev",
     "build": "vinxi build",
-    "start": "vinxi start",
-    "version": "vinxi version"
+    "start": "vinxi start"
   },
   "dependencies": {
-    "@solidjs/meta": "^0.29.4",
-    "@solidjs/router": "^0.14.1",
     "@solidjs/start": "^1.0.6",
     "solid-js": "^1.8.18",
     "vinxi": "^0.4.1"
   },
   "engines": {
-    "node": "20"
-  },
-  "version": "1.0.0",
-  "description": "Everything you need to build a Solid project, powered by [`solid-start`](https://start.solidjs.com);",
-  "main": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "node": ">=18"
+  }
 }
