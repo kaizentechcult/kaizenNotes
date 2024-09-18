@@ -1,10 +1,11 @@
 import { Component } from "solid-js";
 import Navbar from "../../components/Navbar/Navbar";
 
-const Home:Component = () => {
+const Home: Component = () => {
   return (
     <div>
       <Navbar />
+
       <h1>Home</h1>
     </div>
   );
