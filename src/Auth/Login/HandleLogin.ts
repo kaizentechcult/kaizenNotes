@@ -19,10 +19,12 @@ const HandleLogin = async (props: Props) => {
     });
     const result = await response.json();
     if (result.token == null) {
-      console.error("Error sending data:", result);
+      // console.error("Error sending data:", result);
+      return result;
     }
-    console.log("Data sent successfully:", result.error);
+    // console.log("Data sent successfully:", result.error);
     localStorage.setItem("token", result.token);
+    return result;
     // window.location.href = "/";
   } catch (error) {
     console.error("Error sending data:", error);
