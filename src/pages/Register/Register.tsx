@@ -1,72 +1,83 @@
-
+import { createSignal } from "solid-js";
+import RegisterImg from "../../assets/Register.png";
+import HandleRegister from "../../Auth/Register/HandleRegister";
+import AuthImg from "../../components/AuthImg/AuthImg";
+import FormInput from "../../components/FormElement/FormInput";
+import DontHave from "../../components/FormElement/DontHave";
+import FormButton from "../../components/FormElement/FormButton";
+import Loader from "../../components/Loader/Loader";
+import Error from "../../components/Error/Error";
 
 const Register = () => {
+  const [name, setName] = createSignal("");
+  const [userEmail, setUserEmail] = createSignal("");
+  const [userPassword, setUserPassword] = createSignal("");
+
+  const [isLoading, setIsLoading] = createSignal(false);
+  const [error, setError] = createSignal("");
+
+  const handleSubmit = async (event: SubmitEvent) => {
+    event.preventDefault();
+    setIsLoading(true);
+    const res = await HandleRegister({
+      data: { name: name(), email: userEmail(), password: userPassword() },
+    });
+    setIsLoading(false);
+    setName("");
+    setUserEmail("");
+    setUserPassword("");
+    if (res.error) {
+      setError(res.error);
+      return;
+    }
+    // if (res.token) {
+    localStorage.setItem("token", res.token);
+    window.location.href = "/";
+  };
+
   return (
-    <div class="flex h-screen" style={{ "background-color": '#E7F0FF' }}>
-      <div class="w-1/2 flex flex-col justify-center items-center px-12">
-        <h2 class="text-4xl font-semibold mb-8 text-center">Register</h2>
-        <form class="w-full max-w-md mx-auto">
+    <div class="flex h-screen bg-[#e7f0ff] w-full justify-center items-center">
+      {error() ? <Error error={error()} /> : <></>}
 
-        <div class="mb-4">
-            <label for="email" class="block text-lg font-medium mb-2">
-            </label>
-            <input
-              type="name"
-              id="mane"
-              placeholder="Name"
-              class="w-full p-3 border border-gray-300 rounded-3xl placeholder-gray-700 italic"
-            />
+      {isLoading() ? (
+        <Loader />
+      ) : (
+        <>
+          <div class="lg:w-1/2 flex flex-col justify-center items-center lg:px-12 w-full px-12">
+            <h2 class="text-4xl font-semibold mb-8 text-center">Register</h2>
+            <form class="w-full max-w-md mx-auto" onsubmit={handleSubmit}>
+              <FormInput
+                type="text"
+                signal={name}
+                setSignal={setName}
+                id="name"
+                placeholder="Name"
+              />
+              <FormInput
+                type="email"
+                signal={userEmail}
+                setSignal={setUserEmail}
+                id="email"
+                placeholder="Email"
+              />
+              <FormInput
+                type="password"
+                signal={userPassword}
+                setSignal={setUserPassword}
+                id="password"
+                placeholder="Password"
+              />
+              <FormButton button="Register" />
+              <DontHave
+                dontText="Already have an account?"
+                text="Login"
+                link="/login"
+              />
+            </form>
           </div>
-
-
-
-          <div class="mb-4">
-            <label for="email" class="block text-lg font-medium mb-2">
-            </label>
-            <input
-              type="email"
-              id="email"
-              placeholder="Email"
-              class="w-full p-3 border border-gray-300 rounded-3xl placeholder-gray-700 italic"
-            />
-          </div>
-
-          <div class="mb-6">
-            <label for="password" class="block text-lg font-medium mb-2">
-            </label>
-            <input
-              type="password"
-              id="password"
-              placeholder="Enter your password"
-              class="w-full p-3 border border-gray-300 rounded-3xl placeholder-gray-700 italic"
-            />
-          </div>
-
-        
-
-          <button
-            type="submit"
-            class="w-full bg-DarkBlue hover:bg-blue-600 text-white font-semibold py-3 rounded-3xl"
-          >
-            <b>Register</b>
-          </button>
-
-          <div class="flex justify-end mt-3 mb-6">
-            Alredy have an account?
-            <a href="#" class="text-linkBlue hover:underline">
-              Log in
-            </a>
-          </div>
-        </form>
-      </div>
-
-      <div class="w-1/2 flex items-center justify-center">
-        <img
-          src="./register-img-removebg-preview.png"
-          alt="Login-img"
-          class="object-contain h-3/4 w-auto"
-        />
-      </div>
+          <AuthImg imgSrc={RegisterImg} />
+        </>
+      )}
     </div>
   );
 };
