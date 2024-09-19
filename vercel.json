@@ -1,9 +1,17 @@
 {
   "version": 2,
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/edge-functions",
+      "config": {}
+    }
+  ],
   "routes": [
     {
-      "src": "./src",
+      "src": "/(.*)",
       "dest": "/index.html"
     }
   ]
 }
+
