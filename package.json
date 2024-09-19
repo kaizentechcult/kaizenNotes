@@ -22,6 +22,7 @@
     "@solidjs/router": "^0.14.3",
     "bcrypt": "^5.1.1",
     "mongoose": "^8.6.2",
-    "solid-js": "^1.8.11"
+    "solid-js": "^1.8.11",
+    "vercel": "^32.3.0"
   }
 }

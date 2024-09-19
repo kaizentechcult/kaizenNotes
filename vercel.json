@@ -12,6 +12,11 @@
       "src": "/(.*)",
       "dest": "/index.html"
     }
-  ]
-}
+  ],
 
+  "build": {
+    "env": {
+      "EDGE_FUNCTIONS": true
+    }
+  }
+}
