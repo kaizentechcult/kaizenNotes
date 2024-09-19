@@ -1,18 +1,21 @@
-import { Component } from "solid-js";
-import { A } from "@solidjs/router";
-import Navbar from "../../components/Navbar/Navbar";
+import { createSignal, Component } from "solid-js";
 
 const Home: Component = () => {
+  const [isDark, setIsDark] = createSignal(false);
+
+  const toggleTheme = () => {
+    setIsDark(!isDark());
+  };
+
   return (
-    <div class="bg-black h-screen text-white justify-center items-center w-full">
-      <ul class="flex gap-4">
-        <A href="/login"> login</A>
-        <A href="/register"> Register</A>
-      </ul>
-      <Navbar />
-      <h1>Home</h1>
+    <div class={`${isDark() ? "bg-gray-800 text-white" : ""} h-screen`}>
+      <button onClick={toggleTheme} class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        Switch Theme
+      </button>
     </div>
   );
 };
 
 export default Home;
+
+

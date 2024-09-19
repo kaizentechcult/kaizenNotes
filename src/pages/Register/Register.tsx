@@ -1,10 +1,10 @@
 import { Component, createSignal } from "solid-js";
 import RegisterImg from "../../assets/Register.png";
-import HandleRegister from "../../Auth/Register/HandleRegister";
-import AuthImg from "../../components/AuthImg/AuthImg";
-import FormInput from "../../components/FormElement/FormInput";
-import DontHave from "../../components/FormElement/DontHave";
-import FormButton from "../../components/FormElement/FormButton";
+import HandleRegister from "../../Auth/HandleRegister";
+import AuthImg from "../../components/authComponents/AuthImg";
+import FormInput from "../../components/authComponents/FormInput";
+import DontHave from "../../components/authComponents/DontHave";
+import FormButton from "../../components/authComponents/FormButton";
 import Loader from "../../components/Loader/Loader";
 import Error from "../../components/Error/Error";
 
