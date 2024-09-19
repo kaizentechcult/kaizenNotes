@@ -1,7 +1,7 @@
 import { Component } from "solid-js";
 
 interface Props {
-  imgSrc: string;
+  imgSrc: any;
 }
 
 const AuthImg = (props: Props) => {
