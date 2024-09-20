@@ -4,10 +4,10 @@ import { A } from "@solidjs/router";
 import Card from "../../components/Home/Card";
 
 const yearLinks = {
-  1: "/year1",
-  2: "/year2",
-  3: "/year3",
-  4: "/year4",
+  1: "year1",
+  2: "year2",
+  3: "year3",
+  4: "year4",
 };
 
 const Home: Component = () => {

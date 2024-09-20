@@ -16,7 +16,7 @@ const Navbar: Component = () => {
   };
   return (
     // <nav class="flex justify-center bg-white items-center absolute w-full ">
-    <ul class="flex text-white bg-black gap-4 p-4 justify-center">
+    <ul class="flex text-white bg-black gap-4 p-4 justify-center text-xl">
       <li>
         <A href="/">Home</A>
       </li>
