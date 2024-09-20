@@ -1,11 +1,11 @@
 import { Component, createSignal, For } from "solid-js";
 import LoginImg from "../../assets/Login.svg";
-import HandleLogin from "../../Auth/Login/HandleLogin";
-import AuthImg from "../../components/AuthImg/AuthImg";
-import FormInput from "../../components/FormElement/FormInput";
-import ForgetPass from "../../components/FormElement/ForgetPass";
-import FormButton from "../../components/FormElement/FormButton";
-import DontHave from "../../components/FormElement/DontHave";
+import HandleLogin from "../../Auth/HandleLogin";
+import AuthImg from "../../components/authComponents/AuthImg";
+import FormInput from "../../components/authComponents/FormInput";
+import ForgetPass from "../../components/authComponents/ForgetPass";
+import FormButton from "../../components/authComponents/FormButton";
+import DontHave from "../../components/authComponents/DontHave";
 import Error from "../../components/Error/Error";
 import Loader from "../../components/Loader/Loader";
 
