@@ -2,8 +2,33 @@
   "version": 2,
   "routes": [
     {
-      "src": "./src",
+      "src": "/",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/login",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/register",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/dashboard/year1",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/dashboard/year2",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/dashboard/year3",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/dashboard/year4",
       "dest": "/index.html"
     }
   ]
 }
+
