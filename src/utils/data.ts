@@ -13,11 +13,11 @@ let folders: Folder[] = [
         folders: [
           {
             name: "UNIT 1 Green Chemistry",
-            link: "https://docs.google.com/document/d/1e_LXuvFgWcVSDECAiYCHj1G0ohxvWbwf/edit",
+            link: "https://docs.google.com/document/d/1e_LXuvFgWcVSDECAiYCHj1G0ohxvWbwf/view",
           },
           {
             name: "Module1",
-            link: "https://docs.google.com/document/d/1noLB5pX1IThFbfgdBuqK-Se75Faid_w_Q32kF7PHU0Q/edit",
+            link: "https://docs.google.com/document/d/1noLB5pX1IThFbfgdBuqK-Se75Faid_w_Q32kF7PHU0Q/view",
           },
         ],
       },
@@ -26,15 +26,15 @@ let folders: Folder[] = [
         folders: [
           {
             name: "MODULE-2",
-            link: "https://docs.google.com/document/d/1IYoqF9_Cpux_IBzhooBcuuF8K2Txg0GD73-8pcuFrmU/edit",
+            link: "https://docs.google.com/document/d/1IYoqF9_Cpux_IBzhooBcuuF8K2Txg0GD73-8pcuFrmU/view",
           },
           {
             name: "unit 2 NMR",
-            link: "https://docs.google.com/document/d/1sSdKu4zNxXvjAw8nWrMC4zZ5fb0n_9yq/edit",
+            link: "https://docs.google.com/document/d/1sSdKu4zNxXvjAw8nWrMC4zZ5fb0n_9yq/view",
           },
           {
             name: "unit 2 stereochemistry",
-            link: "https://docs.google.com/document/d/14UYYCX5F5wd_mWsMht2npMOoDaBFdhfu/edit",
+            link: "https://docs.google.com/document/d/14UYYCX5F5wd_mWsMht2npMOoDaBFdhfu/view",
           },
         ],
       },
@@ -43,15 +43,15 @@ let folders: Folder[] = [
         folders: [
           {
             name: "Module 3",
-            link: "https://docs.google.com/document/d/1_ORZWVeYksy9i9huDuG3T7pDjE_YD6M8x5fl7DFN3AA/edit",
+            link: "https://docs.google.com/document/d/1_ORZWVeYksy9i9huDuG3T7pDjE_YD6M8x5fl7DFN3AA/view",
           },
           {
             name: "unit 3 cement",
-            link: "https://docs.google.com/document/d/1VRzdPBiqxh_ueiUW2u0yxqZqNX0pTC4E/edit",
+            link: "https://docs.google.com/document/d/1VRzdPBiqxh_ueiUW2u0yxqZqNX0pTC4E/view",
           },
           {
             name: "unit 3 corrosion and  POP",
-            link: "https://docs.google.com/document/d/1K6MeD707QwSvjwCircmBvaHxcTRTLZAo/edit",
+            link: "https://docs.google.com/document/d/1K6MeD707QwSvjwCircmBvaHxcTRTLZAo/view",
           },
         ],
       },
@@ -60,11 +60,11 @@ let folders: Folder[] = [
         folders: [
           {
             name: "module 4",
-            link: "https://docs.google.com/document/d/1QATQFu59DymjxL-3I3zA9SF_xUS1bKm0u1BG2iABo3I/edit",
+            link: "https://docs.google.com/document/d/1QATQFu59DymjxL-3I3zA9SF_xUS1bKm0u1BG2iABo3I/view",
           },
           {
             name: "unit 4 hardness ,alkalinity,biogas",
-            link: "https://docs.google.com/document/d/10s_2sCpFR0dOaMEPxrnSSBhFX7-H_9Hd/edit",
+            link: "https://docs.google.com/document/d/10s_2sCpFR0dOaMEPxrnSSBhFX7-H_9Hd/view",
           },
         ],
       },
@@ -73,11 +73,11 @@ let folders: Folder[] = [
         folders: [
           {
             name: "unit 5 polymer and organometallic compounds",
-            link: "https://docs.google.com/document/d/1f5mJy_VH5atZSjondgTQPkykqpeLCDgI/edit",
+            link: "https://docs.google.com/document/d/1f5mJy_VH5atZSjondgTQPkykqpeLCDgI/view",
           },
           {
             name: "Module 5",
-            link: "https://docs.google.com/document/d/1HTwZenQorj7BCNfUH7Qj8AxqVOuEr1KU00graIqLI3s/edit",
+            link: "https://docs.google.com/document/d/1HTwZenQorj7BCNfUH7Qj8AxqVOuEr1KU00graIqLI3s/view",
           },
         ],
       },
@@ -86,21 +86,21 @@ let folders: Folder[] = [
         folders: [
           {
             name: "All Experiments (2)",
-            link: "https://docs.google.com/document/d/1sOfLhVMSrluMJIPfpAi2Kb6vxquUo5dnHZVl8T7doMc/edit",
+            link: "https://docs.google.com/document/d/1sOfLhVMSrluMJIPfpAi2Kb6vxquUo5dnHZVl8T7doMc/view",
           },
           {
             name: "exp",
-            link: "https://docs.google.com/document/d/1HkLdZAMmAH_UeateyzGdDTz4rhksO2sKFTlw4r2MNZg/edit",
+            link: "https://docs.google.com/document/d/1HkLdZAMmAH_UeateyzGdDTz4rhksO2sKFTlw4r2MNZg/view",
           },
           {
             name: "LAB",
-            link: "https://docs.google.com/document/d/1MUIzB9L0iYvCUeZNLEl9_9L5mZnNgZDc/edit",
+            link: "https://docs.google.com/document/d/1MUIzB9L0iYvCUeZNLEl9_9L5mZnNgZDc/view",
           },
         ],
       },
       {
         name: "Chem PYQ",
-        link: "https://docs.google.com/document/d/1wSTXo1ZGbmDpCWia9GfTiDT1i674g9j1dadZCkXH-hk/edit",
+        link: "https://docs.google.com/document/d/1wSTXo1ZGbmDpCWia9GfTiDT1i674g9j1dadZCkXH-hk/view",
       },
       {
         name: "Chemistry All Unit MCQS_ 3 ",
@@ -116,7 +116,7 @@ let folders: Folder[] = [
         folders: [
           {
             name: "unit1",
-            link: "https://docs.google.com/document/d/1d-cRddUFJ3S3EW21UQ0OIGtlF_Tsw5DBBm6pgBw72e0/edit",
+            link: "https://docs.google.com/document/d/1d-cRddUFJ3S3EW21UQ0OIGtlF_Tsw5DBBm6pgBw72e0/view",
           },
         ],
       },
@@ -125,7 +125,7 @@ let folders: Folder[] = [
         folders: [
           {
             name: "maxwell equation",
-            link: "https://docs.google.com/document/d/1_W3hvkzXbgyNgjxYYmn4GOCquXugnRbactGkMdbYSHU/edit",
+            link: "https://docs.google.com/document/d/1_W3hvkzXbgyNgjxYYmn4GOCquXugnRbactGkMdbYSHU/view",
           },
         ],
       },
@@ -134,7 +134,7 @@ let folders: Folder[] = [
         folders: [
           {
             name: "Unit 2",
-            link: "https://docs.google.com/document/d/1Wr32CwUaHDJTsiS0ib07ZWVfj8BB9ddeeg29OGQW8Lw/edit",
+            link: "https://docs.google.com/document/d/1Wr32CwUaHDJTsiS0ib07ZWVfj8BB9ddeeg29OGQW8Lw/view",
           },
         ],
       },
@@ -236,11 +236,11 @@ let folders: Folder[] = [
         folders: [
           {
             name: "unit1 part 1",
-            link: "https://docs.google.com/presentation/d/1Sg_kpQsu5amUeJTWY5dDIuvm7FvEugNU/edit?usp=drive_link&ouid=104372189570502350510&rtpof=true&sd=true",
+            link: "https://docs.google.com/presentation/d/1Sg_kpQsu5amUeJTWY5dDIuvm7FvEugNU/view?usp=drive_link&ouid=104372189570502350510&rtpof=true&sd=true",
           },
           {
             name: "unit1 part 2",
-            link: "https://docs.google.com/presentation/d/1yp0_CeKlqACjxYgL7tjrsdMRMJYkdO2J/edit?usp=drive_link&ouid=104372189570502350510&rtpof=true&sd=true",
+            link: "https://docs.google.com/presentation/d/1yp0_CeKlqACjxYgL7tjrsdMRMJYkdO2J/view?usp=drive_link&ouid=104372189570502350510&rtpof=true&sd=true",
           },
           {
             name: "Subject verb agreement",
@@ -252,7 +252,7 @@ let folders: Folder[] = [
           },
           {
             name: "unit1 notes",
-            link: "https://docs.google.com/document/d/1DSCZzb8UPW1kIPuupYCmy-3q4cH-Bm5n/edit?usp=drive_link&ouid=104372189570502350510&rtpof=true&sd=true",
+            link: "https://docs.google.com/document/d/1DSCZzb8UPW1kIPuupYCmy-3q4cH-Bm5n/view?usp=drive_link&ouid=104372189570502350510&rtpof=true&sd=true",
           },
         ],
       },
@@ -269,7 +269,7 @@ let folders: Folder[] = [
           },
           {
             name: "BAS 205_Unit 2_1 PART ppt",
-            link: "https://docs.google.com/presentation/d/1ShdxwsisADaF-hA4_Xq-7eUUqMX-2LKb/edit?usp=drive_link&ouid=104372189570502350510&rtpof=true&sd=true",
+            link: "https://docs.google.com/presentation/d/1ShdxwsisADaF-hA4_Xq-7eUUqMX-2LKb/view?usp=drive_link&ouid=104372189570502350510&rtpof=true&sd=true",
           },
           {
             name: "BAS 205_Unit 2_2 PART",
@@ -277,7 +277,7 @@ let folders: Folder[] = [
           },
           {
             name: "BAS 205_Unit 2_2 PART ppt",
-            link: "https://docs.google.com/presentation/d/19j2D4GCaTOBg7RMLX_O5Q9r70_Xv2Hgm/edit?usp=drive_link&ouid=104372189570502350510&rtpof=true&sd=true",
+            link: "https://docs.google.com/presentation/d/19j2D4GCaTOBg7RMLX_O5Q9r70_Xv2Hgm/view?usp=drive_link&ouid=104372189570502350510&rtpof=true&sd=true",
           },
           {
             name: "Note on Speaking style (Unit 2)",
@@ -285,7 +285,7 @@ let folders: Folder[] = [
           },
           {
             name: "ted talks",
-            link: "https://docs.google.com/document/d/1jygw5GZfN_6zmLddjh6A615XnSKd0i0_/edit?usp=drive_link&ouid=104372189570502350510&rtpof=true&sd=true",
+            link: "https://docs.google.com/document/d/1jygw5GZfN_6zmLddjh6A615XnSKd0i0_/view?usp=drive_link&ouid=104372189570502350510&rtpof=true&sd=true",
           },
         ],
       },
@@ -294,7 +294,7 @@ let folders: Folder[] = [
         folders: [
           {
             name: "BAS 105 Unit 3 Notes",
-            link: "https://docs.google.com/document/d/17yR2Jx5hlVLcg5owObhOBEQaWrRmfXKf/edit",
+            link: "https://docs.google.com/document/d/17yR2Jx5hlVLcg5owObhOBEQaWrRmfXKf/view",
           },
           {
             name: "BAS-105 Unit-3 Part-2",
@@ -302,7 +302,7 @@ let folders: Folder[] = [
           },
           {
             name: "BAS-105_Unit-3 _Part-I",
-            link: "https://docs.google.com/presentation/d/1Hy94yzJXZcy96LsOOkksPajtDG03YkZ-/edit#slide=id.p1",
+            link: "https://docs.google.com/presentation/d/1Hy94yzJXZcy96LsOOkksPajtDG03YkZ-/view#slide=id.p1",
           },
         ],
       },
@@ -311,14 +311,14 @@ let folders: Folder[] = [
         folders: [
           {
             name: "unit 4 notes",
-            link: "https://docs.google.com/document/d/1sPBMpYN5uRTzDn6aCVqxPnrgY55xuROG/edit?usp=drive_link&ouid=109532524461500303727&rtpof=true&sd=true",
+            link: "https://docs.google.com/document/d/1sPBMpYN5uRTzDn6aCVqxPnrgY55xuROG/view?usp=drive_link&ouid=109532524461500303727&rtpof=true&sd=true",
           },
           {
             name: "unit 4 notes part1",
-            link: "https://docs.google.com/presentation/d/1bUtxUILSCzPxteYC3RtIiuVIv0sseQI0/edit?usp=drive_link&ouid=109532524461500303727&rtpof=true&sd=true",
+            link: "https://docs.google.com/presentation/d/1bUtxUILSCzPxteYC3RtIiuVIv0sseQI0/view?usp=drive_link&ouid=109532524461500303727&rtpof=true&sd=true",
           },
           { name: "unit 4 notes part2",
-            link: "https://docs.google.com/presentation/d/1SX26M_bbbKtISTx0i178BOYfXaEo7aIm/edit?usp=drive_link&ouid=109532524461500303727&rtpof=true&sd=true" },
+            link: "https://docs.google.com/presentation/d/1SX26M_bbbKtISTx0i178BOYfXaEo7aIm/view?usp=drive_link&ouid=109532524461500303727&rtpof=true&sd=true" },
         ],
       },
       {
@@ -330,19 +330,19 @@ let folders: Folder[] = [
           },
           {
             name: "part 2 additional ppt",
-            link: "https://docs.google.com/presentation/d/1H80ebUEq2UDN-kMWHulrjSdpAVldzOyY/edit?usp=drive_link&ouid=104372189570502350510&rtpof=true&sd=true",
+            link: "https://docs.google.com/presentation/d/1H80ebUEq2UDN-kMWHulrjSdpAVldzOyY/view?usp=drive_link&ouid=104372189570502350510&rtpof=true&sd=true",
           },
           {
             name: "Notes _ BAS 105-Unit 5",
-            link: "https://docs.google.com/document/d/1rLffLtBMUyPBLRh8Jg3onh--iKdClbWm/edit",
+            link: "https://docs.google.com/document/d/1rLffLtBMUyPBLRh8Jg3onh--iKdClbWm/view",
           },
           {
             name: "PPT _ BAS 105-Unit 5 Part 2",
-            link: "https://docs.google.com/presentation/d/1wtbysPQbJ2wWZkHPxduJ8g2MOJAD2HoO/edit?usp=drive_link&ouid=104372189570502350510&rtpof=true&sd=true",
+            link: "https://docs.google.com/presentation/d/1wtbysPQbJ2wWZkHPxduJ8g2MOJAD2HoO/view?usp=drive_link&ouid=104372189570502350510&rtpof=true&sd=true",
           },
           {
             name: "PPT _ BAS 105-Unit 5 Part 1",
-            link: "https://docs.google.com/presentation/d/1wtbysPQbJ2wWZkHPxduJ8g2MOJAD2HoO/edit#slide=id.p1",
+            link: "https://docs.google.com/presentation/d/1wtbysPQbJ2wWZkHPxduJ8g2MOJAD2HoO/view#slide=id.p1",
           }
           
         ],
@@ -365,7 +365,7 @@ let folders: Folder[] = [
           },
           {
             name: "Unit 1 part 2",
-            link: "https://docs.google.com/presentation/d/1-HDtxqjVAV7m2A66jcx3wjXtXPwD5Rlm/edit",
+            link: "https://docs.google.com/presentation/d/1-HDtxqjVAV7m2A66jcx3wjXtXPwD5Rlm/view",
           },
         ],
       },
@@ -391,11 +391,11 @@ let folders: Folder[] = [
         folders: [
           {
             name: "Quiz Unit 3 .docx",
-            link: "https://docs.google.com/document/u/4/d/1Z1Y3dQ2ur13lizm3vn89MQpBk_qbJy2_/edit",
+            link: "https://docs.google.com/document/u/4/d/1Z1Y3dQ2ur13lizm3vn89MQpBk_qbJy2_/view",
           },
           {
             name: "Quiz 3 FME .docx",
-            link: "https://docs.google.com/document/d/1hM5ZJNQy4S9uZMWUYPu8vokMSA5gtOQU/edit",
+            link: "https://docs.google.com/document/d/1hM5ZJNQy4S9uZMWUYPu8vokMSA5gtOQU/view",
           },
         ],
       },
@@ -404,21 +404,21 @@ let folders: Folder[] = [
         folders: [
           {
             name: "Unit 4 Mcq",
-            link: "https://docs.google.com/document/d/1fAzjqCjsBoCVj_JMxYl-ZXyjPzbZP0UE/edit",
+            link: "https://docs.google.com/document/d/1fAzjqCjsBoCVj_JMxYl-ZXyjPzbZP0UE/view",
           },
           {
             name: "Unit 4 25 question quiz",
-            link: "https://docs.google.com/document/d/1Qs6YKFpWE_tQMOQxiSIxM7kFqvDe_FqP/edit",
+            link: "https://docs.google.com/document/d/1Qs6YKFpWE_tQMOQxiSIxM7kFqvDe_FqP/view",
           },
         ],
       },
       {
         name: "FMEM Question Paper Set 2 .doc",
-        link: "https://docs.google.com/document/d/1Vbj4IpluWiRrJ8mxxF1ml5e0T5N3sJjk/edit",
+        link: "https://docs.google.com/document/d/1Vbj4IpluWiRrJ8mxxF1ml5e0T5N3sJjk/view",
       },
       {
         name: "FMEM PUE",
-        link: "https://docs.google.com/document/d/10hnEqlewdUPzzzBgm2wdfc_PKcm6UxWo/edit",
+        link: "https://docs.google.com/document/d/10hnEqlewdUPzzzBgm2wdfc_PKcm6UxWo/view",
       },
       {
         name: "Mechanical Quantum .pdf",
@@ -504,11 +504,11 @@ let folders: Folder[] = [
         folders: [
           {
             name: "MCQ Unit 1 KEC101T_201T",
-            link: "https://docs.google.com/document/d/1bcfqwcD2Jkm4XlXFJIC2qrxrkhH-dAxose1zdMcd38s/edit",
+            link: "https://docs.google.com/document/d/1bcfqwcD2Jkm4XlXFJIC2qrxrkhH-dAxose1zdMcd38s/view",
           },
           {
             name: "MCQ Unit 1 KEC101T_201T",
-            link: "https://docs.google.com/document/d/1bcfqwcD2Jkm4XlXFJIC2qrxrkhH-dAxose1zdMcd38s/edit",
+            link: "https://docs.google.com/document/d/1bcfqwcD2Jkm4XlXFJIC2qrxrkhH-dAxose1zdMcd38s/view",
           },
         ],
       },
@@ -571,7 +571,7 @@ let folders: Folder[] = [
         name: "QUANTUM MATHS",
         folders: [
           {
-            name: "edition2022-23",
+            name: "viewion2022-23",
             link: "https://drive.google.com/drive/folders/1ST3hq33L36tSCYLJelpz4xOMoaiuQvYL",
           },
         ],
@@ -683,7 +683,7 @@ let folders: Folder[] = [
         folders: [
           {
             name: "PPS Unit 1 Notes",
-            link: "https://docs.google.com/document/d/1-rbzwohLCoIhmTLo6FLwd-OXRJdXdO8lzQJNdWIX3t8/edit",
+            link: "https://docs.google.com/document/d/1-rbzwohLCoIhmTLo6FLwd-OXRJdXdO8lzQJNdWIX3t8/view",
           },
           {
             name: "PPS Unit 1 Notes PDF",
@@ -742,7 +742,7 @@ let folders: Folder[] = [
     folders: [
       {
         name: "Ortho Projection Neer .ppt",
-        link: "https://docs.google.com/presentation/d/1p6qZdqgImKFFFs8Atc_7W0PJE0qLjf_F/edit#slide=id.p1",
+        link: "https://docs.google.com/presentation/d/1p6qZdqgImKFFFs8Atc_7W0PJE0qLjf_F/view#slide=id.p1",
       },
       {
         name: "Point Line .pdf",
@@ -758,7 +758,7 @@ let folders: Folder[] = [
       },
       {
         name: "What is Engineering Drawing .pptx",
-        link: "https://docs.google.com/presentation/u/4/d/13Yb2tIjnVRyrxy568XSGXokXI2iGYaOs/edit?usp=drive_web&ouid=101780945977141676347&rtpof=true",
+        link: "https://docs.google.com/presentation/u/4/d/13Yb2tIjnVRyrxy568XSGXokXI2iGYaOs/view?usp=drive_web&ouid=101780945977141676347&rtpof=true",
       },
     ],
   },
