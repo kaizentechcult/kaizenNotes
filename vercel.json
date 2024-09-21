@@ -16,6 +16,18 @@
     {
       "src": "/dashboard/year1",
       "dest": "/index.html"
+    },
+    {
+      "src": "/dashboard/year2",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/dashboard/year3",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/dashboard/year4",
+      "dest": "/index.html"
     }
   ]
 }
