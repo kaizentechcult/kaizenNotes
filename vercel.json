@@ -3,23 +3,23 @@
   "routes": [
     {
       "src": "/",
-      "dest": "/"
+      "dest": "/index.html"
     },
     {
       "src": "/login",
-      "dest": "/"
+      "dest": "/index.html"
     },
     {
       "src": "/register",
-      "dest": "/"
+      "dest": "/index.html"
     },
     {
       "src": "/dashboard",
-      "dest": "/"
+      "dest": "/index.html"
     },
     {
       "src": "/dashboard/:year",
-      "dest": "/"
+      "dest": "/index.html"
     }
   ]
 }
