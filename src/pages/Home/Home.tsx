@@ -1,6 +1,5 @@
 import { createSignal, Component, useContext } from "solid-js";
 import Navbar from "../../components/Navbar/Navbar";
-import { A } from "@solidjs/router";
 import Card from "../../components/Home/Card";
 
 const yearLinks = {
@@ -25,13 +24,11 @@ const Home: Component = () => {
   handleTheme();
 
   return (
-    <div
-      class={`${isDark() ? "bg-black text-white" : "bg-[#E7F0FF]"} h-screen`}
-    >
+    <div class={`${isDark() ? "bg-black text-white" : "bg-[#E7F0FF]"} h-fit md:h-screen`}>
       <Navbar />
-      <div class="flex justify-center items-center h-screen gap-8">
+      <div class="flex justify-center items-center gap-8 flex-wrap py-20">
         {Object.entries(yearLinks).map(([year, link]) => (
-          <Card  year={year} link={link} />
+          <Card year={year} link={link} />
         ))}
       </div>
     </div>

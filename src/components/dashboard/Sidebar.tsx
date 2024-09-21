@@ -1,6 +1,7 @@
 import ChevronRight from "../../assets/ChevronRight.svg";
 import FolderIcon from "../../assets/FolderIcon.svg";
 import FileIcon from "../../assets/FileIcon.svg";
+import arrow from "../../assets/arrow.svg";
 import folders from "../../utils/data";
 import "./Sidebar.css";
 
@@ -10,8 +11,13 @@ interface Props {
 }
 
 const Sidebar = (props: Props) => {
+  const [isMenuOpen, setIsMenuOpen] = createSignal(false);
   return (
-    <ul class="bg-[#21204F] w-fit h-[95vh] rounded-lg text-white p-4 overflow-y-scroll sidebar">
+    <ul
+      class={`bg-[#21204F] h-[95vh] rounded-lg text-white p-4 overflow-y-scroll overflow-x-hidden sidebar duration-1000 transition-[width] ${
+        isMenuOpen() ? "w-fit" : "w-0 transition-width duration-500"
+      }`}
+    >
       <li class="my-1.5">
         <span class="flex items-center gap-1.5">
           <img src={FolderIcon} alt="" class="w-6 h-6" />
@@ -25,6 +31,12 @@ const Sidebar = (props: Props) => {
           ))}
         </ul>
       </li>
+      <button
+        class="fixed top-4 left-4 "
+        onclick={() => setIsMenuOpen(!isMenuOpen())}
+      >
+        <img src={arrow} alt="" class="rotate-45" />
+      </button>
     </ul>
     // </ul>
   );
