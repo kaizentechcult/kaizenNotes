@@ -14,11 +14,7 @@
       "dest": "/index.html"
     },
     {
-      "src": "/dashboard",
-      "dest": "/index.html"
-    },
-    {
-      "src": "/dashboard/:year",
+      "src": "/dashboard/year1",
       "dest": "/index.html"
     }
   ]
