@@ -13,32 +13,37 @@ interface Props {
 const Sidebar = (props: Props) => {
   const [isMenuOpen, setIsMenuOpen] = createSignal(false);
   return (
-    <ul
-      class={`bg-[#21204F] h-[95vh] rounded-lg text-white p-4 overflow-y-scroll overflow-x-hidden sidebar duration-1000 transition-[width] ${
-        isMenuOpen() ? "w-fit" : "w-0 transition-width duration-500"
-      }`}
-    >
-      <li class="my-1.5">
-        <span class="flex items-center gap-1.5">
-          <img src={FolderIcon} alt="" class="w-6 h-6" />
-          <p class="">
-            {props.year.charAt(0).toUpperCase() + props.year.slice(1)}
-          </p>
-        </span>
-        <ul class="pl-3">
-          {folders.map((folder) => (
-            <Folder folder={folder} />
-          ))}
-        </ul>
-      </li>
+    <div>
       <button
-        class="fixed top-4 left-4 "
+        class={`fixed top-4 left-4 bg-[#000000] backdrop-blur-lg ] z-10 rounded-full`}
         onclick={() => setIsMenuOpen(!isMenuOpen())}
       >
-        <img src={arrow} alt="" class="rotate-45" />
+        <img
+          src={arrow}
+          alt=""
+          class={`p-2  ${isMenuOpen() && "rotate-180"}`}
+        />
       </button>
-    </ul>
-    // </ul>
+      <ul
+        class={`bg-[#21204F] md:flex pt-10 md:pt-0 fixed h-screen md:h-[95vh] md:rounded-lg text-white p-4 overflow-y-scroll overflow-x-hidden sidebar duration-1000 transition-[width] ${
+          isMenuOpen() ? "w-fit" : "hidden"
+        }`}
+      >
+        <li class="my-1.5">
+          <span class="flex items-center gap-1.5">
+            <img src={FolderIcon} alt="" class="w-6 h-6" />
+            <p class="">
+              {props.year.charAt(0).toUpperCase() + props.year.slice(1)}
+            </p>
+          </span>
+          <ul class="pl-3">
+            {folders.map((folder) => (
+              <Folder folder={folder} />
+            ))}
+          </ul>
+        </li>
+      </ul>
+    </div>
   );
 };
 
