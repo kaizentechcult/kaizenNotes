@@ -12,9 +12,9 @@ const Dashboard = () => {
   });
 
   return (
-    <div class="p-4 flex">
+    <div class="md:p-4 flex h-screen">
       <Sidebar year={params.year} />
-      <main class="bg-black w-full rounded-lg">
+      <main class="bg-black w-full md:rounded-lg">
         <iframe src={link()} class="w-full h-full"></iframe>
       </main>
     </div>
