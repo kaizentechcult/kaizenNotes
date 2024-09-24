@@ -27,7 +27,7 @@ const Sidebar = (props: Props) => {
       </button>
       <div>
         <ul
-          class={`bg-[#21204F] md:flex pt-10 fixed md:relative h-screen md:rounded-lg text-white p-4 overflow-y-scroll overflow-x-hidden sidebar duration-1000 transition-[width] ${isMenuOpen() ? "w-fit h-screen md:h-[96vh] overflow-y-scrolloverflow-y-scroll" : "w-0 overflow-hidden h-0"}`}
+          class={`bg-[#21204F] md:flex pt-10 fixed md:relative h-screen md:rounded-lg text-white p-4 overflow-y-scroll overflow-x-hidden sidebar duration-1000 duration-1000 transition-[width] ${isMenuOpen() ? "w-fit h-screen md:h-[96vh] overflow-y-scrolloverflow-y-scroll" : "w-0 overflow-hidden h-0 translate-x-[-10rem]"}`}
         >
           <li class={`my-1.5 ${isMenuOpen() ? " block" : "hidden"}`}>
             <span class="flex items-center gap-1.5">

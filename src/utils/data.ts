@@ -143,7 +143,7 @@ let folders: Folder[] = [
         folders: [
           {
             name: "Unit 4 LASER (Part 1)",
-            link: "https://drive.google.com/open?id=1vBc2BzfosmMdEYQ6EeqWimphiiXg1MvM&usp=drive_copy",
+            link:"https://drive.google.com/file/d/1vBc2BzfosmMdEYQ6EeqWimphiiXg1MvM/preview",
           },
         ],
       },
@@ -152,7 +152,7 @@ let folders: Folder[] = [
         folders: [
           {
             name: "Unit 4 FIBRE  (Part 2)",
-            link: "https://drive.google.com/open?id=1YgCA2KE_h60kJVkEZtszRnTVRL9eQfMs&usp=drive_copy",
+            link: "https://drive.google.com/open?id=1YgCA2KE_h60kJVkEZtszRnTVRL9eQfMs&usp=drive_copy/preview",
           },
         ],
       },
