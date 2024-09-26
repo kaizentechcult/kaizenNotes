@@ -1,13 +1,17 @@
 import "./Navbar.css";
 import { A } from "@solidjs/router";
 import { logout } from "../../hooks/auth";
-import { toggleTheme } from "../../hooks/theme";
+import { toggleTheme } from "../../hooks/common";
 import { navBtns, navLinks } from "../../utils/navData";
-import { isOpen, setIsOpen } from "../../hooks/common";
+import { isOpen, setIsOpen, isDark } from "../../hooks/common";
 
 const Navbar = () => {
   return (
-    <ul class=" text-white w-full backdrop-blur-lg bg-none gap-4 p-4 justify-center text-xl transition duration-500 ease-in-out fixed z-[999]">
+    <ul
+      class={`${
+        isDark() ? "bg-black" : "bg-[#21204F]"
+      } text-white w-full backdrop-blur-lg bg-none gap-4 p-4 justify-center text-xl transition duration-500 ease-in-out fixed z-[999]`}
+    >
       <div class="md:hidden" onclick={() => setIsOpen(!isOpen())}>
         <img src="src/assets/MenuIcon.svg" alt="" />
       </div>

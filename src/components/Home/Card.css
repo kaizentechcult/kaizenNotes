@@ -4,9 +4,11 @@
 
 @keyframes slideIn {
   0% {
-    transform: translateX(-400%);
+    scale: 0.3;
+    border-radius: 100%;
+    background-color: white;
   }
   100% {
-    transform: translateX(0);
+    scale: 1;
   }
 }
