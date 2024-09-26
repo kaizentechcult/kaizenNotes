@@ -1,44 +1,30 @@
-import { Component, createSignal, For } from "solid-js";
+import { Component } from "solid-js";
 import LoginImg from "../../assets/Login.svg";
-import HandleLogin from "../../Auth/HandleLogin";
+import Error from "../../components/Error/Error";
+import Loader from "../../components/Loader/Loader";
 import AuthImg from "../../components/authComponents/AuthImg";
+import DontHave from "../../components/authComponents/DontHave";
 import FormInput from "../../components/authComponents/FormInput";
 import ForgetPass from "../../components/authComponents/ForgetPass";
 import FormButton from "../../components/authComponents/FormButton";
-import DontHave from "../../components/authComponents/DontHave";
-import Error from "../../components/Error/Error";
-import Loader from "../../components/Loader/Loader";
+import {
+  handleLoginSubmit,
+  email,
+  setEmail,
+  password,
+  setPassword,
+  isLoading,
+  error,
+  setError,
+  success,
+  setSuccess,
+  setIsLoading,
+} from "../../hooks/common";
 
 const Login: Component = () => {
-  const [email, setEmail] = createSignal<string>("");
-  const [password, setPassword] = createSignal<string>("");
-
-  const [isLoading, setIsLoading] = createSignal(false);
-  const [error, setError] = createSignal("");
-
-  const handleSubmit = async (event: SubmitEvent) => {
-    event.preventDefault();
-    setIsLoading(true);
-    const res = await HandleLogin({
-      data: { email: email(), password: password() },
-    });
-    setIsLoading(false);
-    setEmail("");
-    setPassword("");
-    if (res.error) {
-      setError(res.error);
-      return;
-    }
-    if (res.token) {
-      localStorage.setItem("token", res.token);
-      window.location.href = "/";
-    }
-  };
-
   return (
     <div class="flex w-full justify-center items-center h-screen">
       {error() ? <Error error={error()} /> : <></>}
-      {/* <> */}
       {isLoading() ? (
         <Loader />
       ) : (
@@ -46,7 +32,7 @@ const Login: Component = () => {
           <AuthImg imgSrc={LoginImg} />
           <div class="lg:w-1/2 flex flex-col justify-center items-center px-12 w-full">
             <h2 class="text-4xl font-semibold mb-8 text-center">Login</h2>
-            <form class="w-full max-w-md mx-auto" onSubmit={handleSubmit}>
+            <form class="w-full max-w-md mx-auto" onSubmit={handleLoginSubmit}>
               <FormInput
                 type="email"
                 signal={email}
@@ -72,7 +58,6 @@ const Login: Component = () => {
           </div>
         </div>
       )}
-      {/* </> */}
     </div>
   );
 };
