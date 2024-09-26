@@ -10,7 +10,9 @@ const DontHave = (props: Props) => {
   return (
     <div class="flex justify-center mt-3 mb-6">
       {props.dontText}
-      <A class="text-blue-500 ml-1" href={props.link}>{props.text}</A>
+      <A class="text-blue-500 ml-1" href={props.link}>
+        {props.text}
+      </A>
     </div>
   );
 };

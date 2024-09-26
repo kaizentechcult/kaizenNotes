@@ -19,6 +19,7 @@
     "vite-plugin-solid": "^2.8.2"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@solidjs/router": "^0.14.3",
     "bcrypt": "^5.1.1",
     "mongoose": "^8.6.2",

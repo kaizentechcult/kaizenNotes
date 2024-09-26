@@ -1,7 +1,4 @@
-const logout = () => {
-  localStorage.removeItem("token");
-  window.location.href = "/login";
-};
+import { logout } from "../hooks/auth";
 
 const Logout = () => {
   return (

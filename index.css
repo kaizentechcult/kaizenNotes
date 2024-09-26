@@ -4,7 +4,7 @@
   width: 100%;
 }
 .nav-link {
-  color: #000;
+  /* color: #000; */
 }
 .nav-link.active {
   color: #007bff;
