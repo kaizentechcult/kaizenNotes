@@ -3,6 +3,7 @@ import { HandleLogin } from "../Auth/HandleLogin";
 import HandleRegister from "../Auth/HandleRegister";
 
 export const [isOpen, setIsOpen] = createSignal(false);
+export const [isMenuOpen, setIsMenuOpen] = createSignal(false);
 
 export const [isDark, setIsDark] = createSignal(false);
 

@@ -1,6 +1,8 @@
 import { useParams } from "@solidjs/router";
 import Sidebar from "../../components/dashboard/Sidebar";
 import { createSignal } from "solid-js";
+import { isLoading } from "../../hooks/common";
+import Loader from "../../components/Loader/Loader";
 
 const Dashboard = () => {
   const [link, setLink] = createSignal("");
@@ -12,11 +14,17 @@ const Dashboard = () => {
   });
 
   return (
-    <div class="md:p-4 flex h-screen">
+    <div class="md:p-4 flex h-screen overflow-hidden justify-center items-center">
       <Sidebar year={params.year} />
-      <main class="bg-black w-full md:rounded-lg">
-        <iframe src={link()} class="w-full h-full"></iframe>
-      </main>
+      {isLoading() ? (
+        <Loader />
+      ) : (
+        <>
+          <main class="bg-black w-screen md:rounded-lg h-full">
+            <iframe src={link()} class="w-full h-full"></iframe>
+          </main>
+        </>
+      )}
     </div>
   );
 };
