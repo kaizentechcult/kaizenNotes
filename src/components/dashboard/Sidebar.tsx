@@ -3,7 +3,6 @@ import FolderIcon from "../../assets/FolderIcon.svg";
 import FileIcon from "../../assets/FileIcon.svg";
 import arrow from "../../assets/arrow.svg";
 import folders from "../../utils/data";
-import { isOpen, setIsOpen } from "../../hooks/common";
 import "./Sidebar.css";
 
 import { createSignal } from "solid-js";
@@ -12,24 +11,28 @@ interface Props {
 }
 
 const Sidebar = (props: Props) => {
-  const [isOpen, setIsOpen] = createSignal(true);
+  const [isMenuOpen, setIsMenuOpen] = createSignal(false);
   return (
     <>
       <button
         class={`fixed top-4 left-4 bg-[#000000] backdrop-blur-lg ] z-10 rounded-full`}
-        onclick={() => setIsOpen(!isOpen())}
+        onclick={() => setIsMenuOpen(!isMenuOpen())}
       >
-        <img src={arrow} alt="" class={`p-2  ${isOpen() && "rotate-180"}`} />
+        <img
+          src={arrow}
+          alt=""
+          class={`p-2  ${isMenuOpen() && "rotate-180"}`}
+        />
       </button>
-      <div>
+      <div class="">
         <ul
-          class={`bg-[#21204F] md:flex pt-10 fixed md:relative h-screen md:rounded-lg text-white p-4 overflow-y-scroll overflow-x-hidden sidebar duration-1000 duration-1000 transition-[width] ${
-            isOpen()
-              ? "w-fit h-screen md:h-[96vh] overflow-y-scrolloverflow-y-scroll"
-              : "w-0 overflow-hidden h-0 translate-x-[-10rem]"
+          class={`bg-[#21204F] md:h-[96vh] md:flex pt-10 fixed md:relative h-screen  text-white p-4 overflow-y-scroll overflow-x-hidden sidebar duration-300  ${
+            isMenuOpen()
+              ? "w-[15rem] h-screen md:h-[96vh] overflow-y-scrolloverflow-y-scroll md:rounded-xl"
+              : "w-0 overflow-hidden md:rounded-3xl"
           }`}
         >
-          <li class={`my-1.5 ${isOpen() ? " block" : "hidden"}`}>
+          <li class={`my-1.5 ${isMenuOpen() ? " block" : "hidden"}`}>
             <span class="flex items-center gap-1.5">
               <img src={FolderIcon} alt="" class="w-6 h-6" />
               <p class="">
@@ -55,6 +58,7 @@ type Folder = {
 };
 
 function Folder({ folder }: { folder: Folder }) {
+  const [isOpen, setIsOpen] = createSignal(false);
   return (
     <li class="my-1.5">
       <span class="flex items-center gap-1.5">

@@ -15,11 +15,11 @@ const Home: Component = () => {
   return (
     <div
       class={`${
-        isDark() ? "bg-black text-white" : "bg-[#E7F0FF]"
+        isDark() ? "bg-black text-white" : "bg-[#E7F0FF] text-black"
       } h-fit md:h-screen`}
     >
       <Navbar />
-      <div class="flex justify-center items-center gap-8 flex-wrap py-20">
+      <div class="flex justify-center items-center gap-8 flex-wrap py-20 h-screen">
         {Object.entries(yearLinks).map(([year, link]) => (
           <Card year={year} link={link} />
         ))}
