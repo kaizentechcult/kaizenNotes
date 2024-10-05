@@ -5,8 +5,8 @@ interface Props {
   };
 }
 
-const apiKey = import.meta.env.VITE_BASE_URL;
 export const HandleLogin = async (props: Props) => {
+  const apiKey = import.meta.env.VITE_BASE_URL;
   try {
     console.log(props);
     const response = await fetch(apiKey.concat("/login"), {
