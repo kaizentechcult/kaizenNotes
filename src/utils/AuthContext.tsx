@@ -12,12 +12,16 @@ export const AuthProvider = (props: { children: any }) => {
     const token = localStorage.getItem("token");
 
     if (token) {
-      const parsedToken = jwtDecode(token) as { exp: number };
-
-      if (parsedToken?.exp > Date.now() / 1000) {
-        setIsLoggedIn(true);
-      } else {
-        setIsLoggedIn(false);
+      try {
+        const parsedToken = jwtDecode(token) as { exp: number };
+        if (parsedToken?.exp > Date.now() / 1000) {
+          setIsLoggedIn(true);
+        } else {
+          setIsLoggedIn(false);
+          localStorage.removeItem("token");
+          window.location.href = "/login";
+        }
+      } catch (e) {
         localStorage.removeItem("token");
         window.location.href = "/login";
       }
