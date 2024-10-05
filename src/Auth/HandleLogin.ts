@@ -5,13 +5,12 @@ interface Props {
   };
 }
 
-// const apiKey = import.meta.env.VITE_BASE_URL;
-// const apiKey = "https://localhost:8080";
+const apiKey = import.meta.env.VITE_BASE_URL;
 export const HandleLogin = async (props: Props) => {
   try {
     console.log(props);
-    // const response = await fetch(apiKey.concat("/login"), {
-    const response = await fetch("http://localhost:8080/login", {
+    const response = await fetch(apiKey.concat("/login"), {
+      // const response = await fetch("http://localhost:8080/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -25,6 +24,7 @@ export const HandleLogin = async (props: Props) => {
     localStorage.setItem("token", result.token);
     return result;
   } catch (error) {
+    console.log(apiKey.concat("/login"));
     console.error("Error sending data:", error);
   }
 };
