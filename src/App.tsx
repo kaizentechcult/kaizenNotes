@@ -6,7 +6,7 @@ import Register from "./pages/Register/Register";
 import Navbar from "./components/Navbar/Navbar";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import { AuthProvider } from "./utils/AuthContext";
-import Verify from "./pages/verify/verify";
+import Verify from "./pages/verify/Verify";
 
 const App: Component = () => {
   return (
