@@ -1,15 +1,15 @@
 interface Props {
   data: {
     email: string;
-    password: string;
+    OTP: string;
   };
 }
 
-export const HandleLogin = async (props: Props) => {
+export const handleVerification = async (props: Props) => {
   const apiKey = import.meta.env.VITE_BASE_URL;
   try {
     console.log(props);
-    const response = await fetch(apiKey.concat("/login"), {
+    const response = await fetch(apiKey.concat("/verify"), {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -21,6 +21,7 @@ export const HandleLogin = async (props: Props) => {
       return result;
     }
     localStorage.setItem("token", result.token);
+    localStorage.removeItem("userEmail");
     return result;
   } catch (error) {
     console.log(apiKey.concat("/login"));
