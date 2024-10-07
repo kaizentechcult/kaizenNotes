@@ -23,7 +23,6 @@ export const HandleLogin = async (props: Props) => {
     localStorage.setItem("token", result.token);
     return result;
   } catch (error) {
-    console.log(apiKey.concat("/login"));
-    // console.error("Error sending data:", error);
+    console.error("Error sending data:", error);
   }
 };
