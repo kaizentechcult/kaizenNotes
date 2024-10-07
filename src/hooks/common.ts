@@ -1,6 +1,7 @@
 import { createSignal } from "solid-js";
 import { HandleLogin } from "../Auth/HandleLogin";
 import HandleRegister from "../Auth/HandleRegister";
+import { handleVerification } from "../Auth/HandleVerification";
 
 export const [isOpen, setIsOpen] = createSignal(false);
 export const [isMenuOpen, setIsMenuOpen] = createSignal(false);
@@ -14,6 +15,8 @@ export const [password, setPassword] = createSignal<string>("");
 export const [error, setError] = createSignal("");
 export const [success, setSuccess] = createSignal(false);
 export const [isLoading, setIsLoading] = createSignal(false);
+
+export const [otp, setOtp] = createSignal("");
 
 export const handleTheme = () => {
   const theme = localStorage.getItem("theme");
@@ -49,6 +52,8 @@ export const handleRegisterSubmit = async (event: SubmitEvent) => {
   const res = await HandleRegister({
     data: { name: name(), email: email(), password: password() },
   });
+
+  console.log(res);
   setIsLoading(false);
   setName("");
   setEmail("");
@@ -57,9 +62,30 @@ export const handleRegisterSubmit = async (event: SubmitEvent) => {
     setError(res.error);
     return;
   }
-  // if (res.token) {
-  localStorage.setItem("token", res.token);
-  window.location.href = "/";
+  localStorage.setItem("userEmail", res.userEmail);
+  window.location.href = "/verify";
+
+  if (res.status == 201) {
+  }
+};
+
+export const handleVerificationSubmit = async (event: SubmitEvent) => {
+  event.preventDefault();
+  setIsLoading(true);
+  setEmail(`${localStorage.getItem("userEmail")}`);
+  const res = await handleVerification({
+    data: { email: email(), OTP: otp() },
+  });
+  setIsLoading(false);
+  if (res.error) {
+    setError(res.error);
+    return;
+  }
+  if (res.token) {
+    localStorage.setItem("token", res.token);
+    window.location.href = "/";
+  }
+  console.log(res);
 };
 
 export const toggleTheme = () => {
