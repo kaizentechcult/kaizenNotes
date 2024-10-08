@@ -1,12 +1,12 @@
-import type { Component } from "solid-js";
-import { Router, Route } from "@solidjs/router";
-import Login from "./pages/Login/Login";
 import Home from "./pages/Home/Home";
-import Register from "./pages/Register/Register";
-import Navbar from "./components/Navbar/Navbar";
-import Dashboard from "./pages/Dashboard/Dashboard";
-import { AuthProvider } from "./utils/AuthContext";
+import Login from "./pages/Login/Login";
+import type { Component } from "solid-js";
 import Verify from "./pages/verify/Verify";
+import { Router, Route } from "@solidjs/router";
+import Register from "./pages/Register/Register";
+import Dashboard from "./pages/Dashboard/Dashboard";
+import Verify from "./pages/verify/Verify";
+
 
 const App: Component = () => {
   return (
