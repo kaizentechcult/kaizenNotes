@@ -1,8 +1,8 @@
 import { Component } from "solid-js";
 import Card from "../../components/Home/Card";
 import Navbar from "../../components/Navbar/Navbar";
-import { isDark, handleTheme } from "../../hooks/common";
 import { AuthProvider } from "../../utils/AuthContext";
+import { isDark, handleTheme } from "../../hooks/common";
 
 const yearLinks = {
   1: "year1",

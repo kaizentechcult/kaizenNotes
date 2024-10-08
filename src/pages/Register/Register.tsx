@@ -1,5 +1,5 @@
-import Error from "../../components/Error/Error";
 import { Component } from "solid-js";
+import Error from "../../components/Error/Error";
 import RegisterImg from "../../assets/Register.png";
 import Loader from "../../components/Loader/Loader";
 import AuthImg from "../../components/authComponents/AuthImg";
@@ -12,11 +12,9 @@ import {
   error,
   setName,
   setEmail,
-  setError,
   password,
   isLoading,
   setPassword,
-  setIsLoading,
   handleRegisterSubmit,
 } from "../../hooks/common";
 
