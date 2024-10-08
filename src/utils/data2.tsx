@@ -144,27 +144,57 @@ let folders: Folder[] = [
     folders: [
       {
         name: "unit 1",
-        folders: [{ name: "UNIT-1 notes ", link: "https://drive.google.com/open?id=1a3uMsXryfR2FBuhGd_7W7qjl7wzJyGo1&usp=drive_copy" }],
+        folders: [
+          {
+            name: "UNIT-1 notes ",
+            link: "https://drive.google.com/open?id=1a3uMsXryfR2FBuhGd_7W7qjl7wzJyGo1&usp=drive_copy",
+          },
+        ],
       },
       {
         name: "unit 2",
-        folders: [{ name: "Unit -2", link: "https://drive.google.com/open?id=1GliAl1o16txX3QLAEGPEndYKVIIld8SU&usp=drive_copy" }],
+        folders: [
+          {
+            name: "Unit -2",
+            link: "https://drive.google.com/open?id=1GliAl1o16txX3QLAEGPEndYKVIIld8SU&usp=drive_copy",
+          },
+        ],
       },
       {
         name: "unit 3",
-        folders: [{ name: "KAS-302, Unit-3, notes maths", link: "https://drive.google.com/open?id=1a3uMsXryfR2FBuhGd_7W7qjl7wzJyGo1&usp=drive_copy" }],
+        folders: [
+          {
+            name: "KAS-302, Unit-3, notes maths",
+            link: "https://drive.google.com/open?id=1a3uMsXryfR2FBuhGd_7W7qjl7wzJyGo1&usp=drive_copy",
+          },
+        ],
       },
       {
         name: "unit 4",
-        folders: [{ name: "Unit -4", link: "https://drive.google.com/open?id=1LQtkD9ZbiU7rZCJVS_HoYnVoZXqOdqjY&usp=drive_copy" }],
+        folders: [
+          {
+            name: "Unit -4",
+            link: "https://drive.google.com/open?id=1LQtkD9ZbiU7rZCJVS_HoYnVoZXqOdqjY&usp=drive_copy",
+          },
+        ],
       },
       {
         name: "unit 5",
-        folders: [{ name: "KAS-302, Maths, Unit-5 notes", link: "https://drive.google.com/open?id=1KcEhDVcFxq2cDQOQoZ7sz62wKnmZBrf0&usp=drive_copy" }],
+        folders: [
+          {
+            name: "KAS-302, Maths, Unit-5 notes",
+            link: "https://drive.google.com/open?id=1KcEhDVcFxq2cDQOQoZ7sz62wKnmZBrf0&usp=drive_copy",
+          },
+        ],
       },
       {
         name: "maths quantam",
-        folders: [{ name: "mathematics 4_quantum", link: "https://drive.google.com/open?id=15cSCFN1KtPt7OP2UYuvhdq1Ez2MgswGq&usp=drive_copy" }],
+        folders: [
+          {
+            name: "mathematics 4_quantum",
+            link: "https://drive.google.com/open?id=15cSCFN1KtPt7OP2UYuvhdq1Ez2MgswGq&usp=drive_copy",
+          },
+        ],
       },
     ],
   },
@@ -173,23 +203,48 @@ let folders: Folder[] = [
     folders: [
       {
         name: "unit 1",
-        folders: [{ name: " Introduction", link: "https://drive.google.com/file/d/1dRMAPGEnLdRTc7y-IfYzh1jh_TtdWKM8/preview" }],
+        folders: [
+          {
+            name: " Introduction",
+            link: "https://drive.google.com/file/d/1dRMAPGEnLdRTc7y-IfYzh1jh_TtdWKM8/preview",
+          },
+        ],
       },
       {
         name: "unit 2",
-        folders: [{ name: "Arithmetic and logic unit: ", link: "https://drive.google.com/file/d/18pZZqtKftEMMwbrXaHGoEfyP-28-SFfC/preview" }],
+        folders: [
+          {
+            name: "Arithmetic and logic unit: ",
+            link: "https://drive.google.com/file/d/18pZZqtKftEMMwbrXaHGoEfyP-28-SFfC/preview",
+          },
+        ],
       },
       {
         name: "unit 3",
-        folders: [{ name: "Control Unit:", link: "https://drive.google.com/file/d/14skboggHYS_Z63DTehbMPkHc2amvWE-_/preview" }],
+        folders: [
+          {
+            name: "Control Unit:",
+            link: "https://drive.google.com/file/d/14skboggHYS_Z63DTehbMPkHc2amvWE-_/preview",
+          },
+        ],
       },
       {
         name: "unit 4",
-        folders: [{ name: "Memory:", link: "https://drive.google.com/file/d/1D06mNjD9XPDD7Xh0Qqger_HAEUCHM61E/preview" }],
+        folders: [
+          {
+            name: "Memory:",
+            link: "https://drive.google.com/file/d/1D06mNjD9XPDD7Xh0Qqger_HAEUCHM61E/preview",
+          },
+        ],
       },
       {
         name: "unit 5",
-        folders: [{ name: "Input / Output:", link: "https://drive.google.com/file/d/1id6tnFT-EJAiOhnv_OtNlKbcNWNXw7-S/preview" }],
+        folders: [
+          {
+            name: "Input / Output:",
+            link: "https://drive.google.com/file/d/1id6tnFT-EJAiOhnv_OtNlKbcNWNXw7-S/preview",
+          },
+        ],
       },
     ],
   },
@@ -198,28 +253,58 @@ let folders: Folder[] = [
     folders: [
       {
         name: "unit 1",
-        folders: [{ name: "Introduction", link: "https://drive.google.com/file/d/1EtI8Urb5AUWmpj8lu75qVBEq94Ik8Mt7/preview" }],
+        folders: [
+          {
+            name: "Introduction",
+            link: "https://drive.google.com/file/d/1EtI8Urb5AUWmpj8lu75qVBEq94Ik8Mt7/preview",
+          },
+        ],
       },
       {
         name: "unit 2",
-        folders: [{ name: "Concurrent Processes:", link: "https://drive.google.com/file/d/1rfmdpJ6gQn_RLdoiLdnPqB9rzDLrIMyh/preview" }],
+        folders: [
+          {
+            name: "Concurrent Processes:",
+            link: "https://drive.google.com/file/d/1rfmdpJ6gQn_RLdoiLdnPqB9rzDLrIMyh/preview",
+          },
+        ],
       },
       {
         name: "unit 3",
-        folders: [{ name: "CPU Scheduling:", link: "https://drive.google.com/file/d/102oHHJ_C8TiEfgZOAJC84pWiGoUNXkV5/preview" }],
+        folders: [
+          {
+            name: "CPU Scheduling:",
+            link: "https://drive.google.com/file/d/102oHHJ_C8TiEfgZOAJC84pWiGoUNXkV5/preview",
+          },
+        ],
       },
       {
         name: "unit 4",
-        folders: [{ name: "Memory Management:", link: "https://drive.google.com/file/d/1I-X9owZGbI8kopc4u6UfaXcA_VkptqbP/preview" }],
+        folders: [
+          {
+            name: "Memory Management:",
+            link: "https://drive.google.com/file/d/1I-X9owZGbI8kopc4u6UfaXcA_VkptqbP/preview",
+          },
+        ],
       },
       {
         name: "unit 5",
-        folders: [{ name: "I/O Management and Disk Scheduling: ", link: "https://drive.google.com/file/d/1Ia5BXFjlCg3ZT9uFxtC9J9_mGLOWDT2N/preview" }],
+        folders: [
+          {
+            name: "I/O Management and Disk Scheduling: ",
+            link: "https://drive.google.com/file/d/1Ia5BXFjlCg3ZT9uFxtC9J9_mGLOWDT2N/preview",
+          },
+        ],
       },
 
       {
         name: "quantum ",
-        folders: [{ name: "OS Quantum ", link: "https://drive.google.com/file/d/1sind7fsCpn20F7OKMbGyye85xCQ9Eb5u/preview" }],
+        folders: [
+          {
+            name: "OS Quantum ",
+            link: "https://drive.google.com/file/d/1sind7fsCpn20F7OKMbGyye85xCQ9Eb5u/preview",
+          },
+        ],
       },
     ],
   },
@@ -257,24 +342,49 @@ let folders: Folder[] = [
     folders: [
       {
         name: "unit 1",
-        folders: [{ name: "TAFL Unit-01 (1)", link: "https://drive.google.com/file/d/10MhzYjAOwNvG7bNPTqog7huPJJUChuh7/preview" }],
+        folders: [
+          {
+            name: "TAFL Unit-01 (1)",
+            link: "https://drive.google.com/file/d/10MhzYjAOwNvG7bNPTqog7huPJJUChuh7/preview",
+          },
+        ],
       },
       {
         name: "unit 2",
-        folders: [{ name: "REGULAR EXPRESSION & LANGUAGE", link: "https://drive.google.com/file/d/1v0WmCoBpAOTHVYkv2sr9nQqpI5coZkrV/preview" }],
+        folders: [
+          {
+            name: "REGULAR EXPRESSION & LANGUAGE",
+            link: "https://drive.google.com/file/d/1v0WmCoBpAOTHVYkv2sr9nQqpI5coZkrV/preview",
+          },
+        ],
       },
       {
         name: "unit 3",
-        folders: [{ name: "REGULAR AND NON-REGULAR GRAMMERS", link: "https://drive.google.com/file/d/1Y1d1dZQb3QzTzRI6ubKJ_PDDEsUK0gig/preview" }],
+        folders: [
+          {
+            name: "REGULAR AND NON-REGULAR GRAMMERS",
+            link: "https://drive.google.com/file/d/1Y1d1dZQb3QzTzRI6ubKJ_PDDEsUK0gig/preview",
+          },
+        ],
       },
       {
         name: "unit 4",
-        folders: [{ name: "UNIT 4 (2)", link: "https://drive.google.com/file/d/1C6gRHl7Cf9yHngz5Yn0ZbCryis0McQnf/preview" }],
+        folders: [
+          {
+            name: "UNIT 4 (2)",
+            link: "https://drive.google.com/file/d/1C6gRHl7Cf9yHngz5Yn0ZbCryis0McQnf/preview",
+          },
+        ],
       },
-     
+
       {
         name: "QUANTUM SERIES",
-        folders: [{ name: "Theory of Automata and Formal Languages_3", link: "https://drive.google.com/file/d/1p86-gVAWYPxqIabqCmBrolDqxXJZ999o/preview" }],
+        folders: [
+          {
+            name: "Theory of Automata and Formal Languages_3",
+            link: "https://drive.google.com/file/d/1p86-gVAWYPxqIabqCmBrolDqxXJZ999o/preview",
+          },
+        ],
       },
     ],
   },
@@ -334,9 +444,8 @@ let folders: Folder[] = [
         name: "Web Designing .pdf",
         link: "https://drive.google.com/file/d/1bycMykDZSogVNqLA4kOG_f4gJxylBSRB/preview",
       },
-      {
-        cyber
-      }
     ],
   },
 ];
+
+export default folders;
