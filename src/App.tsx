@@ -5,8 +5,6 @@ import Verify from "./pages/verify/Verify";
 import { Router, Route } from "@solidjs/router";
 import Register from "./pages/Register/Register";
 import Dashboard from "./pages/Dashboard/Dashboard";
-import Verify from "./pages/verify/Verify";
-
 
 const App: Component = () => {
   return (
