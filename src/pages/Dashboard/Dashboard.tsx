@@ -1,5 +1,6 @@
 import { useParams } from "@solidjs/router";
 import Sidebar from "../../components/dashboard/Sidebar";
+import Sidebar2 from "../../components/dashboard/Sidebar2";
 import { createSignal } from "solid-js";
 import { isLoading } from "../../hooks/common";
 import Loader from "../../components/Loader/Loader";
@@ -15,7 +16,9 @@ const Dashboard = () => {
 
   return (
     <div class="md:p-4 flex h-screen overflow-hidden justify-center items-center">
+      {params.year === "year1"?
       <Sidebar year={params.year} />
+      :<Sidebar2 year={params.year} /> }
       {isLoading() ? (
         <Loader />
       ) : (

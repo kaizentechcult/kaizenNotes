@@ -10,7 +10,7 @@ const Card = (props: Props) => {
   return (
     <A
       href={`dashboard/${props.link}`}
-      class="bg-[#939BE2] w-[300px] h-[400px] rounded-lg p-6 card"
+      class="bg-[#8b96ff] w-[300px] h-[400px] rounded-lg p-6 card"
     >
       <p class="text-sm">AKTU B.TECH</p>
       <h1 class="text-3xl font-bold">Year {props.year}</h1>

@@ -1,5 +1,5 @@
 import "./Sidebar.css";
-import folders from "../../utils/data";
+import folders from "../../utils/data2";
 import arrow from "../../assets/arrow.svg";
 import FileIcon from "../../assets/FileIcon.svg";
 import FolderIcon from "../../assets/FolderIcon.svg";
@@ -10,7 +10,7 @@ interface Props {
   year: string;
 }
 
-const Sidebar = (props: Props) => {
+const Sidebar2 = (props: Props) => {
   const [isMenuOpen, setIsMenuOpen] = createSignal(false);
   return (
     <>
@@ -103,4 +103,4 @@ function Folder({ folder }: { folder: Folder }) {
   );
 }
 
-export default Sidebar;
+export default Sidebar2;
