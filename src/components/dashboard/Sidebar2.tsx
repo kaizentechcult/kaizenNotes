@@ -5,13 +5,20 @@ import FileIcon from "../../assets/FileIcon.svg";
 import FolderIcon from "../../assets/FolderIcon.svg";
 import ChevronRight from "../../assets/ChevronRight.svg";
 
+import {
+  setIsMenuOpen,
+  isMenuOpen,
+  isLoading,
+  setIsLoading,
+} from "../../hooks/common";
+
 import { createSignal } from "solid-js";
 interface Props {
   year: string;
 }
 
 const Sidebar2 = (props: Props) => {
-  const [isMenuOpen, setIsMenuOpen] = createSignal(false);
+  // const [isMenuOpen, setIsMenuOpen] = createSignal(true);
   return (
     <>
       <button
@@ -24,11 +31,11 @@ const Sidebar2 = (props: Props) => {
           class={`p-2  ${isMenuOpen() && "rotate-180"}`}
         />
       </button>
-      <div class="">
+      <div class="fixed top-0 left-0">
         <ul
-          class={`bg-[#21204F] md:h-[96vh] md:flex pt-10 fixed md:relative h-screen  text-white p-4 overflow-y-scroll overflow-x-hidden sidebar duration-300  ${
+          class={`bg-[#21204F] h-screen md:h-[96vh] md:flex pt-10 fixed md:relative  text-white p-4 overflow-y-scroll overflow-x-hidden sidebar  ${
             isMenuOpen()
-              ? "w-[15rem] h-screen md:h-[96vh] overflow-y-scrolloverflow-y-scroll md:rounded-xl"
+              ? " w-full md:w-fit h-[96vh] overflow-y-scroll  md:rounded-xl"
               : "w-0 overflow-hidden md:rounded-3xl"
           }`}
         >
@@ -85,6 +92,9 @@ function Folder({ folder }: { folder: Folder }) {
                 detail: folder.link,
               });
               window.dispatchEvent(event);
+              setIsMenuOpen(false);
+              setIsLoading(true);
+              setTimeout(() => setIsLoading(false), 1500);
             }}
           >
             <img src={FileIcon} alt="" class="w-6 h-6" />
