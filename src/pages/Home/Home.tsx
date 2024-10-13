@@ -21,7 +21,7 @@ const Home: Component = () => {
         } md:h-screen`}
       >
         <Navbar />
-        <div class="flex justify-center items-center gap-8 flex-wrap py-20">
+        <div class="flex h-screen justify-center   items-center gap-8 flex-wrap py-20">
           {Object.entries(yearLinks).map(([year, link]) => (
             <Card year={year} link={link} />
           ))}
