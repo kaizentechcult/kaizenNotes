@@ -10,7 +10,7 @@ const Navbar = () => {
     <ul
       class={`${
         isDark() ? "bg-black" : "bg-[#21204F]"
-      } text-white w-full backdrop-blur-lg bg-none gap-4 p-4 justify-center text-xl transition duration-500 ease-in-out fixed z-[999]`}
+      } text-white w-full backdrop-blur-lg bg-none gap-4 p-4 justify-center text-xl transition duration-500 ease-in-out fixed z-20`}
     >
       <div class="md:hidden" onclick={() => setIsOpen(!isOpen())}>
         <img src="src/assets/MenuIcon.svg" alt="" />
