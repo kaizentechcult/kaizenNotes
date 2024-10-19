@@ -1,9 +1,8 @@
-import { Component } from "solid-js";
+import { useState } from "react";
 import Card from "../../components/Home/Card";
 import Navbar from "../../components/Navbar/Navbar";
-import { AuthProvider } from "../../utils/AuthContext";
-import { isDark, handleTheme } from "../../hooks/common";
-import Card2 from "../../components/Home/Card2";
+import { handleTheme } from "../../hooks/common";
+import { AuthProvider } from "../../../utils/AuthContext";
 
 const yearLinks = {
   1: "year1",
@@ -13,16 +12,18 @@ const yearLinks = {
 };
 handleTheme();
 
-const Home: Component = () => {
+const Home = () => {
+  const [darkMode, setDarkMode] = useState(false);
+
   return (
     <AuthProvider>
       <div
-        class={`${
-          isDark() ? "bg-black text-white" : "bg-[#E7F0FF] text-black"
+        className={`${
+          darkMode ? "bg-black text-white" : "bg-[#E7F0FF] text-black"
         } md:h-screen`}
       >
         <Navbar />
-        <div class="flex h-screen justify-center   items-center gap-8 flex-wrap py-20">
+        <div className="flex h-screen justify-center items-center gap-8 flex-wrap py-20">
           {Object.entries(yearLinks).map(([year, link]) => (
             <Card year={year} link={link} />
           ))}

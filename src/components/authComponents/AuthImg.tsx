@@ -1,11 +1,13 @@
+import Image from "next/image";
+
 interface Props {
   imgSrc: any;
 }
 
 const AuthImg = (props: Props) => {
   return (
-    <div class="w-0 lg:w-1/2 items-center justify-center hidden lg:flex">
-      <img src={props.imgSrc} alt="Login-img" class="w-[400px]" />
+    <div className="w-0 lg:w-1/2 items-center justify-center hidden lg:flex">
+      <Image src={props.imgSrc} alt="Login-img" width={400} height={400} />
     </div>
   );
 };

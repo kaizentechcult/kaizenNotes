@@ -6,10 +6,10 @@ interface Props {
 }
 
 export const handleVerification = async (props: Props) => {
-  const apiKey = import.meta.env.VITE_BASE_URL;
+  const apiKey = process.env.NEXT_BASE_URL;
   try {
     console.log(props);
-    const response = await fetch(apiKey.concat("/verify"), {
+    const response = await fetch(apiKey + "/verify", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -24,7 +24,7 @@ export const handleVerification = async (props: Props) => {
     localStorage.removeItem("userEmail");
     return result;
   } catch (error) {
-    console.log(apiKey.concat("/login"));
+    console.log(apiKey + "/login");
     // console.error("Error sending data:", error);
   }
 };

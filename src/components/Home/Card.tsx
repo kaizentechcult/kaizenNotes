@@ -1,20 +1,19 @@
-import { A } from "@solidjs/router";
-import "./Card.css";
+import Link from "next/link";
+import styles from "./Card.module.css";
 
 interface Props {
   year: string;
   link: string;
 }
 
-const Card = (props: Props) => {
+const Card = ({ year, link }: Props) => {
   return (
-    <A
-      href={`dashboard/${props.link}`}
-      class="bg-[#8b96ff] w-11/12 md:w-1/3 h-1/3 rounded-lg p-6 card"
-    >
-      <p class="text-sm">AKTU B.TECH</p>
-      <h1 class="text-3xl font-bold">Year {props.year}</h1>
-    </A>  
+    <Link href={`/dashboard/${link}`}>
+      <a className={styles.card}>
+        <p className={styles.year}>AKTU B.TECH</p>
+        <h1 className={styles.title}>Year {year}</h1>
+      </a>
+    </Link>
   );
 };
 

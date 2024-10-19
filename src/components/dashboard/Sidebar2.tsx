@@ -1,54 +1,52 @@
-import "./Sidebar.css";
-import folders from "../../utils/data2";
-import arrow from "../../assets/arrow.svg";
-import FileIcon from "../../assets/FileIcon.svg";
-import FolderIcon from "../../assets/FolderIcon.svg";
-import ChevronRight from "../../assets/ChevronRight.svg";
+import "./Sidebar.module.css";
+import folders from "../../../utils/data2";
 
-import {
-  setIsMenuOpen,
-  isMenuOpen,
-  isLoading,
-  setIsLoading,
-} from "../../hooks/common";
+import { useState } from "react";
+import { useRouter } from "next/router";
 
-import { createSignal } from "solid-js";
 interface Props {
   year: string;
 }
 
 const Sidebar2 = (props: Props) => {
-  // const [isMenuOpen, setIsMenuOpen] = createSignal(true);
+  const [isMenuOpen, setIsMenuOpen] = useState(true);
+  const router = useRouter();
+
+  const handleLinkClick = (link: string) => {
+    router.push(link);
+    setIsMenuOpen(false);
+  };
+
   return (
     <>
       <button
-        class={`fixed top-4 left-4 bg-[#000000] backdrop-blur-lg ] z-10 rounded-full`}
-        onclick={() => setIsMenuOpen(!isMenuOpen())}
+        className={`fixed top-4 left-4 bg-[#000000] backdrop-blur-lg ] z-10 rounded-full`}
+        onClick={() => setIsMenuOpen(!isMenuOpen)}
       >
         <img
-          src={arrow}
+          src="/arrow.svg"
           alt=""
-          class={`p-2  ${isMenuOpen() && "rotate-180"}`}
+          className={`p-2  ${isMenuOpen ? "rotate-180" : ""}`}
         />
       </button>
-      <div class="fixed top-0 left-0">
+      <div className="fixed top-0 left-0">
         <ul
-          class={`bg-[#21204F] h-screen md:h-[96vh] md:flex pt-10 fixed md:relative  text-white p-4 overflow-y-scroll overflow-x-hidden sidebar  ${
-            isMenuOpen()
+          className={`bg-[#21204F] h-screen md:h-[96vh] md:flex pt-10 fixed md:relative  text-white p-4 overflow-y-scroll overflow-x-hidden sidebar  ${
+            isMenuOpen
               ? " w-full md:w-fit h-[96vh] overflow-y-scroll  md:rounded-xl"
               : "w-0 overflow-hidden md:rounded-3xl"
           }`}
         >
-          <li class={`my-1.5 ${isMenuOpen() ? " block" : "hidden"}`}>
-            <span class="flex items-center gap-1.5">
-              <img src={FolderIcon} alt="" class="w-6 h-6" />
-              <p class="">
+          <li className={`my-1.5 ${isMenuOpen ? " block" : "hidden"}`}>
+            <span className="flex items-center gap-1.5">
+              <img src="/FolderIcon.svg" alt="" className="w-6 h-6" />
+              <p className="">
                 {props.year.charAt(0).toUpperCase() + props.year.slice(1)}
               </p>
             </span>
-            <ul class="pl-3">
+            <ul className="pl-3">
               {folders.map((folder) => (
-                <Folder folder={folder} />
+                <Folder folder={folder} onLinkClick={handleLinkClick} />
               ))}
             </ul>
           </li>
@@ -64,53 +62,51 @@ type Folder = {
   folders?: Folder[];
 };
 
-function Folder({ folder }: { folder: Folder }) {
-  const [isOpen, setIsOpen] = createSignal(false);
+function Folder({
+  folder,
+  onLinkClick,
+}: {
+  folder: Folder;
+  onLinkClick: (link: string) => void;
+}) {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <li class="my-1.5">
-      <span class="flex items-center gap-1.5">
+    <li className="my-1.5">
+      <span className="flex items-center gap-1.5">
         {folder.folders ? (
           <>
             <button
-              class="flex items-center gap-1.5"
-              onclick={() => setIsOpen(!isOpen())}
+              className="flex items-center gap-1.5"
+              onClick={() => setIsOpen(!isOpen)}
             >
               <img
-                src={ChevronRight}
+                src="/ChevronRight.svg"
                 alt=""
-                class={`w-3 h-3 ${isOpen() ? "rotate-90" : ``} duration-100`}
+                className={`w-3 h-3 ${isOpen ? "rotate-90" : ``} duration-100`}
               />
-              <img src={FolderIcon} alt="" class="w-6 h-6" />
-              <p class="">{folder.name.slice(0, 16)}</p>
+              <img src="/FolderIcon.svg" alt="" className="w-6 h-6" />
+              <p className="">{folder.name.slice(0, 16)}</p>
             </button>
           </>
         ) : (
           <div
-            class="flex items-center gap-1.5 hover:cursor-pointer"
-            onclick={() => {
-              const event = new CustomEvent("link-clicked", {
-                detail: folder.link,
-              });
-              window.dispatchEvent(event);
-              setIsMenuOpen(false);
-              setIsLoading(true);
-              setTimeout(() => setIsLoading(false), 1500);
-            }}
+            className="flex items-center gap-1.5 hover:cursor-pointer"
+            onClick={() => onLinkClick(folder.link!)}
           >
-            <img src={FileIcon} alt="" class="w-6 h-6" />
-            <p class="">{folder.name.slice(0, 16)}</p>
+            <img src="/FileIcon.svg" alt="" className="w-6 h-6" />
+            <p className="">{folder.name.slice(0, 16)}</p>
           </div>
         )}
       </span>
-      {isOpen() && (
-        <ul class="pl-6">
+      {isOpen && (
+        <ul className="pl-6">
           {folder.folders?.map((folder) => (
-            <Folder folder={folder} />
+            <Folder folder={folder} onLinkClick={onLinkClick} />
           ))}
         </ul>
       )}
     </li>
   );
 }
-
 export default Sidebar2;

@@ -1,4 +1,4 @@
-import { createContext, createSignal, onMount } from "solid-js";
+import { createContext, useState, useEffect } from "react";
 import { jwtDecode } from "jwt-decode";
 const AuthContext = createContext<{
   isLoggedIn: boolean | null;
@@ -7,8 +7,8 @@ const AuthContext = createContext<{
 });
 
 export const AuthProvider = (props: { children: any }) => {
-  const [isLoggedIn, setIsLoggedIn] = createSignal<boolean | null>(false);
-  onMount(() => {
+  const [isLoggedIn, setIsLoggedIn] = useState<boolean | null>(false);
+  useEffect(() => {
     const token = localStorage.getItem("token");
 
     if (token) {
@@ -29,10 +29,10 @@ export const AuthProvider = (props: { children: any }) => {
       setIsLoggedIn(false);
       window.location.href = "/login";
     }
-  });
+  }, []);
 
   return (
-    <AuthContext.Provider value={{ isLoggedIn: isLoggedIn() }}>
+    <AuthContext.Provider value={{ isLoggedIn: isLoggedIn }}>
       {isLoggedIn === null ? <>Loading...</> : props.children}
     </AuthContext.Provider>
   );

@@ -1,4 +1,4 @@
-import { A } from "@solidjs/router";
+import Link from "next/link";
 
 interface Props {
   text: string;
@@ -8,11 +8,9 @@ interface Props {
 
 const DontHave = (props: Props) => {
   return (
-    <div class="flex justify-center mt-3 mb-6">
+    <div className="flex justify-center mt-3 mb-6">
       {props.dontText}
-      <A class="text-blue-500 ml-1" href={props.link}>
-        {props.text}
-      </A>
+      <Link href={props.link}>{props.text}</Link>
     </div>
   );
 };
