@@ -1,4 +1,4 @@
-import { logout } from "../hooks/auth";
+import { logout } from "@/hooks/auth";
 
 const Logout = () => {
   return (
