@@ -1,24 +1,23 @@
 import { useState } from "react";
 import { useEffect } from "react";
-import { email, setEmail } from "../../hooks/common";
+// import { email, setEmail } from "../../hooks/common";
+import useCommon from "@/hooks/common";
 import FormInput from "../../components/authComponents/FormInput";
 import { handleVerification } from "../../../Auth/HandleVerification";
 
 const Verify = () => {
+  const { email, setEmail } = useCommon();
   const [otp, setOtp] = useState("");
-  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     setEmail(`${localStorage.getItem("userEmail")}`);
-  }, []);
+  });
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    setIsLoading(true);
     const res = await handleVerification({
       data: { email, OTP: otp },
     });
-    setIsLoading(false);
     if (res.token) {
       window.location.href = "/";
     }

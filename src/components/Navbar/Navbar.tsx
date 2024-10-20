@@ -1,16 +1,21 @@
+"use client";
+
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import { logout } from "../../hooks/auth";
-import { toggleTheme } from "../../hooks/common";
+
+import useCommon from "@/hooks/common";
 import { navBtns, navLinks } from "../../../utils/navData";
 
 const Navbar = () => {
+  const { toggleTheme } = useCommon();
   const [isOpenState, setIsOpenState] = useState(false);
 
   return (
     <nav className="bg-black text-white w-full backdrop-blur-lg bg-none gap-4 p-4 justify-center text-xl transition duration-500 ease-in-out fixed z-20">
       <div className="md:hidden" onClick={() => setIsOpenState(!isOpenState)}>
-        <img src="/MenuIcon.svg" alt="" />
+        <Image src="/MenuIcon.svg" alt="" width={24} height={24} />
       </div>
       <ul
         className={`${
@@ -19,9 +24,7 @@ const Navbar = () => {
       >
         {navLinks.map((item) => (
           <li key={item}>
-            <Link href={`/${item.toLowerCase()}`}>
-              <a>{item}</a>
-            </Link>
+            <Link href={`/${item.toLowerCase()}`}>{item}</Link>
           </li>
         ))}
         {navBtns.map((item) => (

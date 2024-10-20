@@ -1,3 +1,4 @@
+import Image from "next/image";
 import "./Sidebar.module.css";
 import folders from "../../../utils/data2";
 
@@ -23,10 +24,12 @@ const Sidebar2 = (props: Props) => {
         className={`fixed top-4 left-4 bg-[#000000] backdrop-blur-lg ] z-10 rounded-full`}
         onClick={() => setIsMenuOpen(!isMenuOpen)}
       >
-        <img
+        <Image
           src="/arrow.svg"
           alt=""
           className={`p-2  ${isMenuOpen ? "rotate-180" : ""}`}
+          width={20}
+          height={20}
         />
       </button>
       <div className="fixed top-0 left-0">
@@ -39,14 +42,24 @@ const Sidebar2 = (props: Props) => {
         >
           <li className={`my-1.5 ${isMenuOpen ? " block" : "hidden"}`}>
             <span className="flex items-center gap-1.5">
-              <img src="/FolderIcon.svg" alt="" className="w-6 h-6" />
+              <Image
+                src="/FolderIcon.svg"
+                alt=""
+                className="w-6 h-6"
+                width={24}
+                height={24}
+              />
               <p className="">
                 {props.year.charAt(0).toUpperCase() + props.year.slice(1)}
               </p>
             </span>
             <ul className="pl-3">
-              {folders.map((folder) => (
-                <Folder folder={folder} onLinkClick={handleLinkClick} />
+              {folders.map((folder, index) => (
+                <Folder
+                  key={index}
+                  folder={folder}
+                  onLinkClick={handleLinkClick}
+                />
               ))}
             </ul>
           </li>
@@ -80,12 +93,20 @@ function Folder({
               className="flex items-center gap-1.5"
               onClick={() => setIsOpen(!isOpen)}
             >
-              <img
+              <Image
                 src="/ChevronRight.svg"
                 alt=""
                 className={`w-3 h-3 ${isOpen ? "rotate-90" : ``} duration-100`}
+                width={16}
+                height={16}
               />
-              <img src="/FolderIcon.svg" alt="" className="w-6 h-6" />
+              <Image
+                src="/FolderIcon.svg"
+                alt=""
+                className="w-6 h-6"
+                width={24}
+                height={24}
+              />
               <p className="">{folder.name.slice(0, 16)}</p>
             </button>
           </>
@@ -94,15 +115,21 @@ function Folder({
             className="flex items-center gap-1.5 hover:cursor-pointer"
             onClick={() => onLinkClick(folder.link!)}
           >
-            <img src="/FileIcon.svg" alt="" className="w-6 h-6" />
+            <Image
+              src="/FileIcon.svg"
+              alt=""
+              className="w-6 h-6"
+              width={24}
+              height={24}
+            />
             <p className="">{folder.name.slice(0, 16)}</p>
           </div>
         )}
       </span>
       {isOpen && (
         <ul className="pl-6">
-          {folder.folders?.map((folder) => (
-            <Folder folder={folder} onLinkClick={onLinkClick} />
+          {folder.folders?.map((folder, index) => (
+            <Folder key={index} folder={folder} onLinkClick={onLinkClick} />
           ))}
         </ul>
       )}

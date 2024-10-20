@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "./Sidebar.module.css";
 import folders from "../../../utils/data";
 import { useState } from "react";
@@ -15,13 +16,13 @@ const Sidebar = (props: Props) => {
         className={`${styles.button} ${isMenuOpen ? styles.rotate : ""}`}
         onClick={() => setIsMenuOpen(!isMenuOpen)}
       >
-        <img src="/arrow.svg" alt="" className={styles.arrow} />
+        <Image src="/arrow.svg" alt="" className={styles.arrow} />
       </button>
       <div className={`${styles.sidebar} ${isMenuOpen ? styles.open : ""}`}>
         <ul className={styles.ul}>
           <li className={styles.li}>
             <span className={styles.folder}>
-              <img src="/FolderIcon.svg" alt="" className={styles.icon} />
+              <Image src="/FolderIcon.svg" alt="" className={styles.icon} />
               <p className={styles.name}>
                 {props.year.charAt(0).toUpperCase() + props.year.slice(1)}
               </p>
@@ -56,12 +57,12 @@ function Folder({ folder }: { folder: Folder }) {
               className={styles.button}
               onClick={() => setIsOpen(!isOpen)}
             >
-              <img
+              <Image
                 src="/ChevronRight.svg"
                 alt=""
                 className={`${styles.arrow} ${isOpen ? styles.rotate : ""}`}
               />
-              <img src="/FolderIcon.svg" alt="" className={styles.icon} />
+              <Image src="/FolderIcon.svg" alt="" className={styles.icon} />
               <p className={styles.name}>{folder.name.slice(0, 16)}</p>
             </button>
           </>
@@ -73,7 +74,7 @@ function Folder({ folder }: { folder: Folder }) {
               setIsOpen(false);
             }}
           >
-            <img src="/FileIcon.svg" alt="" className={styles.icon} />
+            <Image src="/FileIcon.svg" alt="" className={styles.icon} />
             <p className={styles.name}>{folder.name.slice(0, 16)}</p>
           </div>
         )}

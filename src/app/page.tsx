@@ -1,7 +1,5 @@
-export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      hello
-    </main>
-  );
+import Home from "@/pages/Home/Home";
+
+export default function Main() {
+  return <Home />;
 }

@@ -1,7 +1,3 @@
-interface ErrorProps {
-  error: string;
-}
-
 const Error = ({ error }: { error: string }) => {
   return (
     <div className="absolute top-4 w-full flex justify-center items-center">

@@ -9,10 +9,8 @@ interface Props {
 const Card = ({ year, link }: Props) => {
   return (
     <Link href={`/dashboard/${link}`}>
-      <a className={styles.card}>
-        <p className={styles.year}>AKTU B.TECH</p>
-        <h1 className={styles.title}>Year {year}</h1>
-      </a>
+      <p className={styles.year}>AKTU B.TECH</p>
+      <h1 className={styles.title}>Year {year}</h1>
     </Link>
   );
 };

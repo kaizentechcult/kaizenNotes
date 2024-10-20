@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 interface Props {
-  imgSrc: any;
+  imgSrc: string;
 }
 
 const AuthImg = (props: Props) => {

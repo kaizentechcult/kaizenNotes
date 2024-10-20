@@ -5,9 +5,7 @@ import AuthImg from "../../components/authComponents/AuthImg";
 import DontHave from "../../components/authComponents/DontHave";
 import FormInput from "../../components/authComponents/FormInput";
 import FormButton from "../../components/authComponents/FormButton";
-import HandleRegister from "../../../Auth/HandleRegister";
-
-type RegisterProps = {};
+// import HandleRegister from "../../../Auth/HandleRegister";
 
 const Register = () => {
   const [formValues, setFormValues] = useState<{
@@ -19,31 +17,31 @@ const Register = () => {
     email: "",
     password: "",
   });
-  const [isLoading, setIsLoading] = useState(false);
+  // const [isLoading, setIsLoading] = useState(false);
 
-  const handleRegisterSubmit = async (event: SubmitEvent) => {
-    event.preventDefault();
-    setIsLoading(true);
-    const res = await HandleRegister({
-      data: formValues,
-    });
+  // const handleRegisterSubmit = async (event: SubmitEvent) => {
+  //   event.preventDefault();
+  //   // setIsLoading(true);
+  //   const res = await HandleRegister({
+  //     data: formValues,
+  //   });
 
-    console.log(res);
-    setIsLoading(false);
-    setFormValues({
-      name: "",
-      email: "",
-      password: "",
-    });
-    if (res.error) {
-      return;
-    }
-    localStorage.setItem("userEmail", res.userEmail);
-    window.location.href = "/verify";
+  //   console.log(res);
+  //   // setIsLoading(false);
+  //   setFormValues({
+  //     name: "",
+  //     email: "",
+  //     password: "",
+  //   });
+  //   if (res.error) {
+  //     return;
+  //   }
+  //   localStorage.setItem("userEmail", res.userEmail);
+  //   window.location.href = "/verify";
 
-    if (res.status == 201) {
-    }
-  };
+  //   if (res.status == 201) {
+  //   }
+  // };
   return (
     <div className="flex h-screen bg-[#e7f0ff] w-full justify-center items-center">
       <>
