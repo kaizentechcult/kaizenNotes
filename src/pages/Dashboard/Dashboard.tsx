@@ -30,17 +30,15 @@ const Dashboard = () => {
         ) : (
           <>
             <main class="bg-white w-screen md:rounded-lg h-screen">
-              {/* <div class="flex h-full w-full justify-center items-center text-black">
-                <img src={MySVG} class="" />
-                Unable to find what you are looking for?
-                <div class="cursor-pointer text-blue-300">click here</div>
-              </div> */}
-              <div class="flex flex-col h-full w-full justify-center items-center text-black">
-                <img src={MySVG2} class="w-80" />
-                Unable to find what you are looking for?
-                <div class="cursor-pointer text-blue-300">click here</div>
-              </div>
-              <iframe src={link()} class="w-full h-full"></iframe>
+              {link() === "" ? (
+                <div class="flex flex-col h-full w-full justify-center items-center text-black">
+                  <img src={MySVG2} class="w-80" />
+                  Unable to find what you are looking for?
+                  <div class="cursor-pointer text-blue-300">click here</div>
+                </div>
+              ) : (
+                <iframe src={link()} class="w-full h-full"></iframe>
+              )}
             </main>
           </>
         )}
