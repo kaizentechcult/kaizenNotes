@@ -5,11 +5,11 @@ import Image from "next/image";
 import { useState } from "react";
 import { logout } from "../../hooks/auth";
 
-import useCommon from "@/hooks/common";
+// import useCommon from "@/hooks/common";
 import { navBtns, navLinks } from "../../../utils/navData";
 
 const Navbar = () => {
-  const { toggleTheme } = useCommon();
+  // const { toggleTheme } = useCommon();
   const [isOpenState, setIsOpenState] = useState(false);
 
   return (
@@ -29,7 +29,7 @@ const Navbar = () => {
         ))}
         {navBtns.map((item) => (
           <li key={item}>
-            <button onClick={item === "Theme" ? toggleTheme : logout}>
+            <button>
               {item}
             </button>
           </li>
