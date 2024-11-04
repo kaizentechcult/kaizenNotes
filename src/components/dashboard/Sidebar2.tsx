@@ -22,7 +22,7 @@ const Sidebar2 = (props: Props) => {
   return (
     <>
       <button
-        class={`fixed top-4 left-4 bg-[#000000] backdrop-blur-lg ] z-10 rounded-full`}
+        class={`fixed top-4 left-4 bg-[#853232] backdrop-blur-lg ] z-50 rounded-full`}
         onclick={() => setIsMenuOpen(!isMenuOpen())}
       >
         <img
@@ -34,8 +34,8 @@ const Sidebar2 = (props: Props) => {
       <div class="fixed top-0 left-0">
         <div
           class={`bg-[#21204F] h-screen md:flex pt-10 fixed md:relative  text-white p-4 overflow-y-scroll overflow-x-hidden sidebar  ${isMenuOpen()
-              ? " w-full md:w-fit overflow-y-scroll "
-              : "w-0 p-0 overflow-hidden "
+            ? " w-full md:w-fit overflow-y-scroll "
+            : "w-0 p-0 overflow-hidden "
             }`}
         >
           <ul class="mt-10">
