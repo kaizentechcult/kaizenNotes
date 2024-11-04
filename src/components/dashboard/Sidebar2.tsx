@@ -18,7 +18,6 @@ interface Props {
 }
 
 const Sidebar2 = (props: Props) => {
-  // const [isMenuOpen, setIsMenuOpen] = createSignal(true);
   return (
     <>
       <button
