@@ -7,6 +7,7 @@ import Loader from "../../components/Loader/Loader";
 import MySVG2 from "../../components/dashboard/book.svg";
 import Navbar from "../../components/Navbar/Navbar";
 import { AuthProvider } from "../../utils/AuthContext";
+import Navbar2 from "../../components/Navbar/Navbar2";
 const Dashboard = () => {
   const [link, setLink] = createSignal("");
   const params = useParams();
@@ -18,9 +19,9 @@ const Dashboard = () => {
 
   return (
     <AuthProvider>
-
       <div>
-        <Navbar />
+        {/* <Navbar /> */}
+        <Navbar2 />
         <div class="md:p-4 flex h-screen overflow-hidden justify-center items-center">
           {params.year === "year1" ? (
             <Sidebar year={params.year} />

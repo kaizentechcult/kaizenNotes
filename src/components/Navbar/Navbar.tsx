@@ -43,7 +43,7 @@ const Navbar = () => {
           </li>
         ))}
         {navBtns.map((item) => (
-        <li>
+          <li>
             <button onClick={() => handleClick(item)}>{item}</button>
           </li>
         ))}
