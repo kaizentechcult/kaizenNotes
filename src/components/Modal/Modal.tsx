@@ -6,7 +6,7 @@ interface ModalProps {
   text?: string;
 }
 
-const Modal: Component<ModalProps> = ({ children, text = "Open Modal" }) => {
+const Modal: Component<ModalProps> = ({ children, text = "" }) => {
   const [visibility, setVisibility] = createSignal(false);
   createEffect(() => {
     console.log("Modal Visibility is: ", visibility());
@@ -17,17 +17,14 @@ const Modal: Component<ModalProps> = ({ children, text = "Open Modal" }) => {
 
   return (
     <>
-      <button
-        class="bg-red-400 p-2 rounded-xl text-white text-xl"
-        onClick={toggleVisibility}
-      >
+      <button class="text-blue-500" onClick={toggleVisibility}>
         {text}
       </button>
 
       {/* Modal content */}
       {visibility() && (
-        <div class="fixed z-20 inset-0 backdrop-blur-sm flex justify-center items-center">
-          <div class="bg-gray-300 min-h-40 flex items-center p-4 rounded-xl text-gray-900 text-3xl relative">
+        <div class="fixed z-10 inset-0 backdrop-blur-[2px] flex justify-center items-center">
+          <div class="bg-gray-50  shadow-md min-h-40 flex items-center p-4 rounded-xl text-gray-900 relative">
             <button
               onClick={toggleVisibility}
               class="absolute top-2 text-red-700 right-4 text-lg"

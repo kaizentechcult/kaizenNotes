@@ -8,6 +8,8 @@ import MySVG2 from "../../components/dashboard/book.svg";
 import Navbar from "../../components/Navbar/Navbar";
 import { AuthProvider } from "../../utils/AuthContext";
 import Navbar2 from "../../components/Navbar/Navbar2";
+import Modal from "../../components/Modal/Modal";
+import RequestDialog from "../../components/RequsetDialog/RequestDialog";
 const Dashboard = () => {
   const [link, setLink] = createSignal("");
   const params = useParams();
@@ -37,7 +39,11 @@ const Dashboard = () => {
                   <div class="flex flex-col h-full w-full justify-center items-center text-black">
                     <img src={MySVG2} class="w-80" />
                     Unable to find what you are looking for?
-                    <div class="cursor-pointer text-blue-300">click here</div>
+                    <div class="cursor-pointer text-blue-300">
+                      <Modal text="click here">
+                        <RequestDialog />
+                      </Modal>
+                    </div>
                   </div>
                 ) : (
                   <iframe src={link()} class="w-full h-full"></iframe>
