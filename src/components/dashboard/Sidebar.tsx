@@ -9,10 +9,8 @@ import { createSignal } from "solid-js";
 import {
   setIsMenuOpen,
   isMenuOpen,
-  isLoading,
   setIsLoading,
 } from "../../hooks/common";
-import Navbar from "../Navbar/Navbar";
 interface Props {
   year: string;
 }
@@ -32,11 +30,10 @@ const Sidebar = (props: Props) => {
       </button>
       <div class=" fixed top-0 left-0 ">
         <div
-          class={`bg-[#21204F] h-screen md:flex pt-10 fixed md:relative  text-white p-4 overflow-y-scroll overflow-x-hidden sidebar  ${
-            isMenuOpen()
-              ? " w-full md:w-fit overflow-y-scroll "
-              : "w-0 p-0 overflow-hidden "
-          }`}
+          class={`bg-[#21204F] h-screen md:flex pt-10 fixed md:relative  text-white p-4 overflow-y-scroll overflow-x-hidden sidebar  ${isMenuOpen()
+            ? " w-full md:w-fit overflow-y-scroll "
+            : "w-0 p-0 overflow-hidden "
+            }`}
         >
           <ul class="mt-10">
             <li class={`my-1.5 ${isMenuOpen() ? " block" : "hidden"}`}>
