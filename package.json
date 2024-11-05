@@ -28,6 +28,8 @@
     "jwt-decode": "^4.0.0",
     "mongoose": "^8.6.2",
     "react": "^18.3.1",
-    "solid-js": "^1.8.11"
+    "solid-icons": "^1.1.0",
+    "solid-js": "^1.8.11",
+    "solid-toast": "^0.5.0"
   }
 }
