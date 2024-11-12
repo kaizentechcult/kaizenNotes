@@ -58,10 +58,10 @@ const RequestDialog = () => {
         console.error(error);
         toast.error("Something wrong occured, Try again later!");
       });
-    // setFormInputs({
-    //   name: "",
-    //   message: "",
-    // });
+    setFormInputs({
+      name: "",
+      data: "",
+    });
   };
 
   createEffect(() => {
