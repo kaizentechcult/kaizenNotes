@@ -30,6 +30,16 @@ const RequestDialog = () => {
 
   const handleSubmit = (e: Event) => {
     e.preventDefault();
+    const { name, data } = formInputs();
+    if (!name || !data) {
+      if (!name) {
+        toast.error("Name is required");
+      }
+      if (!data) {
+        toast.error("Please enter your message");
+      }
+      return;
+    }
     console.log(formInputs());
     const myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
