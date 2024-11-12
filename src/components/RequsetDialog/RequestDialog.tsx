@@ -3,13 +3,13 @@ import toast, { Toaster } from "solid-toast";
 
 interface RequestForm {
   name?: string;
-  message: string;
+  data: string;
 }
 
 const RequestDialog = () => {
   const [formInputs, setFormInputs] = createSignal<RequestForm>({
     name: "",
-    message: "",
+    data: "",
   });
 
   const handleNameChange = (e: Event) => {
@@ -24,18 +24,44 @@ const RequestDialog = () => {
     const target = e.target as HTMLInputElement;
     setFormInputs((prevInputs) => ({
       ...prevInputs,
-      message: target.value,
+      data: target.value,
     }));
   };
 
   const handleSubmit = (e: Event) => {
     e.preventDefault();
-    console.log("toast");
-    toast.success("Successfully saved!");
-    setFormInputs({
-      name: "",
-      message: "",
-    });
+    console.log(formInputs());
+    const myHeaders = new Headers();
+    myHeaders.append("Content-Type", "application/json");
+
+    const raw = JSON.stringify(formInputs());
+
+    const requestOptions = {
+      method: "POST",
+      headers: myHeaders,
+      body: raw,
+      redirect: "follow",
+    };
+    const apiKey = import.meta.env.VITE_BASE_URL;
+    fetch(`${apiKey}/api/request`, requestOptions as RequestInit)
+      .then((response) => {
+        if (response.ok) {
+          return response.text();
+        }
+        throw new Error("Something wrong occured, Try again later!");
+      })
+      .then((result) => {
+        console.log(result);
+        toast.success("Request sent successfully!");
+      })
+      .catch((error) => {
+        console.error(error);
+        toast.error("Something wrong occured, Try again later!");
+      });
+    // setFormInputs({
+    //   name: "",
+    //   message: "",
+    // });
   };
 
   createEffect(() => {
@@ -53,8 +79,8 @@ const RequestDialog = () => {
         class="mb-2 p-2 border border-gray-300 rounded"
       />
       <textarea
-        placeholder="Message"
-        value={formInputs().message}
+        placeholder="Data"
+        value={formInputs().data}
         onInput={handleMessageChange}
         class="p-2 border border-gray-300 rounded"
       />
