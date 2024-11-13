@@ -17,7 +17,10 @@ export const [success, setSuccess] = createSignal(false);
 export const [isLoading, setIsLoading] = createSignal(false);
 
 export const [otp, setOtp] = createSignal("");
-
+export const [visibility, setVisibility] = createSignal(false);
+export const toggleVisibility = () => {
+  setVisibility(!visibility());
+};
 export const handleTheme = () => {
   const theme = localStorage.getItem("theme");
   if (theme === "dark") {

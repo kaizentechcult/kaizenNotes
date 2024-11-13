@@ -10,6 +10,7 @@ import { AuthProvider } from "../../utils/AuthContext";
 import Navbar2 from "../../components/Navbar/Navbar2";
 import Modal from "../../components/Modal/Modal";
 import RequestDialog from "../../components/RequsetDialog/RequestDialog";
+import { Toaster } from "solid-toast";
 const Dashboard = () => {
   const [link, setLink] = createSignal("");
   const params = useParams();
@@ -22,6 +23,7 @@ const Dashboard = () => {
   return (
     <AuthProvider>
       <div>
+        <Toaster position="bottom-right" />
         {/* <Navbar /> */}
         <Navbar2 />
         <div class="md:p-4 flex h-screen overflow-hidden justify-center items-center">

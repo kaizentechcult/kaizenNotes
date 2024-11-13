@@ -1,6 +1,6 @@
 import { createEffect, createSignal } from "solid-js";
-import toast, { Toaster } from "solid-toast";
-
+import toast from "solid-toast";
+import { toggleVisibility } from "../../hooks/common";
 interface RequestForm {
   name?: string;
   data: string;
@@ -63,15 +63,18 @@ const RequestDialog = () => {
       .then((result) => {
         console.log(result);
         toast.success("Request sent successfully!");
+        setFormInputs({
+          name: "",
+          data: "",
+        });
       })
       .catch((error) => {
         console.error(error);
         toast.error("Something wrong occured, Try again later!");
+      })
+      .finally(() => {
+        toggleVisibility();
       });
-    setFormInputs({
-      name: "",
-      data: "",
-    });
   };
 
   createEffect(() => {
@@ -100,7 +103,6 @@ const RequestDialog = () => {
       >
         Submit
       </button>
-      <Toaster position="bottom-right" />
     </form>
   );
 };

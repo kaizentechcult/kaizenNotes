@@ -1,19 +1,15 @@
-import { Component, createEffect, createSignal } from "solid-js";
+import { Component } from "solid-js";
 import type { JSX } from "solid-js";
-
+import { toggleVisibility, visibility } from "../../hooks/common";
 interface ModalProps {
   children?: JSX.Element | JSX.Element[] | string;
   text?: string;
 }
 
 const Modal: Component<ModalProps> = ({ children, text = "" }) => {
-  const [visibility, setVisibility] = createSignal(false);
-  createEffect(() => {
-    console.log("Modal Visibility is: ", visibility());
-  });
-  const toggleVisibility = () => {
-    setVisibility(!visibility());
-  };
+  // createEffect(() => {
+  //   console.log("Modal Visibility is: ", visibility());
+  // });
 
   return (
     <>
