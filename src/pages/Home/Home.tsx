@@ -1,9 +1,8 @@
 import { Component } from "solid-js";
 import Card from "../../components/Home/Card";
-// import Navbar from "../../components/Navbar/Navbar";
 import { AuthProvider } from "../../utils/AuthContext";
 import { isDark, handleTheme } from "../../hooks/common";
-import Navbar2 from "../../components/Navbar/Navbar2";
+import Navbar from "../../components/Navbar/Navbar";
 const yearLinks = {
   1: "year1",
   2: "year2",
@@ -14,21 +13,20 @@ handleTheme();
 
 const Home: Component = () => {
   return (
-    // <AuthProvider>
+    <AuthProvider>
       <div
         class={`${
           isDark() ? "bg-black text-white" : "bg-[#E7F0FF] text-black"
         } md:h-screen`}
       >
-        {/* <Navbar /> */}
-        <Navbar2 />
+        <Navbar />
         <div class="flex h-screen justify-center   items-center gap-8 flex-wrap py-20">
           {Object.entries(yearLinks).map(([year, link]) => (
             <Card year={year} link={link} />
           ))}
         </div>
       </div>
-    // </AuthProvider>
+    </AuthProvider>
   );
 };
 
