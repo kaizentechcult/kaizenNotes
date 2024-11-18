@@ -20,7 +20,7 @@ const Dashboard = () => {
   });
 
   return (
-    <AuthProvider>
+    // <AuthProvider>
       <div>
         {/* <Navbar /> */}
         <Navbar2 />
@@ -53,7 +53,7 @@ const Dashboard = () => {
           )}
         </div>
       </div>
-    </AuthProvider>
+    // </AuthProvider>
   );
 };
 

@@ -14,7 +14,7 @@ handleTheme();
 
 const Home: Component = () => {
   return (
-    <AuthProvider>
+    // <AuthProvider>
       <div
         class={`${
           isDark() ? "bg-black text-white" : "bg-[#E7F0FF] text-black"
@@ -28,7 +28,7 @@ const Home: Component = () => {
           ))}
         </div>
       </div>
-    </AuthProvider>
+    // </AuthProvider>
   );
 };
 
