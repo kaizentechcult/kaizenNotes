@@ -5,9 +5,8 @@ import { createSignal } from "solid-js";
 import { isLoading } from "../../hooks/common";
 import Loader from "../../components/Loader/Loader";
 import MySVG2 from "../../components/dashboard/book.svg";
-import Navbar from "../../components/Navbar/Navbar";
 import { AuthProvider } from "../../utils/AuthContext";
-import Navbar2 from "../../components/Navbar/Navbar2";
+import Navbar from "../../components/Navbar/Navbar";
 import Modal from "../../components/Modal/Modal";
 import RequestDialog from "../../components/RequsetDialog/RequestDialog";
 import { Toaster } from "solid-toast";
@@ -21,11 +20,11 @@ const Dashboard = () => {
   });
 
   return (
-    // <AuthProvider>
+    <AuthProvider>
       <div>
         <Toaster position="bottom-right" />
         {/* <Navbar /> */}
-        <Navbar2 />
+        <Navbar />
         <div class="md:p-4 flex h-screen overflow-hidden justify-center items-center">
           {params.year === "year1" ? (
             <Sidebar year={params.year} />
@@ -55,7 +54,7 @@ const Dashboard = () => {
           )}
         </div>
       </div>
-    // </AuthProvider>
+    </AuthProvider>
   );
 };
 

@@ -1,54 +1,78 @@
-import "./Navbar.css";
-import { A } from "@solidjs/router";
-import { logout } from "../../hooks/auth";
-import { toggleTheme } from "../../hooks/common";
-import { navBtns, navLinks } from "../../utils/navData";
-import { isOpen, setIsOpen, isDark } from "../../hooks/common";
+import { Component } from "solid-js";
+import { RiSystemSettings2Fill } from "solid-icons/ri";
+import type { JSX } from "solid-js";
+// import { logout } from "../../hooks/auth";
+import logo from "../../assets/logo.svg";
+import { useNavigate } from "@solidjs/router";
+interface NavLink {
+  name: string;
+  path: string;
+}
 
-const Navbar = () => {
-  const handleClick = (item: string) => {
-    if (item === "Theme") toggleTheme();
-    if (item === "Logout") logout();
-  };
+interface NavBtn {
+  name: string;
+  classes: string;
+  Icon?: () => JSX.Element;
+  action?: () => void;
+}
 
+interface nav {
+  navLinks: NavLink[];
+  navBtns: NavBtn[];
+}
+const handleLogout = () => {
+  localStorage.removeItem("token");
+  window.location.href = "/login";
+};
+
+const navContent: nav = {
+  navLinks: [
+    { name: "Home", path: "/" },
+    // { name: "Kquiz", path: "/kquiz" },
+    { name: "Society", path: "https://kaizentechsociety.xyz" },
+  ],
+  navBtns: [
+    {
+      name: "logout",
+      classes: "bg-red-500",
+      Icon: () => <></>,
+      action: handleLogout,
+    },
+    // {
+    //   name: "",
+    //   classes: "bg-gray-500 hover:bg-gray-600",
+    //   Icon: () => <RiSystemSettings2Fill />,
+    // },
+  ],
+};
+
+const Navbar: Component = () => {
   return (
-    <ul
-      class={`${
-        isDark() ? "bg-black" : "bg-[#21204F]"
-      } text-white w-full backdrop-blur-lg bg-none gap-4 p-4 justify-center text-xl transition duration-500 ease-in-out fixed z-20`}
-    >
-      <div class="md:hidden" onClick={() => setIsOpen(!isOpen())}>
-        <img src="src/assets/MenuIcon.svg" alt="" />
+    <div class="grid grid-cols-[3fr,2fr] text-white w-full backdrop-blur-lg bg-none gap-4 p-4 justify-between text-xl transition duration-500 ease-in-out fixed z-20 bg-[#21204F] ">
+      <div class="flex items-center pl-20">
+        <img src={logo} class="h-12 scale-[1.25]" alt="not here" />
       </div>
-      <li
-        class={`${
-          isOpen() ? "" : "hidden "
-        } md:flex md:flex-row gap-4 md:justify-center`}
-      >
-        {navLinks.map((item) => (
-          <li>
-            {item === "About Us" ? (
-              <a
-                href="https://kaizentechsociety.xyz"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {item}
-              </a>
-            ) : (
-              <A href={item === "Home" ? "/" : `/${item.toLowerCase()}`}>
-                {item}
-              </A>
-            )}
-          </li>
-        ))}
-        {navBtns.map((item) => (
-          <li>
-            <button onClick={() => handleClick(item)}>{item}</button>
-          </li>
-        ))}
-      </li>
-    </ul>
+      <div class="flex justify-end gap-8">
+        <div class="flex gap-8 text-center items-center justify-end">
+          {navContent.navLinks.map((link) => (
+            <a href={link.path} class="hover:underline">
+              {link.name}
+            </a>
+          ))}
+        </div>
+        <div class="flex gap-8">
+          {navContent.navBtns.map((btn) => (
+            <button
+              class={`hover:bg-[#853232] rounded-md px-4 py-2 transition duration-200 ease-in-out ${btn.classes}`}
+              onClick={() => btn.action?.()}
+            >
+              {btn.name}
+              {btn.Icon && typeof btn.Icon === "function" && btn.Icon()}
+            </button>
+          ))}
+        </div>
+      </div>
+    </div>
   );
 };
 
