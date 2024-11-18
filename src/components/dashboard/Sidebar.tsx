@@ -86,7 +86,7 @@ function Folder({ folder }: { folder: Folder }) {
           <div
             class="flex items-center gap-1.5 hover:cursor-pointer"
             onclick={() => {
-              setIsMenuOpen(false);
+              // setIsMenuOpen(false);
               const event = new CustomEvent("link-clicked", {
                 detail: folder.link,
               });
