@@ -1,6 +1,8 @@
+import { useNavigate } from '@solidjs/router';
+
 export const logout = () => {
-    localStorage.removeItem("token");
-    window.location.reload();
-  };
-  
-  
+  const navigate = useNavigate();
+  localStorage.removeItem("token");
+  navigate("/login");
+};
+

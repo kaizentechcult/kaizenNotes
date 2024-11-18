@@ -21,7 +21,7 @@ const Dashboard = () => {
   });
 
   return (
-    <AuthProvider>
+    // <AuthProvider>
       <div>
         <Toaster position="bottom-right" />
         {/* <Navbar /> */}
@@ -55,7 +55,7 @@ const Dashboard = () => {
           )}
         </div>
       </div>
-    </AuthProvider>
+    // </AuthProvider>
   );
 };
 
