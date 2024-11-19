@@ -1,14 +1,17 @@
-import { useParams } from "@solidjs/router";
 import { createSignal } from "solid-js";
-import { isLoading } from "../../hooks/common";
+import { useParams } from "@solidjs/router";
+
 import { AuthProvider } from "../../utils/AuthContext";
+import { isLoading } from "../../hooks/common";
+
+import Loader from "../../components/Loader/Loader";
+import Modal from "../../components/Modal/Modal";
+import MySVG2 from "../../components/dashboard/book.svg";
 import Navbar from "../../components/Navbar/Navbar";
+import RequestDialog from "../../components/RequsetDialog/RequestDialog";
 import Sidebar from "../../components/dashboard/Sidebar";
 import Sidebar2 from "../../components/dashboard/Sidebar2";
-import Loader from "../../components/Loader/Loader";
-import MySVG2 from "../../components/dashboard/book.svg";
-import Modal from "../../components/Modal/Modal";
-import RequestDialog from "../../components/RequsetDialog/RequestDialog";
+
 import { Toaster } from "solid-toast";
 
 const Dashboard = () => {

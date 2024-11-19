@@ -1,4 +1,5 @@
-import { createEffect, createSignal } from "solid-js";
+import { For, createEffect, createSignal } from "solid-js";
+// import { BiCross } from "solid-icons/bi";
 import toast from "solid-toast";
 import { toggleVisibility } from "../../hooks/common";
 interface RequestForm {
@@ -81,29 +82,45 @@ const RequestDialog = () => {
     console.log(formInputs());
   });
   return (
-    <form onSubmit={handleSubmit} class="flex flex-col gap-5">
-      <div class="text-xl">Something missing?</div>
-      <div class="text-md">Let us know by submitting a request.</div>
-      <input
-        type="text"
-        placeholder="Name"
-        value={formInputs().name}
-        onInput={handleNameChange}
-        class="mb-2 p-2 border border-gray-300 rounded"
-      />
-      <textarea
-        placeholder="Data"
-        value={formInputs().data}
-        onInput={handleMessageChange}
-        class="p-2 border border-gray-300 rounded"
-      />
+    <div class="relative">
       <button
-        type="submit"
-        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        type="button"
+        class="absolute top-0 right-0 p-2 bg-gray-200 rounded-full"
+        onClick={toggleVisibility}
       >
-        Submit
+        {/* <BiCross /> */}
+        x
       </button>
-    </form>
+      <form
+        onSubmit={handleSubmit}
+        class="flex flex-col gap-5 p-5 border border-gray-300 rounded"
+      >
+        <div class="text-3xl">Something missing?</div>
+        <div class="text-md">
+          Let us know by submitting a request. We will review it and add it to
+          the website as soon as possible.
+        </div>
+        <input
+          type="text"
+          placeholder="Name"
+          value={formInputs().name}
+          onInput={handleNameChange}
+          class="p-2 border border-gray-300 rounded w-full"
+        />
+        <textarea
+          placeholder="Message"
+          value={formInputs().data}
+          onInput={handleMessageChange}
+          class="p-2 border border-gray-300 rounded w-full h-40"
+        />
+        <button
+          type="submit"
+          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
   );
 };
 

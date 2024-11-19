@@ -1,9 +1,7 @@
-import { Component } from "solid-js";
-import { RiSystemSettings2Fill } from "solid-icons/ri";
+import { Component, createSignal } from "solid-js";
 import type { JSX } from "solid-js";
-// import { logout } from "../../hooks/auth";
 import logo from "../../assets/logo.svg";
-import { useNavigate } from "@solidjs/router";
+
 interface NavLink {
   name: string;
   path: string;
@@ -38,29 +36,64 @@ const navContent: nav = {
       Icon: () => <></>,
       action: handleLogout,
     },
-    // {
-    //   name: "",
-    //   classes: "bg-gray-500 hover:bg-gray-600",
-    //   Icon: () => <RiSystemSettings2Fill />,
-    // },
   ],
 };
 
+const [isMenuOpen, setIsMenuOpen] = createSignal(false);
+
 const Navbar: Component = () => {
   return (
-    <div class="grid grid-cols-[3fr,2fr] text-white w-full backdrop-blur-lg bg-none gap-4 p-4 justify-between text-xl transition duration-500 ease-in-out fixed z-20 bg-[#21204F] ">
-      <div class="flex items-center pl-20">
+    <div class="grid grid-cols-1  text-white w-full backdrop-blur-lg bg-none gap-4 p-4 justify-between text-xl transition duration-500 ease-in-out fixed z-20 bg-[#21204F] lg:items-center">
+      <div class="flex lg:justify-between justify-between items-center lg:pl-20">
         <img src={logo} class="h-12 scale-[1.25]" alt="not here" />
+        <button
+          class=" ml-4 bg-[#853232] hover:bg-[#853232] rounded-full p-2"
+          onClick={() => setIsMenuOpen(!isMenuOpen())}
+        >
+          {isMenuOpen() ? (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          ) : (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          )}
+        </button>
       </div>
-      <div class="flex justify-end gap-8">
-        <div class="flex gap-8 text-center items-center justify-end">
+      <div class="flex lg:justify-end gap-8 lg:flex-row flex-col">
+        <div
+          class={`flex lg:flex-row flex-col gap-8 lg:gap-12 items-center justify-center transition duration-500 ease-in-out ${
+            isMenuOpen() ? "flex" : "hidden"
+          }`}
+        >
           {navContent.navLinks.map((link) => (
             <a href={link.path} class="hover:underline">
               {link.name}
             </a>
           ))}
-        </div>
-        <div class="flex gap-8">
           {navContent.navBtns.map((btn) => (
             <button
               class={`hover:bg-[#853232] rounded-md px-4 py-2 transition duration-200 ease-in-out ${btn.classes}`}
@@ -71,6 +104,7 @@ const Navbar: Component = () => {
             </button>
           ))}
         </div>
+        <div class="flex lg:flex-row flex-col gap-8 lg:gap-12"></div>
       </div>
     </div>
   );
