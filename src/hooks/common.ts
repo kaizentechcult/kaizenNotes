@@ -4,7 +4,7 @@ import HandleRegister from "../Auth/HandleRegister";
 import { handleVerification } from "../Auth/HandleVerification";
 
 export const [isOpen, setIsOpen] = createSignal(false);
-export const [isMenuOpen, setIsMenuOpen] = createSignal(true);
+export const [isMenuOpen, setIsMenuOpen] = createSignal<boolean>(true);
 
 export const [isDark, setIsDark] = createSignal(false);
 

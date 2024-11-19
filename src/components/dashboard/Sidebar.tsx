@@ -6,11 +6,7 @@ import FolderIcon from "../../assets/FolderIcon.svg";
 import ChevronRight from "../../assets/ChevronRight.svg";
 
 import { createSignal } from "solid-js";
-import {
-  setIsMenuOpen,
-  isMenuOpen,
-  setIsLoading,
-} from "../../hooks/common";
+import { setIsMenuOpen, isMenuOpen, setIsLoading } from "../../hooks/common";
 interface Props {
   year: string;
 }
@@ -30,10 +26,11 @@ const Sidebar = (props: Props) => {
       </button>
       <div class=" fixed top-0 left-0 ">
         <div
-          class={`bg-[#21204F] h-screen md:flex pt-10 fixed md:relative  text-white p-4 overflow-y-scroll overflow-x-hidden sidebar  ${isMenuOpen()
-            ? " w-full md:w-fit overflow-y-scroll "
-            : "w-0 p-0 overflow-hidden "
-            }`}
+          class={`bg-[#21204F] h-screen md:flex pt-10 fixed md:relative  text-white p-4 overflow-y-scroll overflow-x-hidden sidebar  ${
+            isMenuOpen()
+              ? " w-full md:w-fit overflow-y-scroll "
+              : "translate-x-[-100%] overflow-x-hidden"
+          }`}
         >
           <ul class="mt-10">
             <li class={`my-1.5 ${isMenuOpen() ? " block" : "hidden"}`}>
@@ -86,7 +83,7 @@ function Folder({ folder }: { folder: Folder }) {
           <div
             class="flex items-center gap-1.5 hover:cursor-pointer"
             onclick={() => {
-              // setIsMenuOpen(false);
+              setIsMenuOpen(false);
               const event = new CustomEvent("link-clicked", {
                 detail: folder.link,
               });
