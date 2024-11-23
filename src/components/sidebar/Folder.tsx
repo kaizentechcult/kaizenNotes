@@ -3,7 +3,7 @@ import FileIcon from "../../assets/FileIcon.svg";
 import { createSignal } from "solid-js";
 import FolderIcon from "../../assets/FolderIcon.svg";
 
-import { setIsMenuOpen, setIsLoading } from "../../hooks/common";
+import { setIsLoading } from "../../hooks/common";
 
 type Folder = {
   name: string;
@@ -39,7 +39,7 @@ function Folder({ folder }: { folder: Folder }) {
                 detail: folder.link,
               });
               window.dispatchEvent(event);
-              setIsMenuOpen(false);
+              // setIsMenuOpen(false);
               setIsLoading(true);
               setTimeout(() => setIsLoading(false), 1500);
             }}

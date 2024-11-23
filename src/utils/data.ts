@@ -218,31 +218,31 @@ let folders: Folder[] = [
         folders: [
           {
             name: "BAS 205 Unit 2 Notes",
-            link: "https://docs.google.com/document/d/1eUHhrqESxD7UtBNSxI0pMTYKBSyZCBgw/preview",
+            link: "https://docs.google.com/document/d/1eUHhrqESxD7UtBNSxI0pMTYKBSyZCBgw/edit?usp=drive_link&ouid=103874573092903889362&rtpof=true&sd=true",
           },
           {
             name: "BAS 205_Unit 2_1 PART",
-            link: "https://docs.google.com/document/d/1UeeQBvy4YH7wQwBZe7j9y3btgI02cWMGToicKQNP08Y/preview",
+            link: "https://drive.google.com/file/d/14vXueZEpdZGpo-ZgInfbId0HKJkt91B4/view?usp=sharing",
           },
           {
             name: "BAS 205_Unit 2_1 PART ppt",
-            link: "https://docs.google.com/presentation/d/1ShdxwsisADaF-hA4_Xq-7eUUqMX-2LKb/prepreview&ouid=104372189570502350510&rtpof=true&sd=true",
+            link: "https://docs.google.com/presentation/d/1ShdxwsisADaF-hA4_Xq-7eUUqMX-2LKb/edit?usp=drive_link&ouid=103874573092903889362&rtpof=true&sd=true",
           },
           {
             name: "BAS 205_Unit 2_2 PART",
-            link: "https://docs.google.com/document/d/1oTSThIc2T_9q0nNkTyCmoH02nRWHD1ROVdTtTF5xc5g/preview",
+            link: "https://drive.google.com/file/d/1Zq2C0ZP1BPc_JcjrvG_-yaCuPsyUwstQ/preview",
           },
           {
             name: "BAS 205_Unit 2_2 PART ppt",
-            link: "https://docs.google.com/presentation/d/19j2D4GCaTOBg7RMLX_O5Q9r70_Xv2Hgm/prepreview&ouid=104372189570502350510&rtpof=true&sd=true",
+            link: "https://docs.google.com/presentation/d/19j2D4GCaTOBg7RMLX_O5Q9r70_Xv2Hgm/edit?usp=drive_link&ouid=103874573092903889362&rtpof=true&sd=true",
           },
           {
             name: "Note on Speaking style (Unit 2)",
-            link: "https://docs.google.com/document/d/1BwiPWwd0NfCvdpPni8ob7jiLWivOq5dK/preview",
+            link: "https://docs.google.com/document/d/1BwiPWwd0NfCvdpPni8ob7jiLWivOq5dK/edit?usp=drive_link&ouid=103874573092903889362&rtpof=true&sd=true",
           },
           {
             name: "ted talks",
-            link: "https://docs.google.com/document/d/1jygw5GZfN_6zmLddjh6A615XnSKd0i0_/prepreview&ouid=104372189570502350510&rtpof=true&sd=true",
+            link: "https://docs.google.com/document/d/1jygw5GZfN_6zmLddjh6A615XnSKd0i0_/edit?usp=drive_link&ouid=103874573092903889362&rtpof=true&sd=true",
           },
         ],
       },
@@ -263,20 +263,21 @@ let folders: Folder[] = [
           },
         ],
       },
+
       {
         name: "unit4",
         folders: [
           {
             name: "unit 4 notes",
-            link: "https://docs.google.com/document/d/1sPBMpYN5uRTzDn6aCVqxPnrgY55xuROG/prepreview&ouid=109532524461500303727&rtpof=true&sd=true",
+            link: "https://docs.google.com/document/d/1sPBMpYN5uRTzDn6aCVqxPnrgY55xuROG/edit?usp=drive_link&ouid=103874573092903889362&rtpof=true&sd=true",
           },
           {
             name: "unit 4 notes part1",
-            link: "https://docs.google.com/presentation/d/1bUtxUILSCzPxteYC3RtIiuVIv0sseQI0/prepreview&ouid=109532524461500303727&rtpof=true&sd=true",
+            link: "https://docs.google.com/presentation/d/1bUtxUILSCzPxteYC3RtIiuVIv0sseQI0/edit?usp=drive_link&ouid=103874573092903889362&rtpof=true&sd=true",
           },
           {
             name: "unit 4 notes part2",
-            link: "https://docs.google.com/presentation/d/1SX26M_bbbKtISTx0i178BOYfXaEo7aIm/prepreview&ouid=109532524461500303727&rtpof=true&sd=true",
+            link: "https://docs.google.com/presentation/d/1SX26M_bbbKtISTx0i178BOYfXaEo7aIm/edit?usp=drive_link&ouid=103874573092903889362&rtpof=true&sd=true",
           },
         ],
       },
@@ -284,24 +285,24 @@ let folders: Folder[] = [
         name: "unit5",
         folders: [
           {
-            name: "Assigbment Questions Unit-5 BAS 105",
-            link: "https://docs.google.com/document/d/15fjkeW0c0ygL23kh4MYSeTaLenKk5_XW/preview",
+            name: "Assignment Questions Unit-5 BAS 105",
+            link: "https://docs.google.com/document/d/15fjkeW0c0ygL23kh4MYSeTaLenKk5_XW/edit?usp=drive_link&ouid=103874573092903889362&rtpof=true&sd=true",
           },
           {
             name: "part 2 additional ppt",
-            link: "https://docs.google.com/presentation/d/1H80ebUEq2UDN-kMWHulrjSdpAVldzOyY/prepreview&ouid=104372189570502350510&rtpof=true&sd=true",
+            link: "https://docs.google.com/presentation/d/1H80ebUEq2UDN-kMWHulrjSdpAVldzOyY/edit?usp=drive_link&ouid=103874573092903889362&rtpof=true&sd=true",
           },
           {
             name: "Notes _ BAS 105-Unit 5",
-            link: "https://docs.google.com/document/d/1rLffLtBMUyPBLRh8Jg3onh--iKdClbWm/preview",
+            link: "https://docs.google.com/document/d/1rLffLtBMUyPBLRh8Jg3onh--iKdClbWm/edit?usp=drive_link&ouid=103874573092903889362&rtpof=true&sd=true",
           },
           {
             name: "PPT _ BAS 105-Unit 5 Part 2",
-            link: "https://docs.google.com/presentation/d/1wtbysPQbJ2wWZkHPxduJ8g2MOJAD2HoO/prepreview&ouid=104372189570502350510&rtpof=true&sd=true",
+            link: "https://docs.google.com/presentation/d/14wnF8dfZmFVG2lwb4K9-sDdB5wAu_AXM/edit?usp=drive_link&ouid=103874573092903889362&rtpof=true&sd=true",
           },
           {
             name: "PPT _ BAS 105-Unit 5 Part 1",
-            link: "https://docs.google.com/presentation/d/1wtbysPQbJ2wWZkHPxduJ8g2MOJAD2HoO/preview#slide=id.p1",
+            link: "https://docs.google.com/presentation/d/1wtbysPQbJ2wWZkHPxduJ8g2MOJAD2HoO/edit?usp=drive_link&ouid=103874573092903889362&rtpof=true&sd=true",
           },
         ],
       },
@@ -399,8 +400,28 @@ let folders: Folder[] = [
         name: "unit1",
         folders: [
           {
-            name: "unit 1 ",
-            link: "https://drive.google.com/open?id=1-Zpt3IXaNCbB0G-n2wO5D7y_7PxcWj19&usp=drive_copy",
+            name: "",
+            link: "https://drive.google.com/file/d/1_ntCMpG35Oy-5mYs97ggHw5VIXrMNVBx/preview",
+          },
+          {
+            name: "",
+            link: "",
+          },
+          {
+            name: "",
+            link: "https://drive.google.com/file/d/1idOmcb1Vg8I3XpOzhX_KFmWZGCZAkzb_/preview",
+          },
+          {
+            name: "",
+            link: "https://drive.google.com/file/d/1OLlewc8uTvqZVElaT_GGAwE3dCJ6Q4OW/preview",
+          },
+          {
+            name: "",
+            link: "https://drive.google.com/file/d/1JnJRcDNqcyiPDlKmXEDJiZoQh2D5mnjW/preview",
+          },
+          {
+            name: "",
+            link: "https://drive.google.com/file/d/1kXoF3ogNXvnbfyY5BXuFwtmIRJYv7z-5/preview",
           },
         ],
       },
@@ -408,8 +429,24 @@ let folders: Folder[] = [
         name: "unit2",
         folders: [
           {
-            name: "unit 2",
-            link: "https://drive.google.com/open?id=12OyKSX34K5USxpeYfg_mWvp4ZL4KGd60&usp=drive_copy ",
+            name: "3-phase circuits",
+            link: "https://drive.google.com/file/d/1i1-aL_heDAVw1bPwrIGhroqqlzpKh9f-/preview",
+          },
+          {
+            name: "ac fundamentals",
+            link: "https://drive.google.com/file/d/1oAJKMPKB-ioa2c-qyJC4KgKrgeP183SB/preview",
+          },
+          {
+            name: "concepts of Phasors",
+            link: "https://docs.google.com/presentation/d/1LNnLXIoxD8R-e8xPnzu0xRaf1YUjPJQ4/edit?usp=drive_link&ouid=103874573092903889362&rtpof=true&sd=true",
+          },
+          {
+            name: "part-A",
+            link: "https://drive.google.com/file/d/1Q3TNxRufL9iVKlXbLyaxedkePs7nzQSe/preview",
+          },
+          {
+            name: "part-B",
+            link: "https://drive.google.com/file/d/101M_Dkp87IETQHLxLpOaRLoUkZvPdtrx/preview",
           },
         ],
       },
@@ -417,8 +454,24 @@ let folders: Folder[] = [
         name: "unit3",
         folders: [
           {
-            name: "unit 3",
-            link: "https://drive.google.com/open?id=1hnjmKzvh2kMlNXExr5AcGqOjxqsn-OF2&usp=drive_copy",
+            name: "Additional Content on Transfarmer",
+            link: "https://drive.google.com/file/d/1itOZ56mSUItQyynA7tobRt8L3XxIW0m7/preview",
+          },
+          {
+            name: "Auto Transfarmer",
+            link: "https://drive.google.com/file/d/1auI2J-ixxKIPJ1fPld-SOGOp0arYoji9/preview",
+          },
+          {
+            name: "Notes of Magnetic Materials",
+            link: "https://drive.google.com/drive/folders/1hnjmKzvh2kMlNXExr5AcGqOjxqsn-OF2?usp=drive_link",
+          },
+          {
+            name: "",
+            link: "https://drive.google.com/drive/folders/1hnjmKzvh2kMlNXExr5AcGqOjxqsn-OF2?usp=drive_link",
+          },
+          {
+            name: "",
+            link: "https://drive.google.com/drive/folders/1hnjmKzvh2kMlNXExr5AcGqOjxqsn-OF2?usp=drive_link",
           },
         ],
       },
@@ -427,30 +480,26 @@ let folders: Folder[] = [
         folders: [
           {
             name: "unit4",
-            link: "https://drive.google.com/open?id=1lLVRSLf-2LWcLUlcnQHpnL7Qq4ZXB861&usp=drive_copy",
+            link: "https://drive.google.com/drive/folders/1lLVRSLf-2LWcLUlcnQHpnL7Qq4ZXB861?usp=drive_link",
           },
         ],
       },
       {
-        name: "unit5",
+        name: "Unit 3",
         folders: [
           {
-            name: "unit5",
-            link: "https://drive.google.com/open?id=1wfx6ycZMF89zu2STotunH35qp-U01kLA&usp=drive_copy",
+            name: "electrical pyqs",
+            link: "https://drive.google.com/file/d/1z6_VoXGV_VPzuveu7tN80E8f4z8byZhM/preview",
+          },
+          {
+            name: "Electrical Syllabus",
+            link: "https://drive.google.com/file/d/1DBwY0cZcIAKks4FsVJmDQr61nbCCRh_D/preview",
+          },
+          {
+            name: "Electrical _BEE_Latest_2022_2023_Quantum Series",
+            link: "https://drive.google.com/file/d/1_WAxdFP3Nf0PN4W9dF-8i1BnMIVRc4fI/preview",
           },
         ],
-      },
-      {
-        name: "electrical pyqs",
-        link: "https://drive.google.com/open?id=1z6_VoXGV_VPzuveu7tN80E8f4z8byZhM&usp=drive_copy",
-      },
-      {
-        name: "Electrical Syllabus",
-        link: "https://drive.google.com/open?id=1DBwY0cZcIAKks4FsVJmDQr61nbCCRh_D&usp=drive_copy",
-      },
-      {
-        name: "Electrical _BEE_Latest_2022_2023_Quantum Series",
-        link: "https://drive.google.com/open?id=1_WAxdFP3Nf0PN4W9dF-8i1BnMIVRc4fI&usp=drive_copy",
       },
     ],
   },
@@ -461,19 +510,35 @@ let folders: Folder[] = [
         name: "unit1",
         folders: [
           {
-            name: "MCQ Unit 1 KEC101T_201T",
-            link: "https://docs.google.com/document/d/1bcfqwcD2Jkm4XlXFJIC2qrxrkhH-dAxose1zdMcd38s/preview",
+            name: "Part 1",
+            link: "https://drive.google.com/file/d/1YNgXDHyO5F1zy9DJxTnFnT8cdqxULEw9/preview",
           },
           {
-            name: "MCQ Unit 1 KEC101T_201T",
-            link: "https://docs.google.com/document/d/1bcfqwcD2Jkm4XlXFJIC2qrxrkhH-dAxose1zdMcd38s/preview",
+            name: "Part 2 (Rectifier)",
+            link: "https://drive.google.com/file/d/1yOOADtbGUgIV1kPboukKzLErq9vBKzp9/preview",
+          },
+          {
+            name: "Part 3(Clipper )",
+            link: "https://drive.google.com/file/d/1w5CusAbG42gWX8eqy_vXC0npnnSyiC5O/preview",
+          },
+          {
+            name: "Part 4(Clamper)",
+            link: "https://drive.google.com/file/d/1RoPNDEdnykqCRppITVuImHAos_FH8HZV/preview",
+          },
+          {
+            name: "Part 5(Various Diodes)",
+            link: "https://drive.google.com/file/d/1IU_gW4W22FDaIGhsKfmpjbDTBEOng4W1/preview",
+          },
+          {
+            name: "Part 6 Series And Paralel Diodes",
+            link: "https://drive.google.com/file/d/1EOcnrZN8x5PdSWUIfrJ2bjdzAau3tE7Q/preview",
+          },
+          {
+            name: "Part 7()",
+            link: "https://drive.google.com/file/d/1yOOADtbGUgIV1kPboukKzLErq9vBKzp9/preview",
           },
         ],
       },
-      { name: "unit2", folders: [{ name: "notes" }] },
-      { name: "unit3", folders: [{ name: "notes" }] },
-      { name: "unit4", folders: [{ name: "notes" }] },
-      { name: "unit5", folders: [{ name: "notes" }] },
     ],
   },
   {
@@ -542,11 +607,11 @@ let folders: Folder[] = [
         folders: [
           {
             name: "differential equations",
-            link: "https://drive.google.com/file/d/1KTeUlKaw7Hr-nc4okbkRCg7vmaUES6eo/prepreview/preview",
+            link: "https://drive.google.com/file/d/1KTeUlKaw7Hr-nc4okbkRCg7vmaUES6eo/preview",
           },
           {
             name: "Question Bank",
-            link: "https://drive.google.com/file/d/1ujrA1ZFqumVeLFHWE026iG1hmFGRIVdw/prepreview",
+            link: "https://drive.google.com/file/d/1ujrA1ZFqumVeLFHWE026iG1hmFGRIVdw/preview",
           },
         ],
       },
@@ -555,11 +620,11 @@ let folders: Folder[] = [
         folders: [
           {
             name: "Laplace Concept",
-            link: "https://drive.google.com/file/d/1_BJpDYnJYhatV_TvZT5v2YL4gyQ4Mv72/prepreview",
+            link: "https://drive.google.com/file/d/1_BJpDYnJYhatV_TvZT5v2YL4gyQ4Mv72/preview",
           },
           {
             name: "Question Bank",
-            link: "https://drive.google.com/file/d/1QBSDjEz3sbxhu1khoCePuJVkNiJBZqQM/prepreview",
+            link: "https://drive.google.com/file/d/1QBSDjEz3sbxhu1khoCePuJVkNiJBZqQM/preview",
           },
         ],
       },
@@ -568,15 +633,15 @@ let folders: Folder[] = [
         folders: [
           {
             name: "Sequence and series",
-            link: "https://drive.google.com/file/d/19bb-CTIE26E8yHbDLXHSls5bYjmzOhsw/prepreview",
+            link: "https://drive.google.com/file/d/19bb-CTIE26E8yHbDLXHSls5bYjmzOhsw/preview",
           },
           {
             name: "Sequence and series concepts",
-            link: "https://drive.google.com/file/d/1cBlTZJzFbmpJXcDlAcqNTalZppFXVX0V/prepreview",
+            link: "https://drive.google.com/file/d/1cBlTZJzFbmpJXcDlAcqNTalZppFXVX0V/preview",
           },
           {
             name: "Question Bank",
-            link: "https://drive.google.com/file/d/1cBlTZJzFbmpJXcDlAcqNTalZppFXVX0V/prepreview",
+            link: "https://drive.google.com/file/d/1cBlTZJzFbmpJXcDlAcqNTalZppFXVX0V/preview",
           },
         ],
       },
@@ -585,15 +650,15 @@ let folders: Folder[] = [
         folders: [
           {
             name: "Unit4",
-            link: "https://drive.google.com/file/d/1QyQp9i-JVs5XMuKHFPkDI-A8Hv_930Tr/prepreview",
+            link: "https://drive.google.com/file/d/1QyQp9i-JVs5XMuKHFPkDI-A8Hv_930Tr/preview",
           },
           {
             name: "Unit4 concepts",
-            link: "https://drive.google.com/file/d/1dVgv0zyqnb4dXUXcd9uE1fwYmYYpFAdL/prepreview",
+            link: "https://drive.google.com/file/d/1dVgv0zyqnb4dXUXcd9uE1fwYmYYpFAdL/preview",
           },
           {
             name: "Question Bank",
-            link: "https://drive.google.com/file/d/1GJh3hRPb9WGC7bvog_HdFO1ZwA_GFeZN/prepreview",
+            link: "https://drive.google.com/file/d/1GJh3hRPb9WGC7bvog_HdFO1ZwA_GFeZN/preview",
           },
         ],
       },
@@ -602,15 +667,15 @@ let folders: Folder[] = [
         folders: [
           {
             name: "unit-5",
-            link: "https://drive.google.com/file/d/1wtBgHMz3atohCQIyHB7JqU-AptAiGroV/prepreview",
+            link: "https://drive.google.com/file/d/1wtBgHMz3atohCQIyHB7JqU-AptAiGroV/preview",
           },
           {
             name: "unit-5 concepts",
-            link: "https://drive.google.com/file/d/1snYon3DkBH1NAszQHpXfvslFUywrTP8F/prepreview",
+            link: "https://drive.google.com/file/d/1snYon3DkBH1NAszQHpXfvslFUywrTP8F/preview",
           },
           {
             name: "Question Bank",
-            link: "https://drive.google.com/file/d/1TyJgUBT0XHpDkmMseCrQTvUmT7MEBXLi/prepreview",
+            link: "https://drive.google.com/file/d/1TyJgUBT0XHpDkmMseCrQTvUmT7MEBXLi/preview",
           },
         ],
       },
@@ -619,11 +684,11 @@ let folders: Folder[] = [
         folders: [
           {
             name: "Quantum",
-            link: "https://drive.google.com/file/d/1FL7cPh7fQjLUkaLrzuNh_n9sODeWJor_/prepreview",
+            link: "https://drive.google.com/file/d/1FL7cPh7fQjLUkaLrzuNh_n9sODeWJor_/preview",
           },
           {
             name: "Sylabus",
-            link: "https://drive.google.com/file/d/1Clz5OLwapVbdyo4JEaEoYHcU4eoNiIvQ/prepreview",
+            link: "https://drive.google.com/file/d/1Clz5OLwapVbdyo4JEaEoYHcU4eoNiIvQ/preview",
           },
         ],
       },
