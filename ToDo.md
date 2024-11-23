@@ -1,3 +1,8 @@
-### ToDo
+softskill 
+unit 2 except note on speaking, 
+unit 4, 
+unit 5-2,4
 
-- notes.kaizentechsociety.com pe link kr dena h is puri site ko
+electrical all notes
+
+electronics ?
