@@ -1,9 +1,7 @@
-import { createSignal } from "solid-js";
+import { createSignal, onMount } from "solid-js";
 import { useParams } from "@solidjs/router";
-
 import { AuthProvider } from "../../utils/AuthContext";
 import { isLoading } from "../../hooks/common";
-
 import Loader from "../../components/Loader/Loader";
 import Modal from "../../components/Modal/Modal";
 import MySVG2 from "../../components/dashboard/book.svg";
@@ -11,28 +9,41 @@ import Navbar from "../../components/Navbar/Navbar";
 import RequestDialog from "../../components/RequsetDialog/RequestDialog";
 import Sidebar from "../../components/dashboard/Sidebar";
 import Sidebar2 from "../../components/dashboard/Sidebar2";
-
 import { Toaster } from "solid-toast";
+import "../../styles/transitions.css";
 
 const Dashboard = () => {
   const [link, setLink] = createSignal("");
+  const [iframeLoading, setIframeLoading] = createSignal(true);
+  const [isPageVisible, setIsPageVisible] = createSignal(false);
   const params = useParams();
 
-  window.addEventListener("link-clicked", (event: any) => {
-    setLink(event.detail);
+  onMount(() => {
+    window.addEventListener("link-clicked", (event: any) => {
+      setLink(event.detail);
+      setIframeLoading(true);
+    });
+
+    requestAnimationFrame(() => {
+      setIsPageVisible(true);
+    });
   });
 
   const mainContent = () => {
     if (isLoading()) {
-      return <Loader />;
+      return (
+        <div class="flex justify-center items-center h-full">
+          <Loader />
+        </div>
+      );
     }
 
     if (link() === "") {
       return (
-        <div class="flex flex-col h-full w-full justify-center items-center text-black">
-          <img src={MySVG2} class="w-80" />
-          Unable to find what you are looking for?
-          <div class="cursor-pointer text-blue-300">
+        <div class="flex flex-col h-full w-full justify-center items-center text-gray-600 dark:text-gray-300 space-y-6">
+          <img src={MySVG2} class="w-80 animate-float" />
+          <p class="text-xl">Unable to find what you are looking for?</p>
+          <div class="cursor-pointer">
             <Modal text="click here">
               <RequestDialog />
             </Modal>
@@ -41,21 +52,41 @@ const Dashboard = () => {
       );
     }
 
-    return <iframe src={link()} class="w-full h-full" />;
+    return (
+      <div class="relative w-full h-full">
+        {iframeLoading() && (
+          <div class="absolute inset-0 flex justify-center items-center bg-[#EEF2FF] dark:bg-[#21204F]">
+            <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-[#2563eb] dark:border-white"></div>
+          </div>
+        )}
+        <iframe 
+          src={link()} 
+          class="w-full h-screen"
+          onLoad={() => setIframeLoading(false)}
+          style="height: calc(100vh - 4rem);"
+        />
+      </div>
+    );
   };
 
   return (
     <AuthProvider>
-      <div>
+      <div 
+        class={`page-wrapper bg-[#EEF2FF] dark:bg-[#21204F] ${
+          isPageVisible() ? 'page-enter-active' : 'page-enter'
+        }`}
+      >
         <Toaster position="bottom-right" />
         <Navbar />
-        <div class="md:p-4 flex h-screen overflow-hidden justify-center items-center">
-          {params.year === "year1" ? (
-            <Sidebar year={params.year} />
-          ) : (
-            <Sidebar2 year={params.year} />
-          )}
-          <main class="bg-white w-screen md:rounded-lg h-screen pt-16">
+        <div class="flex h-screen">
+          <div class="flex-none">
+            {params.year === "year1" ? (
+              <Sidebar year={params.year} />
+            ) : (
+              <Sidebar2 year={params.year} />
+            )}
+          </div>
+          <main class="flex-1 bg-white dark:bg-[#2d2c5e] transition-all duration-300 ease-in-out pt-16">
             {mainContent()}
           </main>
         </div>
