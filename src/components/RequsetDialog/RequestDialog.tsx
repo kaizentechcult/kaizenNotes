@@ -1,7 +1,7 @@
 import { For, createEffect, createSignal } from "solid-js";
-// import { BiCross } from "solid-icons/bi";
 import toast from "solid-toast";
 import { toggleVisibility } from "../../hooks/common";
+
 interface RequestForm {
   name?: string;
   data: string;
@@ -41,7 +41,7 @@ const RequestDialog = () => {
       }
       return;
     }
-    console.log(formInputs());
+
     const myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
 
@@ -62,7 +62,6 @@ const RequestDialog = () => {
         throw new Error("Something wrong occured, Try again later!");
       })
       .then((result) => {
-        console.log(result);
         toast.success("Request sent successfully!");
         setFormInputs({
           name: "",
@@ -78,48 +77,69 @@ const RequestDialog = () => {
       });
   };
 
-  createEffect(() => {
-    console.log(formInputs());
-  });
   return (
-    <div class="relative">
-      <button
-        type="button"
-        class="absolute top-0 right-0 p-2 bg-gray-200 rounded-full"
-        onClick={toggleVisibility}
-      >
-        {/* <BiCross /> */}
-        x
-      </button>
-      <form
-        onSubmit={handleSubmit}
-        class="flex flex-col gap-5 p-5 border border-gray-300 rounded"
-      >
-        <div class="text-3xl">Something missing?</div>
-        <div class="text-md">
-          Let us know by submitting a request. We will review it and add it to
-          the website as soon as possible.
-        </div>
-        <input
-          type="text"
-          placeholder="Name"
-          value={formInputs().name}
-          onInput={handleNameChange}
-          class="p-2 border border-gray-300 rounded w-full"
-        />
-        <textarea
-          placeholder="Message"
-          value={formInputs().data}
-          onInput={handleMessageChange}
-          class="p-2 border border-gray-300 rounded w-full h-40"
-        />
+    <div class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
+      <div class="relative bg-white dark:bg-[#2d2c5e] rounded-lg shadow-xl w-full max-w-md transform transition-all">
         <button
-          type="submit"
-          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full"
+          type="button"
+          class="absolute top-3 right-3 text-gray-400 hover:text-gray-500 dark:hover:text-gray-300"
+          onClick={toggleVisibility}
         >
-          Submit
+          <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
         </button>
-      </form>
+
+        <div class="p-6">
+          <h3 class="text-2xl font-bold mb-2 text-gray-900 dark:text-white">
+            Something missing?
+          </h3>
+          <p class="text-gray-500 dark:text-gray-300 mb-6">
+            Let us know by submitting a request. We will review it and add it to
+            the website as soon as possible.
+          </p>
+
+          <form onSubmit={handleSubmit} class="space-y-4">
+            <div>
+              <label class="block text-sm font-medium text-gray-700 dark:text-gray-200 mb-1">
+                Name
+              </label>
+              <input
+                type="text"
+                placeholder="Enter your name"
+                value={formInputs().name}
+                onInput={handleNameChange}
+                class="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm 
+                       focus:ring-2 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 
+                       dark:text-white placeholder-gray-400 dark:placeholder-gray-300"
+              />
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium text-gray-700 dark:text-gray-200 mb-1">
+                Message
+              </label>
+              <textarea
+                placeholder="Describe what you're looking for..."
+                value={formInputs().data}
+                onInput={handleMessageChange}
+                class="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm 
+                       focus:ring-2 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 
+                       dark:text-white placeholder-gray-400 dark:placeholder-gray-300 h-32 resize-none"
+              />
+            </div>
+
+            <button
+              type="submit"
+              class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2.5 px-4 rounded-md
+                     shadow-sm transition duration-150 ease-in-out focus:outline-none focus:ring-2 
+                     focus:ring-offset-2 focus:ring-blue-500 dark:focus:ring-offset-gray-800"
+            >
+              Submit Request
+            </button>
+          </form>
+        </div>
+      </div>
     </div>
   );
 };

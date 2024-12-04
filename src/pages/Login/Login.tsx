@@ -19,21 +19,27 @@ import {
 
 const Login: Component = () => {
   return (
-    <>
-      <div class="flex w-full justify-center items-center min-h-screen">
-        {error() ? <Error error={error()} /> : <></>}
+    <div class="min-h-screen bg-gradient-to-br from-[#21204F] to-[#2d2c5e]">
+      <div class="flex w-full justify-center items-center min-h-screen px-4">
+        {error() ? <Error error={error()} /> : null}
         {isLoading() ? (
           <Loader />
         ) : (
-          <div class="flex min-h-screen bg-[#21204F] w-full">
+          <div class="flex w-full max-w-6xl mx-auto bg-[#2d2c5e]/50 rounded-2xl overflow-hidden shadow-2xl backdrop-blur-sm">
             <AuthImg imgSrc={LoginImg} />
-            <div class="lg:w-1/2 flex flex-col justify-center items-center px-6 md:px-12 w-full">
-              <div class="w-full max-w-md bg-[#2d2c5e] p-8 rounded-2xl shadow-2xl">
-                <h2 class="text-4xl font-bold mb-8 text-center bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">Welcome Back</h2>
-                <form
-                  class="w-full space-y-6"
-                  onSubmit={handleLoginSubmit}
-                >
+            
+            <div class="w-full lg:w-1/2 p-8 md:p-12">
+              <div class="max-w-md mx-auto">
+                <div class="text-center mb-8">
+                  <h2 class="text-3xl md:text-4xl font-bold bg-gradient-to-r from-blue-200 to-indigo-200 bg-clip-text text-transparent">
+                    Welcome Back
+                  </h2>
+                  <p class="mt-2 text-gray-400">
+                    Sign in to continue to your account
+                  </p>
+                </div>
+
+                <form class="space-y-6" onSubmit={handleLoginSubmit}>
                   <div class="space-y-4">
                     <FormInput
                       type="email"
@@ -50,8 +56,13 @@ const Login: Component = () => {
                       placeholder="Password"
                     />
                   </div>
+
                   <ForgetPass />
-                  <FormButton button="Login" />
+                  
+                  <div class="pt-2">
+                    <FormButton button="Sign In" />
+                  </div>
+
                   <DontHave
                     dontText="Don't have an account?"
                     text="Register"
@@ -63,7 +74,7 @@ const Login: Component = () => {
           </div>
         )}
       </div>
-    </>
+    </div>
   );
 };
 

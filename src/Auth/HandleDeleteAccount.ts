@@ -5,7 +5,8 @@ interface DeleteAccountResponse {
   
   export const handleDeleteAccount = async (token: string): Promise<DeleteAccountResponse> => {
     try {
-      const response = await fetch('/api/user/delete', {
+      const apiKey = import.meta.env.VITE_BASE_URL;
+      const response = await fetch(`${apiKey}/delete-account`, {
         method: 'DELETE',
         headers: {
           'Authorization': `Bearer ${token}`,
@@ -13,14 +14,20 @@ interface DeleteAccountResponse {
         },
       });
   
+      const data = await response.json();
+  
       if (!response.ok) {
-        const data = await response.json();
         throw new Error(data.message || 'Failed to delete account');
       }
   
+      // Clear all stored user data from local storage
+      localStorage.removeItem('accessToken');
+      localStorage.removeItem('refreshToken');
+      localStorage.removeItem('userData');
+  
       return {
         success: true,
-        message: 'Account deleted successfully',
+        message: data.message || 'Account deleted successfully',
       };
     } catch (error) {
       console.error('Error in handleDeleteAccount:', error);

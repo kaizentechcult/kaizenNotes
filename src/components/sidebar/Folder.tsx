@@ -17,9 +17,8 @@ function Folder({ folder }: { folder: Folder }) {
   return (
     <div class="my-1">
       <div
-        class={`rounded-lg transition-colors duration-200 ${
-          isHovered() ? 'bg-[#EEF2FF] dark:bg-[#21204F]' : ''
-        }`}
+        class={`rounded-lg transition-colors duration-200 ${isHovered() ? 'bg-[#EEF2FF] dark:bg-[#21204F]' : ''
+          }`}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
@@ -30,19 +29,25 @@ function Folder({ folder }: { folder: Folder }) {
           >
             <div class="flex items-center gap-3 min-w-0">
               <div class="flex items-center gap-2">
+                <svg
+                  class={`w-4 h-4 transition-transform duration-300 text-gray-600 dark:text-gray-300 ${isOpen() ? "rotate-90" : ""
+                    }`}
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
                 <img
-                  src={ChevronRight}
+                  src={FolderIcon}
                   alt=""
-                  class={`w-4 h-4 transition-transform duration-300 ${
-                    isOpen() ? "rotate-90" : ""
-                  }`}
-                />
-                <img 
-                  src={FolderIcon} 
-                  alt="" 
-                  class={`w-5 h-5 transition-transform duration-200 ${
-                    isOpen() ? "scale-110" : ""
-                  }`} 
+                  class={`w-5 h-5 transition-transform duration-200 ${isOpen() ? "scale-110" : ""
+                    }`}
                 />
               </div>
               <span class="truncate text-sm">{folder.name}</span>
@@ -69,9 +74,8 @@ function Folder({ folder }: { folder: Folder }) {
       </div>
 
       <div
-        class={`overflow-hidden transition-all duration-300 ${
-          isOpen() ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
-        }`}
+        class={`overflow-hidden transition-all duration-300 ${isOpen() ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
+          }`}
       >
         <ul class="pl-4 mt-1">
           {folder.folders?.map((subfolder) => (

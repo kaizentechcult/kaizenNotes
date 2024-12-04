@@ -1,5 +1,6 @@
 import { createContext, createSignal, onMount } from "solid-js";
 import { jwtDecode } from "jwt-decode";
+
 const AuthContext = createContext<{
   isLoggedIn: boolean | null;
 }>({
@@ -8,21 +9,24 @@ const AuthContext = createContext<{
 
 export const AuthProvider = (props: { children: any }) => {
   const [isLoggedIn, setIsLoggedIn] = createSignal<boolean | null>(false);
+  
   onMount(() => {
-    const token = localStorage.getItem("token");
+    const accessToken = localStorage.getItem("accessToken");
 
-    if (token) {
+    if (accessToken) {
       try {
-        const parsedToken = jwtDecode(token) as { exp: number };
+        const parsedToken = jwtDecode(accessToken) as { exp: number };
         if (parsedToken?.exp > Date.now() / 1000) {
           setIsLoggedIn(true);
         } else {
           setIsLoggedIn(false);
-          localStorage.removeItem("token");
+          localStorage.removeItem("accessToken");
+          localStorage.removeItem("refreshToken");
           window.location.href = "/login";
         }
       } catch (e) {
-        localStorage.removeItem("token");
+        localStorage.removeItem("accessToken");
+        localStorage.removeItem("refreshToken");
         window.location.href = "/login";
       }
     } else {

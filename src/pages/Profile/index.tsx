@@ -3,6 +3,8 @@ import { useNavigate } from '@solidjs/router';
 import toast from 'solid-toast';
 import { jwtDecode } from 'jwt-decode';
 import Navbar from '../../components/Navbar/Navbar';
+import ConfirmDialog from '../../components/ConfirmDialog/ConfirmDialog';
+import { handleDeleteAccount } from '../../Auth/HandleDeleteAccount';
 import "../../styles/transitions.css";
 
 interface UserInfo {
@@ -14,11 +16,12 @@ interface UserInfo {
 const Profile: Component = () => {
   const [userInfo, setUserInfo] = createSignal<UserInfo | null>(null);
   const [isDeleting, setIsDeleting] = createSignal(false);
+  const [showConfirmDialog, setShowConfirmDialog] = createSignal(false);
   const [isPageVisible, setIsPageVisible] = createSignal(false);
   const navigate = useNavigate();
 
   onMount(() => {
-    const token = localStorage.getItem('token');
+    const token = localStorage.getItem('accessToken');
     if (!token) {
       navigate('/login');
       return;
@@ -27,112 +30,94 @@ const Profile: Component = () => {
     try {
       const decoded = jwtDecode(token) as any;
       setUserInfo({
-        email: decoded.email,
+        email: decoded.email || '',
         name: decoded.name || 'User',
         createdAt: new Date(decoded.iat * 1000).toLocaleDateString(),
       });
       
-      // Trigger entrance animation
-      requestAnimationFrame(() => {
-        setIsPageVisible(true);
-      });
+      setIsPageVisible(true);
     } catch (error) {
       console.error('Error decoding token:', error);
       navigate('/login');
     }
   });
 
-  const handleDeleteAccount = async () => {
-    if (!confirm('Are you sure you want to delete your account? This action cannot be undone.')) {
-      return;
-    }
+  const onDeleteClick = () => {
+    setShowConfirmDialog(true);
+  };
 
+  const onCancelDelete = () => {
+    setShowConfirmDialog(false);
+  };
+
+  const onConfirmDelete = async () => {
     try {
       setIsDeleting(true);
-      const token = localStorage.getItem('token');
-      const response = await fetch('/api/user/delete', {
-        method: 'DELETE',
-        headers: {
-          'Authorization': `Bearer ${token}`,
-        },
-      });
-
-      if (!response.ok) {
-        throw new Error('Failed to delete account');
+      const token = localStorage.getItem('accessToken');
+      if (!token) {
+        throw new Error('No authentication token found');
       }
 
-      localStorage.removeItem('token');
-      toast.success('Account deleted successfully');
-      navigate('/');
+      const response = await handleDeleteAccount(token);
+      
+      if (response.success) {
+        toast.success('Account deleted successfully');
+        navigate('/login');
+      } else {
+        throw new Error(response.message || 'Failed to delete account');
+      }
     } catch (error) {
       console.error('Error deleting account:', error);
-      toast.error('Failed to delete account. Please try again.');
+      toast.error(error instanceof Error ? error.message : 'Failed to delete account');
     } finally {
       setIsDeleting(false);
+      setShowConfirmDialog(false);
     }
   };
 
   return (
-    <div 
-      class={`page-wrapper bg-gray-50 dark:bg-[#21204F] text-gray-900 dark:text-white ${
-        isPageVisible() ? 'page-enter-active' : 'page-enter'
-      }`}
-    >
+    <div class={`min-h-screen bg-gray-50 dark:bg-[#21204F] ${isPageVisible() ? 'page-enter-active' : 'page-enter'}`}>
       <Navbar />
-      <div class="pt-24 px-4 sm:px-6 lg:px-8">
-        <div class="max-w-2xl mx-auto">
-          <div class="bg-white dark:bg-[#2d2c5e] rounded-2xl shadow-xl dark:shadow-2xl p-8 space-y-8">
-            <div class="text-center">
-              <h1 class="text-3xl font-bold bg-gradient-to-r from-gray-900 to-gray-600 dark:from-white dark:to-gray-300 bg-clip-text text-transparent">
-                Profile
-              </h1>
-            </div>
-            
-            {userInfo() ? (
-              <div class="space-y-8">
-                <div class="border-b border-gray-200 dark:border-gray-700 pb-6">
-                  <h2 class="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">User Information</h2>
-                  <div class="space-y-4">
-                    <div class="bg-gray-50 dark:bg-[#21204F] p-4 rounded-lg">
-                      <label class="text-sm font-medium text-gray-500 dark:text-gray-400">Name</label>
-                      <p class="text-lg mt-1">{userInfo()?.name}</p>
-                    </div>
-                    <div class="bg-gray-50 dark:bg-[#21204F] p-4 rounded-lg">
-                      <label class="text-sm font-medium text-gray-500 dark:text-gray-400">Email</label>
-                      <p class="text-lg mt-1">{userInfo()?.email}</p>
-                    </div>
-                    <div class="bg-gray-50 dark:bg-[#21204F] p-4 rounded-lg">
-                      <label class="text-sm font-medium text-gray-500 dark:text-gray-400">Member Since</label>
-                      <p class="text-lg mt-1">{userInfo()?.createdAt}</p>
-                    </div>
-                  </div>
+      <div class="max-w-4xl mx-auto px-4 py-8 mt-16">
+        <div class="bg-white dark:bg-[#2d2c5e] rounded-lg shadow-md p-6">
+          <h1 class="text-2xl font-bold text-gray-900 dark:text-white mb-6">Profile Settings</h1>
+          
+          {userInfo() && (
+            <div class="space-y-4">
+              <div class="border-b dark:border-gray-700 pb-4">
+                <h2 class="text-lg font-medium text-gray-900 dark:text-white mb-2">Account Information</h2>
+                <div class="space-y-2">
+                  <p class="text-gray-600 dark:text-gray-300">Name: {userInfo()?.name}</p>
+                  <p class="text-gray-600 dark:text-gray-300">Email: {userInfo()?.email}</p>
+                  <p class="text-gray-600 dark:text-gray-300">Member since: {userInfo()?.createdAt}</p>
                 </div>
+              </div>
 
-                <div class="pt-4">
-                  <h2 class="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">Danger Zone</h2>
-                  <div class="bg-red-50 dark:bg-[#3a1f1f] p-6 rounded-lg">
-                    <button
-                      onClick={handleDeleteAccount}
-                      disabled={isDeleting()}
-                      class="w-full px-4 py-3 text-white bg-[#853232] hover:bg-[#9a3a3a] rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200 transform hover:scale-[1.02]"
-                    >
-                      {isDeleting() ? 'Deleting Account...' : 'Delete Account'}
-                    </button>
-                    <p class="mt-3 text-sm text-gray-500 dark:text-gray-400 text-center">
-                      This action cannot be undone.
-                    </p>
-                  </div>
-                </div>
+              <div class="pt-4">
+                <h2 class="text-lg font-medium text-gray-900 dark:text-white mb-4">Danger Zone</h2>
+                <button
+                  onClick={onDeleteClick}
+                  disabled={isDeleting()}
+                  class="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 
+                         transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed
+                         focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 
+                         dark:focus:ring-offset-gray-800"
+                >
+                  {isDeleting() ? 'Deleting...' : 'Delete Account'}
+                </button>
               </div>
-            ) : (
-              <div class="text-center py-8">
-                <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-gray-900 dark:border-white mx-auto"></div>
-                <p class="mt-4 text-gray-500 dark:text-gray-400">Loading...</p>
-              </div>
-            )}
-          </div>
+            </div>
+          )}
         </div>
       </div>
+
+      <ConfirmDialog
+        isOpen={showConfirmDialog()}
+        onClose={onCancelDelete}
+        onConfirm={onConfirmDelete}
+        title="Delete Account"
+        message="Are you sure you want to delete your account? This action cannot be undone and all your data will be permanently deleted."
+      />
     </div>
   );
 };

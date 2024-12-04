@@ -39,13 +39,11 @@ export const handleLoginSubmit = async (event: SubmitEvent) => {
   setIsLoading(false);
   setEmail("");
   setPassword("");
-  if (res.error) {
-    setError(res.error);
-    return;
-  }
-  if (res.token) {
-    localStorage.setItem("token", res.token);
+  
+  if (res.success) {
     window.location.href = "/";
+  } else {
+    setError(res.message || "Login failed");
   }
 };
 
