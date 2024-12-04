@@ -1,0 +1,30 @@
+/* Page transition animations */
+.page-enter {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
+}
+
+.page-exit {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.page-exit-active {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
+}
+
+/* Updated wrapper to allow proper iframe display */
+.page-wrapper {
+  position: absolute;
+  width: 100%;
+  min-height: 100vh;
+  overflow: visible;
+}

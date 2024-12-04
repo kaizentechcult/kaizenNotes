@@ -2,7 +2,6 @@ import ChevronRight from "../../assets/ChevronRight.svg";
 import FileIcon from "../../assets/FileIcon.svg";
 import { createSignal } from "solid-js";
 import FolderIcon from "../../assets/FolderIcon.svg";
-
 import { setIsLoading } from "../../hooks/common";
 
 type Folder = {
@@ -13,50 +12,74 @@ type Folder = {
 
 function Folder({ folder }: { folder: Folder }) {
   const [isOpen, setIsOpen] = createSignal(false);
+  const [isHovered, setIsHovered] = createSignal(false);
+
   return (
-    <li class="my-1.5">
-      <span class="flex items-center gap-1.5">
+    <div class="my-1">
+      <div
+        class={`rounded-lg transition-colors duration-200 ${
+          isHovered() ? 'bg-[#EEF2FF] dark:bg-[#21204F]' : ''
+        }`}
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+      >
         {folder.folders ? (
-          <>
-            <button
-              class="flex items-center gap-1.5"
-              onclick={() => setIsOpen(!isOpen())}
-            >
-              <img
-                src={ChevronRight}
-                alt=""
-                class={`w-3 h-3 ${isOpen() ? "rotate-90" : ``} duration-100`}
-              />
-              <img src={FolderIcon} alt="" class="w-6 h-6" />
-              <p class="">{folder.name.slice(0, 16)}</p>
-            </button>
-          </>
+          <button
+            class="w-full px-3 py-2 flex items-center gap-3 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors duration-200"
+            onClick={() => setIsOpen(!isOpen())}
+          >
+            <div class="flex items-center gap-3 min-w-0">
+              <div class="flex items-center gap-2">
+                <img
+                  src={ChevronRight}
+                  alt=""
+                  class={`w-4 h-4 transition-transform duration-300 ${
+                    isOpen() ? "rotate-90" : ""
+                  }`}
+                />
+                <img 
+                  src={FolderIcon} 
+                  alt="" 
+                  class={`w-5 h-5 transition-transform duration-200 ${
+                    isOpen() ? "scale-110" : ""
+                  }`} 
+                />
+              </div>
+              <span class="truncate text-sm">{folder.name}</span>
+            </div>
+          </button>
         ) : (
           <div
-            class="flex items-center gap-1.5 hover:cursor-pointer"
-            onclick={() => {
+            class="w-full px-3 py-2 flex items-center gap-3 cursor-pointer text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors duration-200"
+            onClick={() => {
               const event = new CustomEvent("link-clicked", {
                 detail: folder.link,
               });
               window.dispatchEvent(event);
-              // setIsMenuOpen(false);
               setIsLoading(true);
               setTimeout(() => setIsLoading(false), 1500);
             }}
           >
-            <img src={FileIcon} alt="" class="w-6 h-6" />
-            <p class="">{folder.name.slice(0, 16)}</p>
+            <div class="flex items-center gap-3 min-w-0">
+              <img src={FileIcon} alt="" class="w-5 h-5 ml-6" />
+              <span class="truncate text-sm">{folder.name}</span>
+            </div>
           </div>
         )}
-      </span>
-      {isOpen() && (
-        <ul class="pl-6">
-          {folder.folders?.map((folder) => (
-            <Folder folder={folder} />
+      </div>
+
+      <div
+        class={`overflow-hidden transition-all duration-300 ${
+          isOpen() ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
+        }`}
+      >
+        <ul class="pl-4 mt-1">
+          {folder.folders?.map((subfolder) => (
+            <Folder folder={subfolder} />
           ))}
         </ul>
-      )}
-    </li>
+      </div>
+    </div>
   );
 }
 

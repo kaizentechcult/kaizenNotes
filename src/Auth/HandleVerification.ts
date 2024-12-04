@@ -25,6 +25,5 @@ export const handleVerification = async (props: Props) => {
     return result;
   } catch (error) {
     console.log(`${apiKey}/login`);
-    // console.error("Error sending data:", error);
   }
 };
