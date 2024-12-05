@@ -39,7 +39,7 @@ export const handleLoginSubmit = async (event: SubmitEvent) => {
   setIsLoading(false);
   setEmail("");
   setPassword("");
-  
+
   if (res.success) {
     window.location.href = "/";
   } else {
@@ -53,6 +53,7 @@ export const handleRegisterSubmit = async (event: SubmitEvent) => {
   const res = await HandleRegister({
     data: { name: name(), email: email(), password: password() },
   });
+  localStorage.setItem("userEmail", email());
 
   console.log(res);
   setIsLoading(false);
@@ -63,7 +64,6 @@ export const handleRegisterSubmit = async (event: SubmitEvent) => {
     setError(res.error);
     return;
   }
-  localStorage.setItem("userEmail", res.userEmail);
   window.location.href = "/verify";
 
   if (res.status == 201) {
@@ -78,14 +78,17 @@ export const handleVerificationSubmit = async (event: SubmitEvent) => {
     data: { email: email(), OTP: otp() },
   });
   setIsLoading(false);
-  if (res.error) {
-    setError(res.error);
+
+  console.log("res:", res);
+
+  if (!res.success) {
+    setError(res.message || "Verification failed");
     return;
   }
-  if (res.token) {
-    localStorage.setItem("token", res.token);
-    window.location.href = "/";
-  }
+
+  localStorage.setItem("accessToken", res.data?.accessToken || "");
+  localStorage.setItem("refreshToken", res.data?.refreshToken || "");
+  window.location.href = "/";
   console.log(res);
 };
 

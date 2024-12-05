@@ -12,9 +12,9 @@ const Verify = () => {
       data: { email: email(), OTP: otp() },
     });
     setIsLoading(false);
-    if (res.token) {
-      window.location.href = "/";
-    }
+    // if (res.accessToken) {
+    window.location.href = "/";
+    // }
   };
 
   return (

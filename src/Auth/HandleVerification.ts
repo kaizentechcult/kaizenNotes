@@ -17,13 +17,32 @@ export const handleVerification = async (props: Props) => {
       body: JSON.stringify(props.data),
     });
     const result = await response.json();
-    if (result.token == null) {
-      return result;
+    console.log(result);
+
+    if (
+      result.status !== "success" ||
+      !result.data?.accessToken ||
+      !result.data?.refreshToken
+    ) {
+      return {
+        success: false,
+        message: "Verification failed",
+      };
     }
-    localStorage.setItem("token", result.token);
+
+    localStorage.setItem("accessToken", result.data.accessToken);
+    localStorage.setItem("refreshToken", result.data.refreshToken);
     localStorage.removeItem("userEmail");
-    return result;
+
+    return {
+      success: true,
+      message: "Verification successful",
+    };
   } catch (error) {
-    console.log(`${apiKey}/login`);
+    console.error("Error during verification:", error);
+    return {
+      success: false,
+      message: error instanceof Error ? error.message : "Verification failed",
+    };
   }
 };
