@@ -1,7 +1,7 @@
 import { Component } from "solid-js";
 
 interface Props {
-  isOpen: boolean;
+  // isOpen: boolean;
   onClose: () => void;
   onConfirm: () => void;
   title: string;
@@ -9,19 +9,17 @@ interface Props {
 }
 
 const ConfirmDialog: Component<Props> = (props) => {
-  if (!props.isOpen) return null;
+  // if (!props.isOpen) return null;
 
   return (
     <div class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
-      <div class="bg-white dark:bg-[#2d2c5e] rounded-lg shadow-xl w-full max-w-md transform transition-all">
+      <div class="bg-white dark:bg-[#2d2c5e] rounded-lg shadow-xl w-full max-w-md transform transition-all ">
         <div class="p-6">
           <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">
             {props.title}
           </h3>
-          <p class="text-gray-500 dark:text-gray-300 mb-6">
-            {props.message}
-          </p>
-          
+          <p class="text-gray-500 dark:text-gray-300 mb-6">{props.message}</p>
+
           <div class="flex justify-end gap-3">
             <button
               onClick={props.onClose}
@@ -47,4 +45,4 @@ const ConfirmDialog: Component<Props> = (props) => {
   );
 };
 
-export default ConfirmDialog; 
+export default ConfirmDialog;
