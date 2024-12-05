@@ -21,7 +21,8 @@ interface nav {
 }
 
 const handleLogout = () => {
-  localStorage.removeItem("token");
+  localStorage.removeItem("accessToken");
+  localStorage.removeItem("refreshToken");
   window.location.href = "/login";
 };
 
