@@ -79,15 +79,15 @@ const Profile: Component = () => {
 
   return (
     <div
-      class={`min-h-screen bg-gray-50 dark:bg-[#21204F] ${
+      class={`h-screen flex flex-col bg-gray-50 dark:bg-primary ${
         isPageVisible() ? "page-enter-active" : "page-enter"
       }`}
     >
       <Navbar />
-      <div class="max-w-4xl mx-auto px-4 py-8 mt-16">
-        <div class="bg-white dark:bg-[#2d2c5e] rounded-lg shadow-md p-6">
+      <div class="container mx-auto flex flex-col items-center px-4 py-8 mt-16">
+        <div class="bg-white w-full dark:bg-secondary rounded-lg shadow-md p-6">
           <h1 class="text-2xl font-bold text-gray-900 dark:text-white mb-6">
-            Profile Settings
+            Profile
           </h1>
 
           {userInfo() && (

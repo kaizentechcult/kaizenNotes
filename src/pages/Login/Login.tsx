@@ -19,13 +19,13 @@ import {
 
 const Login: Component = () => {
   return (
-    <div class="min-h-screen bg-gradient-to-br from-[#21204F] to-[#2d2c5e]">
+    <div class="min-h-screen bg-gradient-to-br from-primary to-secondary">
       <div class="flex w-full justify-center items-center min-h-screen px-4">
         {error() ? <Error error={error()} /> : null}
         {isLoading() ? (
           <Loader />
         ) : (
-          <div class="flex w-full max-w-6xl mx-auto bg-[#2d2c5e]/50 rounded-2xl overflow-hidden shadow-2xl backdrop-blur-sm">
+          <div class="flex w-full max-w-6xl mx-auto bg-secondary/50 rounded-2xl overflow-hidden shadow-2xl backdrop-blur-sm">
             <AuthImg imgSrc={LoginImg} />
             
             <div class="w-full lg:w-1/2 p-8 md:p-12">

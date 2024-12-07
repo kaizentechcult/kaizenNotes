@@ -55,7 +55,7 @@ const Dashboard = () => {
     return (
       <div class="relative w-full h-full">
         {iframeLoading() && (
-          <div class="absolute inset-0 flex justify-center items-center bg-[#EEF2FF] dark:bg-[#21204F]">
+          <div class="absolute inset-0 flex justify-center items-center bg-[#EEF2FF] dark:bg-primary">
             <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-[#2563eb] dark:border-white"></div>
           </div>
         )}
@@ -72,7 +72,7 @@ const Dashboard = () => {
   return (
     <AuthProvider>
       <div 
-        class={`page-wrapper bg-[#EEF2FF] dark:bg-[#21204F] ${
+        class={`page-wrapper bg-lightBG dark:bg-primary ${
           isPageVisible() ? 'page-enter-active' : 'page-enter'
         }`}
       >
@@ -86,7 +86,7 @@ const Dashboard = () => {
               <Sidebar2 year={params.year} />
             )}
           </div>
-          <main class="flex-1 bg-white dark:bg-[#2d2c5e] transition-all duration-300 ease-in-out pt-16">
+          <main class="flex-1 bg-white dark:bg-secondary transition-all duration-300 ease-in-out pt-16">
             {mainContent()}
           </main>
         </div>

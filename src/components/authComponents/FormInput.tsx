@@ -20,7 +20,7 @@ const FormInput = (props: Props) => {
         type={props.type === "password" && showPassword() ? "text" : props.type}
         id={props.id}
         placeholder={`Enter your ${props.placeholder.toLowerCase()}`}
-        class="w-full p-3 bg-[#383770] border border-gray-600 rounded-lg
+        class="w-full p-3 bg-form border border-gray-600 rounded-lg
                text-white placeholder-gray-400
                focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500
                transition-colors duration-200"

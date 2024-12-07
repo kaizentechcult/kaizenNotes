@@ -79,7 +79,7 @@ const RequestDialog = () => {
 
   return (
     <div class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
-      <div class="relative bg-white dark:bg-[#2d2c5e] rounded-lg shadow-xl w-full max-w-md transform transition-all">
+      <div class="relative bg-white dark:bg-secondary rounded-lg shadow-xl w-full max-w-md transform transition-all">
         <button
           type="button"
           class="absolute top-3 right-3 text-gray-400 hover:text-gray-500 dark:hover:text-gray-300"

@@ -13,7 +13,7 @@ const ConfirmDialog: Component<Props> = (props) => {
 
   return (
     <div class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
-      <div class="bg-white dark:bg-[#2d2c5e] rounded-lg shadow-xl w-full max-w-md transform transition-all ">
+      <div class="bg-white dark:bg-secondary rounded-lg shadow-xl w-full max-w-md transform transition-all ">
         <div class="p-6">
           <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">
             {props.title}

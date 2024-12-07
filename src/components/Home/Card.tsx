@@ -8,19 +8,19 @@ interface Props {
 const Card = (props: Props) => {
   return (
     <div
-      class="block w-full bg-white dark:bg-[#2d2c5e] rounded-2xl overflow-hidden shadow-lg hover:shadow-xl dark:shadow-2xl transition-all duration-300 cursor-pointer"
+      class="block w-full bg-white dark:bg-secondary rounded-2xl overflow-hidden shadow-lg hover:shadow-xl dark:shadow-2xl transition-all duration-300 cursor-pointer"
     >
       <div class="p-8">
         <div class="flex items-center justify-between mb-4">
-          <span class="text-sm font-medium text-gray-600 dark:text-gray-300 bg-[#EEF2FF] dark:bg-[#21204F] px-3 py-1 rounded-full">
+          <span class="text-sm font-medium text-gray-600 dark:text-gray-300 bg-lightBG dark:bg-primary px-3 py-1 rounded-full">
             AKTU B.TECH
           </span>
-          <div class="w-10 h-10 bg-[#2563eb] dark:bg-[#853232] text-white rounded-full flex items-center justify-center">
+          <div class="w-10 h-10 bg-accent dark:bg-accent text-white rounded-full flex items-center justify-center">
             {props.year}
           </div>
         </div>
         
-        <h2 class="text-3xl font-bold mb-2 bg-gradient-to-r from-[#1a365d] to-[#2563eb] dark:from-white dark:to-gray-300 bg-clip-text text-transparent">
+        <h2 class="text-3xl font-bold mb-2 bg-gradient-to-r from-[#1a365d] to-accent dark:from-white dark:to-gray-300 bg-clip-text text-transparent">
           Year {props.year}
         </h2>
         
@@ -28,7 +28,7 @@ const Card = (props: Props) => {
           Access your study materials and resources for Year {props.year}
         </p>
         
-        <div class="flex items-center text-[#2563eb] dark:text-[#853232]">
+        <div class="flex items-center text-accent dark:text-accent">
           <span class="text-sm font-medium">View Notes</span>
           <svg 
             class="w-5 h-5 ml-2" 

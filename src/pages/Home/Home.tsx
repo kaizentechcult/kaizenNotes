@@ -31,7 +31,7 @@ const Home: Component = () => {
   return (
     <AuthProvider>
       <div 
-        class={`page-wrapper bg-[#EEF2FF] dark:bg-[#21204F] text-gray-900 dark:text-white ${
+        class={`page-wrapper bg-[#EEF2FF] dark:bg-[#07071b] text-gray-900 dark:text-white ${
           isExiting() ? 'page-exit-active' : 
           isPageVisible() ? 'page-enter-active' : 'page-enter'
         }`}

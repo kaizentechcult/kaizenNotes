@@ -17,7 +17,7 @@ function Folder({ folder }: { folder: Folder }) {
   return (
     <div class="my-1">
       <div
-        class={`rounded-lg transition-colors duration-200 ${isHovered() ? 'bg-[#EEF2FF] dark:bg-[#21204F]' : ''
+        class={`rounded-lg transition-colors duration-200 ${isHovered() ? 'bg-[#EEF2FF] dark:bg-primary' : ''
           }`}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}

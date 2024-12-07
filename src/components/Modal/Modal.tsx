@@ -11,7 +11,7 @@ const Modal: Component<ModalProps> = ({ children, text = "" }) => {
   return (
     <>
       <button 
-        class="text-[#853232] hover:text-[#9a3a3a] font-medium transition-colors duration-200 focus:outline-none" 
+        class="text-accent hover:text-[#9a3a3a] font-medium transition-colors duration-200 focus:outline-none" 
         onClick={toggleVisibility}
       >
         {text}
@@ -19,7 +19,7 @@ const Modal: Component<ModalProps> = ({ children, text = "" }) => {
 
       {visibility() && (
         <div class="fixed z-50 inset-0 backdrop-blur-sm bg-black/50 flex justify-center items-center p-4">
-          <div class="bg-[#2d2c5e] text-white shadow-2xl rounded-2xl w-full max-w-md transform transition-all duration-300 scale-100 opacity-100">
+          <div class="bg-secondary text-white shadow-2xl rounded-2xl w-full max-w-md transform transition-all duration-300 scale-100 opacity-100">
             <div class="flex justify-between items-center p-6 border-b border-gray-700">
               <h3 class="text-xl font-semibold">Request Notes</h3>
               <button
