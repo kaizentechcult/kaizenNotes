@@ -5,19 +5,33 @@ import { jwtDecode } from "jwt-decode";
 import Navbar from "../../components/Navbar/Navbar";
 import ConfirmDialog from "../../components/ConfirmDialog/ConfirmDialog";
 import { handleDeleteAccount } from "../../Auth/HandleDeleteAccount";
-import "../../styles/transitions.css";
+import AccountDetails from "../../components/Profile/AccountDetails";
 
 interface UserInfo {
   email: string;
   name: string;
   createdAt: string;
+  notesCount: number;
+  totalStorage: number;
+  usedStorage: number;
+}
+
+interface SubscriptionPlan {
+  name: string;
+  maxNotes: number;
+  maxStorage: number;
 }
 
 const Profile: Component = () => {
   const [userInfo, setUserInfo] = createSignal<UserInfo | null>(null);
   const [isDeleting, setIsDeleting] = createSignal(false);
   const [showConfirmDialog, setShowConfirmDialog] = createSignal(false);
-  const [isPageVisible, setIsPageVisible] = createSignal(false);
+  const [subscriptionPlan, setSubscriptionPlan] =
+    createSignal<SubscriptionPlan>({
+      name: "Free Tier",
+      maxNotes: 50,
+      maxStorage: 5 * 1024 * 1024, // 5MB in bytes
+    });
   const navigate = useNavigate();
 
   onMount(() => {
@@ -33,9 +47,10 @@ const Profile: Component = () => {
         email: decoded.email || "failed-to-fetch",
         name: decoded.name || "failed-to-fetch",
         createdAt: new Date(decoded.iat * 1000).toLocaleDateString(),
+        notesCount: decoded.notesCount || 0,
+        totalStorage: decoded.totalStorage || 5 * 1024 * 1024,
+        usedStorage: decoded.usedStorage || 0,
       });
-
-      setIsPageVisible(true);
     } catch (error) {
       console.error("Error decoding token:", error);
       navigate("/login");
@@ -48,6 +63,11 @@ const Profile: Component = () => {
 
   const onCancelDelete = () => {
     setShowConfirmDialog(false);
+  };
+
+  const calculateStoragePercentage = () => {
+    const info = userInfo();
+    return info ? Math.round((info.usedStorage / info.totalStorage) * 100) : 0;
   };
 
   const onConfirmDelete = async () => {
@@ -78,54 +98,30 @@ const Profile: Component = () => {
   };
 
   return (
-    <div
-      class={`h-screen flex flex-col bg-gray-50 dark:bg-primary ${
-        isPageVisible() ? "page-enter-active" : "page-enter"
-      }`}
-    >
+    <div class="min-h-screen bg-gray-50 dark:bg-gray-900">
       <Navbar />
-      <div class="container mx-auto flex flex-col items-center px-4 py-8 mt-16">
-        <div class="bg-white w-full dark:bg-secondary rounded-lg shadow-md p-6">
-          <h1 class="text-2xl font-bold text-gray-900 dark:text-white mb-6">
-            Profile
-          </h1>
-
-          {userInfo() && (
-            <div class="space-y-4">
-              <div class="border-b dark:border-gray-700 pb-4">
-                <h2 class="text-lg font-medium text-gray-900 dark:text-white mb-2">
-                  Account Information
-                </h2>
-                <div class="space-y-2">
-                  <p class="text-gray-600 dark:text-gray-300">
-                    Name: {userInfo()?.name}
-                  </p>
-                  <p class="text-gray-600 dark:text-gray-300">
-                    Email: {userInfo()?.email}
-                  </p>
-                  <p class="text-gray-600 dark:text-gray-300">
-                    Member since: {userInfo()?.createdAt}
-                  </p>
-                </div>
+      <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-20">
+          <div class="md:col-span-1 bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 h-fit">
+            <div class="flex flex-col items-center">
+              <div class="w-24 h-24 bg-gray-200 dark:bg-gray-700 rounded-full mb-4 flex items-center justify-center">
+                <span class="text-3xl font-bold text-gray-600 dark:text-gray-300">
+                  {userInfo()?.name[0].toUpperCase()}
+                </span>
               </div>
-
-              <div class="pt-4">
-                <h2 class="text-lg font-medium text-gray-900 dark:text-white mb-4">
-                  Danger Zone
-                </h2>
-                <button
-                  onClick={onDeleteClick}
-                  disabled={isDeleting()}
-                  class="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 
-                         transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed
-                         focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 
-                         dark:focus:ring-offset-gray-800"
-                >
-                  {isDeleting() ? "Deleting..." : "Delete Account"}
-                </button>
-              </div>
+              <h2 class="text-xl font-semibold text-gray-800 dark:text-white">
+                {userInfo()?.name}
+              </h2>
+              <p class="text-gray-500 dark:text-gray-400 text-sm">
+                {userInfo()?.email}
+              </p>
             </div>
-          )}
+          </div>
+          <AccountDetails
+            userInfo={userInfo()}
+            onDeleteClick={onDeleteClick}
+            isDeleting={isDeleting()}
+          />
         </div>
       </div>
       {showConfirmDialog() ? (
@@ -135,9 +131,7 @@ const Profile: Component = () => {
           title="Delete Account"
           message="Are you sure you want to delete your account? This action cannot be undone and all your data will be permanently deleted."
         />
-      ) : (
-        <></>
-      )}
+      ) : null}
     </div>
   );
 };

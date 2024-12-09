@@ -46,16 +46,20 @@ const Navbar: Component = () => {
   const [scrolled, setScrolled] = createSignal(false);
   const [currentPath, setCurrentPath] = createSignal(window.location.pathname);
   const { theme, toggleTheme } = useTheme();
+  const getFormattedTime = () => {
+    const date = new Date();
+    const hours = date.getHours().toString().padStart(2, "0");
+    const minutes = date.getMinutes().toString().padStart(2, "0");
+    return `${hours}:${minutes}`;
+  };
+
+  const [currentTime, setCurrentTime] = createSignal(getFormattedTime());
 
   const getUserGreeting = () => {
     const hours = new Date().getHours();
     if (hours < 12) return "Good morning";
     if (hours < 18) return "Good afternoon";
     return "Good evening";
-  };
-
-  const getCurrentDate = () => {
-    return new Date().toLocaleDateString();
   };
 
   const handleScroll = () => {
@@ -67,14 +71,20 @@ const Navbar: Component = () => {
     setCurrentPath(window.location.pathname);
   };
 
+  // Update the time every minute
   onMount(() => {
+    const interval = setInterval(() => {
+      setCurrentTime(getFormattedTime());
+    }, 60000); // Update every 60 seconds (1 minute)
+
     window.addEventListener("scroll", handleScroll);
     window.addEventListener("popstate", handleRouteChange);
-  });
 
-  onCleanup(() => {
-    window.removeEventListener("scroll", handleScroll);
-    window.removeEventListener("popstate", handleRouteChange);
+    onCleanup(() => {
+      clearInterval(interval); // Clear the interval on cleanup
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("popstate", handleRouteChange);
+    });
   });
 
   return (
@@ -93,7 +103,7 @@ const Navbar: Component = () => {
                 {getUserGreeting()}, User!
               </span>
               <span class="text-sm text-gray-500 dark:text-gray-300">
-                {getCurrentDate()}
+                {currentTime()}
               </span>
             </div>
           </div>
@@ -269,3 +279,4 @@ const Navbar: Component = () => {
 };
 
 export default Navbar;
+
