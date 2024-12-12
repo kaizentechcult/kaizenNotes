@@ -1,19 +1,19 @@
 /* From Uiverse.io by Fernando-sv */ 
 .loader {
-  border: 4px solid rgba(0, 0, 0, .1);
+  border: 4px solid rgba(250, 250, 250, 0.1);
   border-left-color: transparent;
   border-radius: 50%;
 }
 
 .loader {
-  border: 4px solid rgba(0, 0, 0, .1);
+  border: 4px solid rgba(219, 219, 219, 0.849);
   border-left-color: transparent;
   width: 36px;
   height: 36px;
 }
 
 .loader {
-  border: 4px solid rgba(0, 0, 0, .1);
+  border: 4px solid rgba(255, 255, 255, 0.699);
   border-left-color: transparent;
   width: 36px;
   height: 36px;

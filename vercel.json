@@ -18,6 +18,10 @@
       "dest": "/index.html"
     },
     {
+      "src": "/profile",
+      "dest": "/index.html"
+    },
+    {
       "src": "/dashboard/year1",
       "dest": "/index.html"
     },
