@@ -212,7 +212,7 @@ const Navbar: Component = () => {
 
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen())}
-              class="p-2 rounded-lg text-gray-600 dark:text-white hover:bg-gray-100 dark:bg-secondary transition-colors duration-200 focus:outline-none"
+              class="p-2 rounded-lg text-gray-600 dark:text-white bg-gray-100 dark:bg-secondary transition-colors duration-200 focus:outline-none"
               aria-label="Toggle menu"
             >
               <div class="w-6 h-6 relative -left-[12px]">

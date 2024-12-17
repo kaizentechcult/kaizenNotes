@@ -21,21 +21,15 @@
   transition-duration: 150ms;
 }
 
-/* Base styles */
-body {
-  margin: 0;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
 /* Dark mode specific styles */
 .dark body {
-  background-color: #21204F;
+  background-color: #21204f;
   color: white;
 }
 
 /* Light mode specific styles */
 body {
-  background-color: #EEF2FF;
+  background-color: #eef2ff;
   color: #1a1a1a;
+  overflow: hidden;
 }

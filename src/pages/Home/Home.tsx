@@ -31,15 +31,15 @@ const Home: Component = () => {
   return (
     <AuthProvider>
       <div 
-        class={`page-wrapper bg-[#EEF2FF] dark:bg-[#07071b] text-gray-900 dark:text-white ${
+        class={`page-wrapper bg-[#EEF2FF] dark:bg-[#07071b] text-gray-900 dark:text-white h-screen overflow-hidden ${
           isExiting() ? 'page-exit-active' : 
           isPageVisible() ? 'page-enter-active' : 'page-enter'
         }`}
       >
         <Navbar />
-        <div class="container mx-auto px-4 py-24">
+        <div class="container mx-auto px-4 pt-20 pb-4">
           <div class="text-center mb-16">
-            <h1 class="text-5xl font-bold mb-4 bg-gradient-to-r from-[#1a365d] to-[#2563eb] dark:from-white dark:to-gray-300 bg-clip-text text-transparent">
+            <h1 class="text-5xl font-bold mb-4 bg-gradient-to-r from-[#1a365d] to-[#2563eb] dark:from-white dark:to-blue-400 bg-clip-text text-transparent">
               Welcome to Kaizen Notes
             </h1>
             <p class="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
