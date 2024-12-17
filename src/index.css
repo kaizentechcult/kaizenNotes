@@ -31,5 +31,5 @@
 body {
   background-color: #eef2ff;
   color: #1a1a1a;
-  overflow: hidden;
+  /* overflow: hidden; */
 }

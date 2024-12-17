@@ -30,6 +30,7 @@ const navContent: nav = {
     { name: "Home", path: "/" },
     { name: "Society", path: "https://kaizentechsociety.xyz" },
     { name: "Profile", path: "/profile" },
+    { name: "Notes", path: "/notes" },
   ],
   navBtns: [
     {
@@ -279,4 +280,3 @@ const Navbar: Component = () => {
 };
 
 export default Navbar;
-
