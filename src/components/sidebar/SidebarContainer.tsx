@@ -13,7 +13,7 @@ const SidebarContainer: ParentComponent<Props> = (props: Props) => {
   return (
     <>
       <button
-        class={`fixed top-20 left-4 bg-[#2563eb] hover:bg-[#1d4ed8] dark:bg-accent dark:hover:bg-[#9a3a3a] backdrop-blur-lg z-[60] rounded-full shadow-lg transform transition-all duration-300 ease-in-out ${
+        class={`fixed top-20 left-4 bg-[#2563eb] hover:bg-[#1d4ed8] dark:bg-accent dark:hover:bg-[#1d4ed8] backdrop-blur-lg z-[60] rounded-full shadow-lg transform transition-all duration-300 ease-in-out ${
           isMenuOpen() ? "left-[17rem]" : "left-4"
         }`}
         onclick={() => setIsMenuOpen(!isMenuOpen())}

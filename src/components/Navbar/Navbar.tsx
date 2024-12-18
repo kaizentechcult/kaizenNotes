@@ -30,6 +30,7 @@ const navContent: nav = {
     { name: "Home", path: "/" },
     { name: "Society", path: "https://kaizentechsociety.xyz" },
     { name: "Profile", path: "/profile" },
+    { name: "Notes", path: "/notes" },
   ],
   navBtns: [
     {
@@ -212,10 +213,10 @@ const Navbar: Component = () => {
 
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen())}
-              class="p-2 rounded-lg text-gray-600 dark:text-white hover:bg-gray-100 dark:hover:bg-secondary transition-colors duration-200 focus:outline-none"
+              class="p-2 rounded-lg text-gray-600 dark:text-white bg-gray-100 dark:bg-secondary transition-colors duration-200 focus:outline-none"
               aria-label="Toggle menu"
             >
-              <div class="w-6 h-6 relative">
+              <div class="w-6 h-6 relative -left-[12px]">
                 <span
                   class={`absolute w-full h-0.5 bg-current transform transition-all duration-300 ${
                     isMenuOpen() ? "rotate-45 top-3" : "top-1"
@@ -279,4 +280,3 @@ const Navbar: Component = () => {
 };
 
 export default Navbar;
-

@@ -1,7 +1,7 @@
 /* Custom scrollbar for the sidebar */
 .overflow-y-auto {
   scrollbar-width: thin;
-  scrollbar-color: #853232 #21204F;
+  scrollbar-color: #1d4ed8 #21204F;
 }
 
 .overflow-y-auto::-webkit-scrollbar {
@@ -14,13 +14,13 @@
 }
 
 .overflow-y-auto::-webkit-scrollbar-thumb {
-  background-color: #853232;
+  background-color: #1d4ed8;
   border-radius: 3px;
   transition: background-color 0.3s;
 }
 
 .overflow-y-auto::-webkit-scrollbar-thumb:hover {
-  background-color: #9a3a3a;
+  background-color: #143eb2;
 }
 
 /* Floating animation for empty state image */
