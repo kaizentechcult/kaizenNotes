@@ -9,8 +9,11 @@ type File = {
 };
 
 const Notes: Component = () => {
+
   const apiKey = import.meta.env.VITE_BASE_URL;
+  const [loading, setLoading] = createSignal<Boolean>()
   const [data, setData] = createSignal<File[]>(fileData);
+  const [loaderName, setLoaderName] = createSignal<string>();
   const [filteredData, setFilteredData] = createSignal<File[]>(fileData);
   const [years, setYears] = createSignal<string[]>([]);
   const [subjects, setSubjects] = createSignal<string[]>([]);
@@ -18,6 +21,38 @@ const Notes: Component = () => {
   const [selectedSubject, setSelectedSubject] = createSignal<string | null>(
     null
   );
+
+  const handlePreview = async (name: string) => {
+    // e.preventDefault();
+    try {
+      setLoading(true);
+      setLoaderName(name);
+      const res = await fetch(
+        `${apiKey}/mega/download-link/${encodeURIComponent(name)}`
+      );
+      if (res.ok) {
+        const result = await res.json();
+        const FileLink = result.downloadLink;
+
+        const link = document.createElement("a");
+        link.href = FileLink;
+        link.setAttribute("target", "_blank");
+        link.setAttribute("rel", "noopener noreferrer");
+        document.body.appendChild(link);
+        link.dispatchEvent(
+          new MouseEvent("click", { bubbles: true, cancelable: true })
+        );
+        link.remove();
+      } else {
+        throw new Error(`Failed to fetch data: ${res.statusText}`);
+      }
+    } catch (error) {
+      console.error("Error fetching data:", error);
+    }
+    setLoading(false);
+  };
+
+
 
   const formatFileSize = (bytes: number) => {
     if (bytes === null || bytes === undefined) return "";
@@ -33,12 +68,12 @@ const Notes: Component = () => {
 
     fileData.forEach((file) => {
       const parts = file.path.split("/");
-      console.log(parts);
+      // console.log(parts);
       if (parts.length > 1) {
-        yearsSet.add(parts[2]); // Extract Year
+        yearsSet.add(parts[1]); // Extract Year
       }
-      if (parts.length > 2) {
-        subjectsSet.add(parts[3]); // Extract Subject
+      if (parts.length > 1) {
+        subjectsSet.add(parts[2]); // Extract Subject
       }
     });
 
@@ -52,7 +87,7 @@ const Notes: Component = () => {
 
     if (selectedYear()) {
       filtered = filtered.filter((file) =>
-        file.path.startsWith(`/Year1/${selectedYear()}`)
+        file.path.startsWith(`/${selectedYear()}`)
       );
     }
 
@@ -155,9 +190,19 @@ const Notes: Component = () => {
                     </div>
                     <div class="flex-grow min-w-0">
                       <p class="text-lg font-semibold truncate">{item.name}</p>
-                      <p class="text-sm truncate">{item.path}</p>
+                      {/* <p class="text-sm truncate">{item.path}</p> */}
                     </div>
                     <div class="text-sm">{formatFileSize(item.size)}</div>
+                    <button
+                      onClick={() => handlePreview(item.name)}
+                      class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    >
+                      {loading() && loaderName() == item.name ? (
+                        <p>Loading</p>
+                      ) : (
+                        <p>Preview</p>
+                      )}
+                    </button>
                   </div>
                 )}
               </For>
