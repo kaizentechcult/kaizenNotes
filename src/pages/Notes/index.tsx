@@ -1,6 +1,8 @@
 import { Component, createSignal, For, Show } from "solid-js";
 import fileData from "../../../files.json";
 import Navbar from "../../components/Navbar/Navbar";
+import { loading, loaderName } from "../../hooks/common";
+import { handlePreview } from "../../hooks/megaPreview";
 
 type File = {
   name: string;
@@ -9,11 +11,6 @@ type File = {
 };
 
 const Notes: Component = () => {
-
-  const apiKey = import.meta.env.VITE_BASE_URL;
-  const [loading, setLoading] = createSignal<Boolean>()
-  const [data, setData] = createSignal<File[]>(fileData);
-  const [loaderName, setLoaderName] = createSignal<string>();
   const [filteredData, setFilteredData] = createSignal<File[]>(fileData);
   const [years, setYears] = createSignal<string[]>([]);
   const [subjects, setSubjects] = createSignal<string[]>([]);
@@ -21,38 +18,6 @@ const Notes: Component = () => {
   const [selectedSubject, setSelectedSubject] = createSignal<string | null>(
     null
   );
-
-  const handlePreview = async (name: string) => {
-    // e.preventDefault();
-    try {
-      setLoading(true);
-      setLoaderName(name);
-      const res = await fetch(
-        `${apiKey}/mega/download-link/${encodeURIComponent(name)}`
-      );
-      if (res.ok) {
-        const result = await res.json();
-        const FileLink = result.downloadLink;
-
-        const link = document.createElement("a");
-        link.href = FileLink;
-        link.setAttribute("target", "_blank");
-        link.setAttribute("rel", "noopener noreferrer");
-        document.body.appendChild(link);
-        link.dispatchEvent(
-          new MouseEvent("click", { bubbles: true, cancelable: true })
-        );
-        link.remove();
-      } else {
-        throw new Error(`Failed to fetch data: ${res.statusText}`);
-      }
-    } catch (error) {
-      console.error("Error fetching data:", error);
-    }
-    setLoading(false);
-  };
-
-
 
   const formatFileSize = (bytes: number) => {
     if (bytes === null || bytes === undefined) return "";
@@ -68,11 +33,10 @@ const Notes: Component = () => {
 
     fileData.forEach((file) => {
       const parts = file.path.split("/");
-      // console.log(parts);
       if (parts.length > 1) {
         yearsSet.add(parts[1]); // Extract Year
       }
-      if (parts.length > 1) {
+      if (parts.length > 2) {
         subjectsSet.add(parts[2]); // Extract Subject
       }
     });
@@ -91,6 +55,16 @@ const Notes: Component = () => {
       );
     }
 
+    // Update subjects based on filtered data for the selected year
+    const subjectsSet = new Set<string>();
+    filtered.forEach((file) => {
+      const parts = file.path.split("/");
+      if (parts.length > 2) {
+        subjectsSet.add(parts[2]);
+      }
+    });
+    setSubjects(Array.from(subjectsSet));
+
     if (selectedSubject()) {
       filtered = filtered.filter((file) =>
         file.path.includes(`/${selectedSubject()}`)
@@ -98,6 +72,21 @@ const Notes: Component = () => {
     }
 
     setFilteredData(filtered);
+  };
+
+  // Handle changes to year selection
+  const handleYearChange = (e: Event) => {
+    const year = (e.target as HTMLSelectElement).value || null;
+    setSelectedYear(year);
+    setSelectedSubject(null); // Reset subject selection when year changes
+    filterFiles();
+  };
+
+  // Handle changes to subject selection
+  const handleSubjectChange = (e: Event) => {
+    const subject = (e.target as HTMLSelectElement).value || null;
+    setSelectedSubject(subject);
+    filterFiles();
   };
 
   // Initialize years and subjects on mount
@@ -123,12 +112,7 @@ const Notes: Component = () => {
               <select
                 id="year"
                 class="mt-1 block w-full p-3 bg-gray-800 text-white border border-gray-500 rounded-md focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm transition duration-300 ease-in-out"
-                onInput={(e) => {
-                  setSelectedYear(
-                    (e.target as HTMLSelectElement).value || null
-                  );
-                  filterFiles();
-                }}
+                onInput={handleYearChange}
               >
                 <option value="">All Years</option>
                 <For each={years()}>
@@ -148,12 +132,7 @@ const Notes: Component = () => {
               <select
                 id="subject"
                 class="mt-1 block w-full p-3 bg-gray-800 text-white border border-gray-500 rounded-md focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm transition duration-300 ease-in-out"
-                onInput={(e) => {
-                  setSelectedSubject(
-                    (e.target as HTMLSelectElement).value || null
-                  );
-                  filterFiles();
-                }}
+                onInput={handleSubjectChange}
               >
                 <option value="">All Subjects</option>
                 <For each={subjects()}>
@@ -190,7 +169,6 @@ const Notes: Component = () => {
                     </div>
                     <div class="flex-grow min-w-0">
                       <p class="text-lg font-semibold truncate">{item.name}</p>
-                      {/* <p class="text-sm truncate">{item.path}</p> */}
                     </div>
                     <div class="text-sm">{formatFileSize(item.size)}</div>
                     <button

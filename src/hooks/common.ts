@@ -3,6 +3,10 @@ import { HandleLogin } from "../Auth/HandleLogin";
 import HandleRegister from "../Auth/HandleRegister";
 import { handleVerification } from "../Auth/HandleVerification";
 
+export const [loaderName, setLoaderName] = createSignal<string>();
+export const [loading, setLoading] = createSignal<Boolean>()
+
+
 export const [isOpen, setIsOpen] = createSignal(false);
 export const [isMenuOpen, setIsMenuOpen] = createSignal<boolean>(true);
 
