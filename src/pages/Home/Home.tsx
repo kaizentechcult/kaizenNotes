@@ -2,7 +2,6 @@ import { Component, createSignal, onMount } from "solid-js";
 import Card from "../../components/Home/Card";
 import { AuthProvider } from "../../utils/AuthContext";
 import Navbar from "../../components/Navbar/Navbar";
-import "../../styles/transitions.css";
 
 const yearLinks = {
   1: "year1",

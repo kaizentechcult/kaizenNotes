@@ -10,7 +10,6 @@ import RequestDialog from "../../components/RequsetDialog/RequestDialog";
 import Sidebar from "../../components/dashboard/Sidebar";
 import Sidebar2 from "../../components/dashboard/Sidebar2";
 import { Toaster } from "solid-toast";
-import "../../styles/transitions.css";
 
 const Dashboard = () => {
   const [link, setLink] = createSignal("");

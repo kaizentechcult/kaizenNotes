@@ -188,6 +188,13 @@ const Notes: Component = () => {
                               {file.name}
                             </h3>
                             <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
+                              {file.path
+                                .replace(/^\//, "")
+                                .split("/")
+                                .slice(0, 2)
+                                .join(" -> ")}
+                            </p>
+                            <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
                               {formatFileSize(file.size)}
                             </p>
                           </div>

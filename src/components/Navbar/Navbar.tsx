@@ -44,9 +44,9 @@ const navContent: nav = {
 
 const Navbar: Component = () => {
   const [isMenuOpen, setIsMenuOpen] = createSignal(false);
-  const [scrolled, setScrolled] = createSignal(false);
   const [currentPath, setCurrentPath] = createSignal(window.location.pathname);
   const { theme, toggleTheme } = useTheme();
+
   const getFormattedTime = () => {
     const date = new Date();
     const hours = date.getHours().toString().padStart(2, "0");
@@ -63,56 +63,41 @@ const Navbar: Component = () => {
     return "Good evening";
   };
 
-  const handleScroll = () => {
-    setScrolled(window.scrollY > 20);
-  };
-
   const handleRouteChange = () => {
     setIsMenuOpen(false);
     setCurrentPath(window.location.pathname);
   };
 
-  // Update the time every minute
   onMount(() => {
     const interval = setInterval(() => {
       setCurrentTime(getFormattedTime());
-    }, 60000); // Update every 60 seconds (1 minute)
+    }, 60000);
 
-    window.addEventListener("scroll", handleScroll);
     window.addEventListener("popstate", handleRouteChange);
 
     onCleanup(() => {
-      clearInterval(interval); // Clear the interval on cleanup
-      window.removeEventListener("scroll", handleScroll);
+      clearInterval(interval);
       window.removeEventListener("popstate", handleRouteChange);
     });
   });
 
   return (
-    <nav
-      class={`fixed w-full z-50 transition-all duration-300 ${
-        scrolled()
-          ? "bg-primary/95 dark:bg-primary/95 backdrop-blur-lg shadow-lg h-16"
-          : "bg-white dark:bg-primary h-16"
-      }`}
-    >
+    <nav class="fixed w-full z-50 bg-white dark:bg-primary h-16 text-black dark:text-white">
       <div class="max-w-7xl mx-auto px-4 h-full">
         <div class="flex justify-between items-center h-full">
-          <div class="flex-shrink-0 transform transition-transform duration-200">
+          <div class="flex-shrink-0">
             <div class="flex flex-col items-start">
-              <span class="text-lg font-semibold text-gray-700 dark:text-white">
+              <span class="text-lg font-semibold">
                 {getUserGreeting()}, User!
               </span>
-              <span class="text-sm text-gray-500 dark:text-gray-300">
-                {currentTime()}
-              </span>
+              <span class="text-sm">{currentTime()}</span>
             </div>
           </div>
 
           <div class="hidden lg:flex items-center space-x-8">
             <button
               onClick={toggleTheme}
-              class="p-2 rounded-lg text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-secondary transition-colors duration-200"
+              class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-secondary transition-colors duration-200"
               aria-label="Toggle theme"
             >
               {theme() === "dark" ? (
@@ -237,40 +222,50 @@ const Navbar: Component = () => {
           </div>
         </div>
 
+        {/* Mobile Menu */}
         <div
-          class={`lg:hidden absolute left-0 right-0 top-16 transform transition-all duration-300 origin-top ${
+          class={`lg:hidden fixed left-0 right-0 top-16 transform transition-all duration-300 origin-top z-50 ${
             isMenuOpen()
               ? "opacity-100 translate-y-0"
               : "opacity-0 -translate-y-4 pointer-events-none"
           }`}
         >
-          <div class="bg-white dark:bg-secondary shadow-xl rounded-b-2xl mx-4 p-4 border border-gray-200 dark:border-gray-700">
-            <div class="space-y-3">
-              {navContent.navLinks.map((link) => (
-                <a
-                  href={link.path}
-                  onClick={handleRouteChange}
-                  class={`block px-4 py-2 text-gray-600 dark:text-white hover:bg-gray-100 dark:hover:bg-[#21204F] rounded-lg transition-colors duration-200 text-sm ${
-                    currentPath() === link.path
-                      ? "bg-gray-100 dark:bg-[#21204F]"
-                      : ""
-                  }`}
-                >
-                  {link.name}
-                </a>
-              ))}
-              {navContent.navBtns.map((btn) => (
-                <button
-                  onClick={() => {
-                    btn.action?.();
-                    handleRouteChange();
-                  }}
-                  class={`w-full text-left ${btn.classes} px-4 py-2 rounded-lg text-white text-sm hover:opacity-90 transition-opacity duration-200`}
-                >
-                  {btn.name}
-                  {btn.Icon && typeof btn.Icon === "function" && btn.Icon()}
-                </button>
-              ))}
+          <div class="mx-4 p-4">
+            <div class="relative isolate overflow-hidden">
+              {/* Glass effect background */}
+              <div
+                class="absolute inset-0 -z-10 bg-white/50 backdrop-blur-xl dark:bg-gray-900/50 border border-white/20 dark:border-gray-800/20 rounded-2xl shadow-lg"
+                style="transform: translate3d(0, 0, 0)"
+              ></div>
+
+              {/* Menu content */}
+              <div class="relative space-y-3">
+                {navContent.navLinks.map((link) => (
+                  <a
+                    href={link.path}
+                    onClick={handleRouteChange}
+                    class={`block px-4 py-2 text-gray-700 dark:text-white hover:bg-white/20 dark:hover:bg-white/10 rounded-lg transition-all duration-200 text-sm ${
+                      currentPath() === link.path
+                        ? "bg-white/20 dark:bg-white/10"
+                        : ""
+                    }`}
+                  >
+                    {link.name}
+                  </a>
+                ))}
+                {navContent.navBtns.map((btn) => (
+                  <button
+                    onClick={() => {
+                      btn.action?.();
+                      handleRouteChange();
+                    }}
+                    class={`w-full text-left ${btn.classes} px-4 py-2 rounded-lg text-white text-sm hover:opacity-90 transition-all duration-200`}
+                  >
+                    {btn.name}
+                    {btn.Icon && typeof btn.Icon === "function" && btn.Icon()}
+                  </button>
+                ))}
+              </div>
             </div>
           </div>
         </div>
