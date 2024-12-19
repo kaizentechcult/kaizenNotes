@@ -22,6 +22,10 @@
       "dest": "/index.html"
     },
     {
+      "src": "/notes",
+      "dest": "/index.html"
+    },
+    {
       "src": "/dashboard/year1",
       "dest": "/index.html"
     },
