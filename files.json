@@ -1,1032 +1,3095 @@
-[
-  {
-    "name": "Unit-5 Notes.pdf",
-    "size": 37841230,
-    "path": "/Year1/Programming for Problem Solving (pps)/Unit 5/Unit-5 Notes.pdf"
-  },
-  {
-    "name": "Functions Unit-4 Notes .pdf",
-    "size": 21289137,
-    "path": "/Year1/Programming for Problem Solving (pps)/Unit 4/Functions Unit-4 Notes .pdf"
-  },
-  {
-    "name": "Unit - 3 (PPS) .pdf",
-    "size": 24741629,
-    "path": "/Year1/Programming for Problem Solving (pps)/Unit 3/Unit - 3 (PPS) .pdf"
-  },
-  {
-    "name": "PPS Unit 2 Notes.pdf",
-    "size": 5328273,
-    "path": "/Year1/Programming for Problem Solving (pps)/Unit 2/PPS Unit 2 Notes.pdf"
-  },
-  {
-    "name": "PPS Unit 1.docx",
-    "size": 2128621,
-    "path": "/Year1/Programming for Problem Solving (pps)/Unit1/PPS Unit 1.docx"
-  },
-  {
-    "name": "PPS Unit 1.pdf",
-    "size": 8480924,
-    "path": "/Year1/Programming for Problem Solving (pps)/Unit1/PPS Unit 1.pdf"
-  },
-  {
-    "name": "PPS PYQ Merged.pdf",
-    "size": 2276840,
-    "path": "/Year1/Programming for Problem Solving (pps)/PPS PYQ Merged.pdf"
-  },
-  {
-    "name": "PPS (Latest 20222-2023) Quantum Series {Searchable}.pdf",
-    "size": 10344521,
-    "path": "/Year1/Programming for Problem Solving (pps)/PPS (Latest 20222-2023) Quantum Series {Searchable}.pdf"
-  },
-  {
-    "name": "Unit 4 LASER (Part 1).pdf",
-    "size": 11711010,
-    "path": "/Year1/PHYSICS/UNIT-4/Unit 4 LASER (Part 1).pdf"
-  },
-  {
-    "name": "Unit 4 FIBRE  (Part 2).pdf",
-    "size": 23289137,
-    "path": "/Year1/PHYSICS/UNIT-4/Unit 4 FIBRE  (Part 2).pdf"
-  },
-  {
-    "name": "interference.pdf",
-    "size": 998636,
-    "path": "/Year1/PHYSICS/UNIT-3/interference.pdf"
-  },
-  {
-    "name": "Unit 3 Diffraction.pdf",
-    "size": 1985105,
-    "path": "/Year1/PHYSICS/UNIT-3/Unit 3 Diffraction.pdf"
-  },
-  {
-    "name": "maxwell equation.pdf",
-    "size": 506806,
-    "path": "/Year1/PHYSICS/UNIT-2/maxwell equation.pdf"
-  },
-  {
-    "name": "Unit 2.pdf",
-    "size": 24739187,
-    "path": "/Year1/PHYSICS/UNIT-2/Unit 2.pdf"
-  },
-  {
-    "name": "Unit 1.docx",
-    "size": 1462076,
-    "path": "/Year1/PHYSICS/UNIT-1/Unit 1.docx"
-  },
-  {
-    "name": "Unit 1(1).docx",
-    "size": 1462076,
-    "path": "/Year1/PHYSICS/UNIT-1/Unit 1(1).docx"
-  },
-  {
-    "name": "Unit 1.pdf",
-    "size": 22107469,
-    "path": "/Year1/PHYSICS/UNIT-1/Unit 1.pdf"
-  },
-  {
-    "name": "manual-2020-21.pdf",
-    "size": 1186699,
-    "path": "/Year1/PHYSICS/LAB/manual-2020-21.pdf"
-  },
-  {
-    "name": "physics practical file.pdf",
-    "size": 13437105,
-    "path": "/Year1/PHYSICS/LAB/physics practical file.pdf"
-  },
-  {
-    "name": "laser.pdf",
-    "size": 1004798,
-    "path": "/Year1/PHYSICS/UNIT-5/laser.pdf"
-  },
-  {
-    "name": "optical fibre .pdf",
-    "size": 915652,
-    "path": "/Year1/PHYSICS/UNIT-5/optical fibre .pdf"
-  },
-  {
-    "name": "Unit 5 Superconductor part 1.pdf",
-    "size": 4099395,
-    "path": "/Year1/PHYSICS/UNIT-5/Unit 5 Superconductor part 1.pdf"
-  },
-  {
-    "name": "Unit 5 Nanomaterials (part 2).pdf",
-    "size": 4403745,
-    "path": "/Year1/PHYSICS/UNIT-5/Unit 5 Nanomaterials (part 2).pdf"
-  },
-  {
-    "name": "physics pyqs.pdf",
-    "size": 2683917,
-    "path": "/Year1/PHYSICS/physics pyqs.pdf"
-  },
-  {
-    "name": "Engineering_Physics_Quantum__40_Slashbyte__41_ (1).pdf",
-    "size": 7120360,
-    "path": "/Year1/PHYSICS/Engineering_Physics_Quantum__40_Slashbyte__41_ (1).pdf"
-  },
-  {
-    "name": "Unit 4 Maths Question Bank.pdf",
-    "size": 677289,
-    "path": "/Year1/Maths 2/Unit 4/Unit 4 Maths Question Bank.pdf"
-  },
-  {
-    "name": "Unit 4 comcepts.pdf",
-    "size": 4290194,
-    "path": "/Year1/Maths 2/Unit 4/Unit 4 comcepts.pdf"
-  },
-  {
-    "name": "Maths Unit 4.pdf",
-    "size": 47378718,
-    "path": "/Year1/Maths 2/Unit 4/Maths Unit 4.pdf"
-  },
-  {
-    "name": "unit 3 question bank [BAS 203] maths 2.pdf",
-    "size": 354780,
-    "path": "/Year1/Maths 2/Unit 3/unit 3 question bank [BAS 203] maths 2.pdf"
-  },
-  {
-    "name": "Document 10.pdf",
-    "size": 890675,
-    "path": "/Year1/Maths 2/Unit 3/Document 10.pdf"
-  },
-  {
-    "name": "Sequence And Series Concepts.pdf",
-    "size": 3283674,
-    "path": "/Year1/Maths 2/Unit 3/Sequence And Series Concepts.pdf"
-  },
-  {
-    "name": "Maths Unit 3.pdf",
-    "size": 26557736,
-    "path": "/Year1/Maths 2/Unit 3/Maths Unit 3.pdf"
-  },
-  {
-    "name": "Question Bank (Most Important).pdf",
-    "size": 890675,
-    "path": "/Year1/Maths 2/Unit 2/Question Bank (Most Important).pdf"
-  },
-  {
-    "name": "Laplace Concept (H).pdf",
-    "size": 5391797,
-    "path": "/Year1/Maths 2/Unit 2/Laplace Concept (H).pdf"
-  },
-  {
-    "name": "Question Bank (Most Important).pdf",
-    "size": 812100,
-    "path": "/Year1/Maths 2/Unit 1/Question Bank (Most Important).pdf"
-  },
-  {
-    "name": "Differential equations.pdf",
-    "size": 1953174,
-    "path": "/Year1/Maths 2/Unit 1/Differential equations.pdf"
-  },
-  {
-    "name": "unit 5 question bank. [BAS 203] Maths 2.pdf",
-    "size": 1376937,
-    "path": "/Year1/Maths 2/Unit 5/unit 5 question bank. [BAS 203] Maths 2.pdf"
-  },
-  {
-    "name": "Unit 5 concepts.pdf",
-    "size": 3736519,
-    "path": "/Year1/Maths 2/Unit 5/Unit 5 concepts.pdf"
-  },
-  {
-    "name": "Maths Unit 5.pdf",
-    "size": 38218970,
-    "path": "/Year1/Maths 2/Unit 5/Maths Unit 5.pdf"
-  },
-  {
-    "name": "syllabus.pdf",
-    "size": 1460801,
-    "path": "/Year1/Maths 2/syllabus.pdf"
-  },
-  {
-    "name": "Maths 2 2022-2023 {Quantum Series} Latest 1st Year.pdf",
-    "size": 5565985,
-    "path": "/Year1/Maths 2/Maths 2 2022-2023 {Quantum Series} Latest 1st Year.pdf"
-  },
-  {
-    "name": "Trial Paper (KAS-103T)_1fa504b73b967abfe1d98c681d60c5ab.pdf",
-    "size": 135260,
-    "path": "/Year1/MATHS 1/UNIT-1/Trial Paper (KAS-103T)_1fa504b73b967abfe1d98c681d60c5ab.pdf"
-  },
-  {
-    "name": "assignment 1 maths.pdf",
-    "size": 543112,
-    "path": "/Year1/MATHS 1/UNIT-1/assignment 1 maths.pdf"
-  },
-  {
-    "name": "Normal Form and its application to rank.pdf",
-    "size": 517262,
-    "path": "/Year1/MATHS 1/UNIT-1/Normal Form and its application to rank.pdf"
-  },
-  {
-    "name": "rank question 16-Dec-2020 18-28-31.pdf",
-    "size": 949600,
-    "path": "/Year1/MATHS 1/UNIT-1/rank question 16-Dec-2020 18-28-31.pdf"
-  },
-  {
-    "name": "CamScanner 12-17-2020 16.50.24.pdf",
-    "size": 1404336,
-    "path": "/Year1/MATHS 1/UNIT-1/CamScanner 12-17-2020 16.50.24.pdf"
-  },
-  {
-    "name": "CamScanner 12-16-2020 13.53.05.pdf",
-    "size": 1256610,
-    "path": "/Year1/MATHS 1/UNIT-1/CamScanner 12-16-2020 13.53.05.pdf"
-  },
-  {
-    "name": "CamScanner 12-16-2020 16.50.35.pdf",
-    "size": 1777240,
-    "path": "/Year1/MATHS 1/UNIT-1/CamScanner 12-16-2020 16.50.35.pdf"
-  },
-  {
-    "name": " KIET MATHS NOTES.pdf",
-    "size": 1875336,
-    "path": "/Year1/MATHS 1/UNIT-1/ KIET MATHS NOTES.pdf"
-  },
-  {
-    "name": "diagonalizable 25-Dec-2020 18-39-38.pdf",
-    "size": 2659116,
-    "path": "/Year1/MATHS 1/UNIT-1/diagonalizable 25-Dec-2020 18-39-38.pdf"
-  },
-  {
-    "name": "LI and LD 21-Dec-2020 15-25-20.pdf",
-    "size": 4328514,
-    "path": "/Year1/MATHS 1/UNIT-1/LI and LD 21-Dec-2020 15-25-20.pdf"
-  },
-  {
-    "name": "New Doc 2020-12-08 09.56.22.pdf",
-    "size": 4943751,
-    "path": "/Year1/MATHS 1/UNIT-1/New Doc 2020-12-08 09.56.22.pdf"
-  },
-  {
-    "name": "New Doc 2020-12-11 14.24.48.pdf",
-    "size": 5437059,
-    "path": "/Year1/MATHS 1/UNIT-1/New Doc 2020-12-11 14.24.48.pdf"
-  },
-  {
-    "name": "eigen value 22-Dec-2020 16-01-18.pdf",
-    "size": 13938026,
-    "path": "/Year1/MATHS 1/UNIT-1/eigen value 22-Dec-2020 16-01-18.pdf"
-  },
-  {
-    "name": "continuity, differentiability 30-Dec-2020 16-15-32.pdf",
-    "size": 17510628,
-    "path": "/Year1/MATHS 1/UNIT-2/continuity, differentiability 30-Dec-2020 16-15-32.pdf"
-  },
-  {
-    "name": "New Doc 2021-01-03 19.11.02.pdf",
-    "size": 17265535,
-    "path": "/Year1/MATHS 1/UNIT-2/New Doc 2021-01-03 19.11.02.pdf"
-  },
-  {
-    "name": "Engineering_Maths_Quantum___40_Slashbyte__41_ (1).pdf",
-    "size": 33582159,
-    "path": "/Year1/MATHS 1/Engineering_Maths_Quantum___40_Slashbyte__41_ (1).pdf"
-  },
-  {
-    "name": "Quiz-3_FMEM.docx",
-    "size": 35267,
-    "path": "/Year1/Fundamentals of Mechanical Engineering & Mechatronics (FMEM)/UNIT-3/Quiz-3_FMEM.docx"
-  },
-  {
-    "name": "Quiz  Unit-3.docx",
-    "size": 30757,
-    "path": "/Year1/Fundamentals of Mechanical Engineering & Mechatronics (FMEM)/UNIT-3/Quiz  Unit-3.docx"
-  },
-  {
-    "name": "Unit-2_FMEM_(Type form).pdf",
-    "size": 1641139,
-    "path": "/Year1/Fundamentals of Mechanical Engineering & Mechatronics (FMEM)/UNIT-2/Unit-2_FMEM_(Type form).pdf"
-  },
-  {
-    "name": "ONE shot.pdf",
-    "size": 2129946,
-    "path": "/Year1/Fundamentals of Mechanical Engineering & Mechatronics (FMEM)/UNIT-2/ONE shot.pdf"
-  },
-  {
-    "name": "MCQ.pdf",
-    "size": 15441607,
-    "path": "/Year1/Fundamentals of Mechanical Engineering & Mechatronics (FMEM)/UNIT-2/MCQ.pdf"
-  },
-  {
-    "name": "Quiz Unit-1.docx",
-    "size": 88308,
-    "path": "/Year1/Fundamentals of Mechanical Engineering & Mechatronics (FMEM)/UNIT-1/Quiz Unit-1.docx"
-  },
-  {
-    "name": "UNIT 1 PART II.pptx",
-    "size": 1463682,
-    "path": "/Year1/Fundamentals of Mechanical Engineering & Mechatronics (FMEM)/UNIT-1/UNIT 1 PART II.pptx"
-  },
-  {
-    "name": "UNIT 4 MCQ.docx",
-    "size": 19310,
-    "path": "/Year1/Fundamentals of Mechanical Engineering & Mechatronics (FMEM)/UNIT-4/UNIT 4 MCQ.docx"
-  },
-  {
-    "name": "Unit 4_FMEM_ 25 Question_Quiz.doc",
-    "size": 88576,
-    "path": "/Year1/Fundamentals of Mechanical Engineering & Mechatronics (FMEM)/UNIT-4/Unit 4_FMEM_ 25 Question_Quiz.doc"
-  },
-  {
-    "name": "FMEM question paper set 2 (2).doc",
-    "size": 131584,
-    "path": "/Year1/Fundamentals of Mechanical Engineering & Mechatronics (FMEM)/FMEM question paper set 2 (2).doc"
-  },
-  {
-    "name": "Past Year Paper.jpg",
-    "size": 143816,
-    "path": "/Year1/Fundamentals of Mechanical Engineering & Mechatronics (FMEM)/Past Year Paper.jpg"
-  },
-  {
-    "name": "FMEM_PUE 1 (2).doc",
-    "size": 152576,
-    "path": "/Year1/Fundamentals of Mechanical Engineering & Mechatronics (FMEM)/FMEM_PUE 1 (2).doc"
-  },
-  {
-    "name": "Unit 1-5 MCQ_s.pdf",
-    "size": 845372,
-    "path": "/Year1/Fundamentals of Mechanical Engineering & Mechatronics (FMEM)/Unit 1-5 MCQ_s.pdf"
-  },
-  {
-    "name": "Mechanical Quantum.pdf",
-    "size": 19875394,
-    "path": "/Year1/Fundamentals of Mechanical Engineering & Mechatronics (FMEM)/Mechanical Quantum.pdf"
-  },
-  {
-    "name": "EVS PYQ MERGED.pdf",
-    "size": 1714506,
-    "path": "/Year1/EVS/EVS PYQ MERGED.pdf"
-  },
-  {
-    "name": "EVS UNIT 1.pdf",
-    "size": 32984527,
-    "path": "/Year1/EVS/EVS UNIT 1.pdf"
-  },
-  {
-    "name": "EVS UNIt 2.pdf",
-    "size": 39491294,
-    "path": "/Year1/EVS/EVS UNIt 2.pdf"
-  },
-  {
-    "name": "Environment_And_Ecology Quantam (1).pdf",
-    "size": 45253021,
-    "path": "/Year1/EVS/Environment_And_Ecology Quantam (1).pdf"
-  },
-  {
-    "name": "EVS Unit 3 to 5.pdf",
-    "size": 49640480,
-    "path": "/Year1/EVS/EVS Unit 3 to 5.pdf"
-  },
-  {
-    "name": "Lab Assignment -3 Comm. Skills --converted.pdf",
-    "size": 36936,
-    "path": "/Year1/ENGLISH LAB/Lab Assignment -3 Comm. Skills --converted.pdf"
-  },
-  {
-    "name": "Lab Assignment practical 9-  Listening.docx",
-    "size": 22630,
-    "path": "/Year1/ENGLISH LAB/Lab Assignment practical 9-  Listening.docx"
-  },
-  {
-    "name": "Lab Assignment -1 Group Discussion-converted.pdf",
-    "size": 23105,
-    "path": "/Year1/ENGLISH LAB/Lab Assignment -1 Group Discussion-converted.pdf"
-  },
-  {
-    "name": "Lab Assignment 8_ Argumentation Skill-converted.pdf",
-    "size": 88304,
-    "path": "/Year1/ENGLISH LAB/Lab Assignment 8_ Argumentation Skill-converted.pdf"
-  },
-  {
-    "name": "Lab Assignment -5 Practical 5 (TC).docx",
-    "size": 16052,
-    "path": "/Year1/ENGLISH LAB/Lab Assignment -5 Practical 5 (TC).docx"
-  },
-  {
-    "name": "Lab Assignment -5 Practical 5 (TC)-converted.pdf",
-    "size": 45682,
-    "path": "/Year1/ENGLISH LAB/Lab Assignment -5 Practical 5 (TC)-converted.pdf"
-  },
-  {
-    "name": "Lab Assignment -3 Comm. Skills -.docx",
-    "size": 13422,
-    "path": "/Year1/ENGLISH LAB/Lab Assignment -3 Comm. Skills -.docx"
-  },
-  {
-    "name": "Lab Assignment- 2.docx",
-    "size": 13280,
-    "path": "/Year1/ENGLISH LAB/Lab Assignment- 2.docx"
-  },
-  {
-    "name": "Lab Assignment -1 Group Discussion.docx",
-    "size": 13071,
-    "path": "/Year1/ENGLISH LAB/Lab Assignment -1 Group Discussion.docx"
-  },
-  {
-    "name": "swot analysis-converted.pdf",
-    "size": 73457,
-    "path": "/Year1/ENGLISH LAB/swot analysis-converted.pdf"
-  },
-  {
-    "name": "Lab Assignment 7_ Speech Delivery-converted.pdf",
-    "size": 128712,
-    "path": "/Year1/ENGLISH LAB/Lab Assignment 7_ Speech Delivery-converted.pdf"
-  },
-  {
-    "name": "Lab Assignment - Practical 6 (TC)-converted.pdf",
-    "size": 107322,
-    "path": "/Year1/ENGLISH LAB/Lab Assignment - Practical 6 (TC)-converted.pdf"
-  },
-  {
-    "name": "null (1).pdf",
-    "size": 6874618,
-    "path": "/Year1/ENGLISH LAB/null (1).pdf"
-  },
-  {
-    "name": "Point _ Line.pdf",
-    "size": 386544,
-    "path": "/Year1/Engeenering Drawing/Point _ Line.pdf"
-  },
-  {
-    "name": "Point _ Line.ppsx",
-    "size": 535977,
-    "path": "/Year1/Engeenering Drawing/Point _ Line.ppsx"
-  },
-  {
-    "name": "Projection of Planes_revised.pdf",
-    "size": 847222,
-    "path": "/Year1/Engeenering Drawing/Projection of Planes_revised.pdf"
-  },
-  {
-    "name": "What is Engineering Drawing.pptx",
-    "size": 1684739,
-    "path": "/Year1/Engeenering Drawing/What is Engineering Drawing.pptx"
-  },
-  {
-    "name": "ortho projecgtion neer.ppt",
-    "size": 7908352,
-    "path": "/Year1/Engeenering Drawing/ortho projecgtion neer.ppt"
-  },
-  {
-    "name": "UNIT 4 Introduction to IC.pdf",
-    "size": 510312,
-    "path": "/Year1/Electronics/UNIT -4/UNIT 4 Introduction to IC.pdf"
-  },
-  {
-    "name": "MCQ Unit 4 KEC101T_201T.pdf",
-    "size": 857353,
-    "path": "/Year1/Electronics/UNIT -4/MCQ Unit 4 KEC101T_201T.pdf"
-  },
-  {
-    "name": "5 and 6 variable k map-compressed_1ec887e8af5bbb42719a70495d04cc05.pdf",
-    "size": 3432698,
-    "path": "/Year1/Electronics/UNIT -4/5 and 6 variable k map-compressed_1ec887e8af5bbb42719a70495d04cc05.pdf"
-  },
-  {
-    "name": "K-MAP.pdf",
-    "size": 3906412,
-    "path": "/Year1/Electronics/UNIT -4/K-MAP.pdf"
-  },
-  {
-    "name": "PPTs Unit 4 Digital Electronics Part II.pdf",
-    "size": 4222736,
-    "path": "/Year1/Electronics/UNIT -4/PPTs Unit 4 Digital Electronics Part II.pdf"
-  },
-  {
-    "name": "PPTs Unit 4 Digital Electronics Part I.pdf",
-    "size": 4415534,
-    "path": "/Year1/Electronics/UNIT -4/PPTs Unit 4 Digital Electronics Part I.pdf"
-  },
-  {
-    "name": "Unit-4   Ajeetpratap Sir Notes.pdf",
-    "size": 9003642,
-    "path": "/Year1/Electronics/UNIT -4/Unit-4   Ajeetpratap Sir Notes.pdf"
-  },
-  {
-    "name": "Introduction to WIFI.pdf",
-    "size": 467063,
-    "path": "/Year1/Electronics/UNIT -3/Introduction to WIFI.pdf"
-  },
-  {
-    "name": "MCQ Unit 3 KEC101T_201T.pdf",
-    "size": 763563,
-    "path": "/Year1/Electronics/UNIT -3/MCQ Unit 3 KEC101T_201T.pdf"
-  },
-  {
-    "name": "PPTs Complete 3.pdf",
-    "size": 2596510,
-    "path": "/Year1/Electronics/UNIT -3/PPTs Complete 3.pdf"
-  },
-  {
-    "name": "OP-AMP.pdf",
-    "size": 2778896,
-    "path": "/Year1/Electronics/UNIT -3/OP-AMP.pdf"
-  },
-  {
-    "name": "Op amp handwritten.pdf",
-    "size": 10846795,
-    "path": "/Year1/Electronics/UNIT -3/Op amp handwritten.pdf"
-  },
-  {
-    "name": "Unit 2 PPTs Complete.pdf",
-    "size": 1915441,
-    "path": "/Year1/Electronics/UNIT -2/Unit 2 PPTs Complete.pdf"
-  },
-  {
-    "name": "BJT, FET, .pdf",
-    "size": 5485651,
-    "path": "/Year1/Electronics/UNIT -2/BJT, FET, .pdf"
-  },
-  {
-    "name": "BJT hand written.pdf",
-    "size": 5694264,
-    "path": "/Year1/Electronics/UNIT -2/BJT hand written.pdf"
-  },
-  {
-    "name": "FET hand written.pdf",
-    "size": 11690940,
-    "path": "/Year1/Electronics/UNIT -2/FET hand written.pdf"
-  },
-  {
-    "name": "MCQ Unit 1 KEC101T_201T.docx",
-    "size": 348827,
-    "path": "/Year1/Electronics/UNIT -1/MCQ Unit 1 KEC101T_201T.docx"
-  },
-  {
-    "name": "Semiconductor mcq.pdf",
-    "size": 202046,
-    "path": "/Year1/Electronics/UNIT -1/Semiconductor mcq.pdf"
-  },
-  {
-    "name": "MCQ Unit 1 KEC101T_201T.pdf",
-    "size": 1029313,
-    "path": "/Year1/Electronics/UNIT -1/MCQ Unit 1 KEC101T_201T.pdf"
-  },
-  {
-    "name": "UNIT-1 (part-2).pdf",
-    "size": 1920759,
-    "path": "/Year1/Electronics/UNIT -1/UNIT-1 (part-2).pdf"
-  },
-  {
-    "name": "Unit-1, Part-4 Clamper Circuit_141573bbcebe5afdd69503770ec595a5.pdf",
-    "size": 2594649,
-    "path": "/Year1/Electronics/UNIT -1/Unit-1, Part-4 Clamper Circuit_141573bbcebe5afdd69503770ec595a5.pdf"
-  },
-  {
-    "name": "UNIT 1 ECE.docx",
-    "size": 2637423,
-    "path": "/Year1/Electronics/UNIT -1/UNIT 1 ECE.docx"
-  },
-  {
-    "name": "Unit-1, Part-6_ Series and Parallel Diodes Configuration_33ddcae553e5df5a1e1335b21f8f77da.pdf",
-    "size": 3759075,
-    "path": "/Year1/Electronics/UNIT -1/Unit-1, Part-6_ Series and Parallel Diodes Configuration_33ddcae553e5df5a1e1335b21f8f77da.pdf"
-  },
-  {
-    "name": "unit 1-converted-compressed.pdf",
-    "size": 3886679,
-    "path": "/Year1/Electronics/UNIT -1/unit 1-converted-compressed.pdf"
-  },
-  {
-    "name": "Unit-1,  Part-1_Semiconducter, Diode_36e7a11a09c978763fb9fca79a5ed718.pdf",
-    "size": 3793886,
-    "path": "/Year1/Electronics/UNIT -1/Unit-1,  Part-1_Semiconducter, Diode_36e7a11a09c978763fb9fca79a5ed718.pdf"
-  },
-  {
-    "name": "Unit-1, Part-3 Clipper Circuit_099c57ec804e750eca945efa1e141674.pdf",
-    "size": 4412668,
-    "path": "/Year1/Electronics/UNIT -1/Unit-1, Part-3 Clipper Circuit_099c57ec804e750eca945efa1e141674.pdf"
-  },
-  {
-    "name": "Unit-1, Part-2_ Rectifier_739fb2316b750e7c7d1dfbc8904c9e97.pdf",
-    "size": 4970589,
-    "path": "/Year1/Electronics/UNIT -1/Unit-1, Part-2_ Rectifier_739fb2316b750e7c7d1dfbc8904c9e97.pdf"
-  },
-  {
-    "name": "Unit-1, Part-5_ Various Diodes_cb7c0a85f7830ea6328665912a9b4b65.pdf",
-    "size": 6081253,
-    "path": "/Year1/Electronics/UNIT -1/Unit-1, Part-5_ Various Diodes_cb7c0a85f7830ea6328665912a9b4b65.pdf"
-  },
-  {
-    "name": "UNIT-1 (part-1).pdf",
-    "size": 6357115,
-    "path": "/Year1/Electronics/UNIT -1/UNIT-1 (part-1).pdf"
-  },
-  {
-    "name": "Semiconductor Notes(Abes).pdf",
-    "size": 14568049,
-    "path": "/Year1/Electronics/UNIT -1/Semiconductor Notes(Abes).pdf"
-  },
-  {
-    "name": "Unit 5 Satellite and Radar Communication.pdf",
-    "size": 248554,
-    "path": "/Year1/Electronics/UNIT -5/Unit 5 Satellite and Radar Communication.pdf"
-  },
-  {
-    "name": "UNIT-5, Evolution of Mobile Wireless Technology from 0G to 5G.pdf",
-    "size": 289972,
-    "path": "/Year1/Electronics/UNIT -5/UNIT-5, Evolution of Mobile Wireless Technology from 0G to 5G.pdf"
-  },
-  {
-    "name": "UNIT-5, DATA COMMUNICATION NETWORKS.pdf",
-    "size": 431463,
-    "path": "/Year1/Electronics/UNIT -5/UNIT-5, DATA COMMUNICATION NETWORKS.pdf"
-  },
-  {
-    "name": "Communication.pdf",
-    "size": 4232861,
-    "path": "/Year1/Electronics/UNIT -5/Communication.pdf"
-  },
-  {
-    "name": "PPTs Complete unit 5.pdf",
-    "size": 5397495,
-    "path": "/Year1/Electronics/UNIT -5/PPTs Complete unit 5.pdf"
-  },
-  {
-    "name": "electronics (1).pdf",
-    "size": 69589708,
-    "path": "/Year1/Electronics/electronics (1).pdf"
-  },
-  {
-    "name": "unit 5 polymer and organometallic compounds.doc",
-    "size": 377856,
-    "path": "/Year1/Chemistry/Chemistry Unit 5/unit 5 polymer and organometallic compounds.doc"
-  },
-  {
-    "name": "Moduel 5.pdf",
-    "size": 689533,
-    "path": "/Year1/Chemistry/Chemistry Unit 5/Moduel 5.pdf"
-  },
-  {
-    "name": "Moduel 5.docx",
-    "size": 4355029,
-    "path": "/Year1/Chemistry/Chemistry Unit 5/Moduel 5.docx"
-  },
-  {
-    "name": "module 4.pdf",
-    "size": 660683,
-    "path": "/Year1/Chemistry/Chemistry Unit 4/module 4.pdf"
-  },
-  {
-    "name": "unit 4 hardness ,alkalinity,biogas.docx",
-    "size": 555264,
-    "path": "/Year1/Chemistry/Chemistry Unit 4/unit 4 hardness ,alkalinity,biogas.docx"
-  },
-  {
-    "name": "module 4.docx",
-    "size": 4390458,
-    "path": "/Year1/Chemistry/Chemistry Unit 4/module 4.docx"
-  },
-  {
-    "name": "unit 3 cement.docx",
-    "size": 60448,
-    "path": "/Year1/Chemistry/Chemistry Unit 3/unit 3 cement.docx"
-  },
-  {
-    "name": "unit 3 corrosion and  POP.docx",
-    "size": 39940,
-    "path": "/Year1/Chemistry/Chemistry Unit 3/unit 3 corrosion and  POP.docx"
-  },
-  {
-    "name": "Module 3.pdf",
-    "size": 991722,
-    "path": "/Year1/Chemistry/Chemistry Unit 3/Module 3.pdf"
-  },
-  {
-    "name": "Module 3.docx",
-    "size": 2141965,
-    "path": "/Year1/Chemistry/Chemistry Unit 3/Module 3.docx"
-  },
-  {
-    "name": "unit 2 NMR.doc",
-    "size": 600576,
-    "path": "/Year1/Chemistry/Chemistry Unit 2/unit 2 NMR.doc"
-  },
-  {
-    "name": "unit 2 stereochemistry.docx",
-    "size": 1433613,
-    "path": "/Year1/Chemistry/Chemistry Unit 2/unit 2 stereochemistry.docx"
-  },
-  {
-    "name": "MODULE-2.docx",
-    "size": 1825312,
-    "path": "/Year1/Chemistry/Chemistry Unit 2/MODULE-2.docx"
-  },
-  {
-    "name": "MODULE-2.pdf",
-    "size": 2540068,
-    "path": "/Year1/Chemistry/Chemistry Unit 2/MODULE-2.pdf"
-  },
-  {
-    "name": "MODULE-1.docx",
-    "size": 348278,
-    "path": "/Year1/Chemistry/Chemistry Unit 1/MODULE-1.docx"
-  },
-  {
-    "name": "UNIT 1 Green Chemistry.docx",
-    "size": 288931,
-    "path": "/Year1/Chemistry/Chemistry Unit 1/UNIT 1 Green Chemistry.docx"
-  },
-  {
-    "name": "MODULE-1.pdf",
-    "size": 1353468,
-    "path": "/Year1/Chemistry/Chemistry Unit 1/MODULE-1.pdf"
-  },
-  {
-    "name": "exp.pdf",
-    "size": 102603,
-    "path": "/Year1/Chemistry/LAB/exp.pdf"
-  },
-  {
-    "name": "LAB.docx",
-    "size": 368548,
-    "path": "/Year1/Chemistry/LAB/LAB.docx"
-  },
-  {
-    "name": "All Experiments (2).pdf",
-    "size": 860885,
-    "path": "/Year1/Chemistry/LAB/All Experiments (2).pdf"
-  },
-  {
-    "name": "All Experiments (2).docx",
-    "size": 1115270,
-    "path": "/Year1/Chemistry/LAB/All Experiments (2).docx"
-  },
-  {
-    "name": "exp.docx",
-    "size": 1875103,
-    "path": "/Year1/Chemistry/LAB/exp.docx"
-  },
-  {
-    "name": "chem pyqs.pdf",
-    "size": 2149484,
-    "path": "/Year1/Chemistry/chem pyqs.pdf"
-  },
-  {
-    "name": "Chemistry All Unit MCQS_ 3 .pdf",
-    "size": 7619227,
-    "path": "/Year1/Chemistry/Chemistry All Unit MCQS_ 3 .pdf"
-  },
-  {
-    "name": "Chemistry_Quantum_AKTU_2022-2023 (1).pdf",
-    "size": 17170650,
-    "path": "/Year1/Chemistry/Chemistry_Quantum_AKTU_2022-2023 (1).pdf"
-  },
-  {
-    "name": "Unit 4.pdf",
-    "size": 37835197,
-    "path": "/Year1/Basic Electrical Engeenering/UNIT-4/Unit 4.pdf"
-  },
-  {
-    "name": "Autotransformer.pdf",
-    "size": 286378,
-    "path": "/Year1/Basic Electrical Engeenering/UNIT-3/Autotransformer.pdf"
-  },
-  {
-    "name": "Real Transformer Phasor Diagram.pdf",
-    "size": 382428,
-    "path": "/Year1/Basic Electrical Engeenering/UNIT-3/Real Transformer Phasor Diagram.pdf"
-  },
-  {
-    "name": "Working Principle and EMF Eq of Transformer.pdf",
-    "size": 388446,
-    "path": "/Year1/Basic Electrical Engeenering/UNIT-3/Working Principle and EMF Eq of Transformer.pdf"
-  },
-  {
-    "name": "Transformer Efficiency (2).pdf",
-    "size": 707948,
-    "path": "/Year1/Basic Electrical Engeenering/UNIT-3/Transformer Efficiency (2).pdf"
-  },
-  {
-    "name": "Notes of Magnetic Materials.pdf",
-    "size": 589783,
-    "path": "/Year1/Basic Electrical Engeenering/UNIT-3/Notes of Magnetic Materials.pdf"
-  },
-  {
-    "name": "Numericals on EMF equation of transformer.pdf",
-    "size": 1017174,
-    "path": "/Year1/Basic Electrical Engeenering/UNIT-3/Numericals on EMF equation of transformer.pdf"
-  },
-  {
-    "name": "Updated phasor diagram of transformer.pdf",
-    "size": 1064617,
-    "path": "/Year1/Basic Electrical Engeenering/UNIT-3/Updated phasor diagram of transformer.pdf"
-  },
-  {
-    "name": "Additional Content on Transformer .pdf",
-    "size": 5513692,
-    "path": "/Year1/Basic Electrical Engeenering/UNIT-3/Additional Content on Transformer .pdf"
-  },
-  {
-    "name": "Unit 3.pdf",
-    "size": 13013217,
-    "path": "/Year1/Basic Electrical Engeenering/UNIT-3/Unit 3.pdf"
-  },
-  {
-    "name": "Concept of Phasors.pptx",
-    "size": 498255,
-    "path": "/Year1/Basic Electrical Engeenering/UNIT-2/Concept of Phasors.pptx"
-  },
-  {
-    "name": "AC Fundamentals, Average and RMS values.pdf",
-    "size": 680538,
-    "path": "/Year1/Basic Electrical Engeenering/UNIT-2/AC Fundamentals, Average and RMS values.pdf"
-  },
-  {
-    "name": "3 phase Circuits module 2 notes.pdf",
-    "size": 1525169,
-    "path": "/Year1/Basic Electrical Engeenering/UNIT-2/3 phase Circuits module 2 notes.pdf"
-  },
-  {
-    "name": "Unit 2 Part B.pdf",
-    "size": 1889074,
-    "path": "/Year1/Basic Electrical Engeenering/UNIT-2/Unit 2 Part B.pdf"
-  },
-  {
-    "name": "UNIT 2 Part A.pdf",
-    "size": 15128624,
-    "path": "/Year1/Basic Electrical Engeenering/UNIT-2/UNIT 2 Part A.pdf"
-  },
-  {
-    "name": "IMG-20201224-WA0003.jpg",
-    "size": 61954,
-    "path": "/Year1/Basic Electrical Engeenering/UNIT-1/IMG-20201224-WA0003.jpg"
-  },
-  {
-    "name": "Star-Delta Transformation.pdf",
-    "size": 637532,
-    "path": "/Year1/Basic Electrical Engeenering/UNIT-1/Star-Delta Transformation.pdf"
-  },
-  {
-    "name": "Practice Questions.pdf",
-    "size": 462274,
-    "path": "/Year1/Basic Electrical Engeenering/UNIT-1/Practice Questions.pdf"
-  },
-  {
-    "name": "Practise questions unit 1.pdf",
-    "size": 399817,
-    "path": "/Year1/Basic Electrical Engeenering/UNIT-1/Practise questions unit 1.pdf"
-  },
-  {
-    "name": "Superposition theorem.pdf",
-    "size": 518043,
-    "path": "/Year1/Basic Electrical Engeenering/UNIT-1/Superposition theorem.pdf"
-  },
-  {
-    "name": "DC Circuits II.pdf",
-    "size": 1009135,
-    "path": "/Year1/Basic Electrical Engeenering/UNIT-1/DC Circuits II.pdf"
-  },
-  {
-    "name": "Energy consumption numerical.pdf",
-    "size": 146139,
-    "path": "/Year1/Basic Electrical Engeenering/UNIT-5/Energy consumption numerical.pdf"
-  },
-  {
-    "name": "Protection device.pdf",
-    "size": 898112,
-    "path": "/Year1/Basic Electrical Engeenering/UNIT-5/Protection device.pdf"
-  },
-  {
-    "name": "Unit-5_merged (1).pdf",
-    "size": 7428036,
-    "path": "/Year1/Basic Electrical Engeenering/UNIT-5/Unit-5_merged (1).pdf"
-  },
-  {
-    "name": "Electrical Syllabus.pdf",
-    "size": 127216,
-    "path": "/Year1/Basic Electrical Engeenering/Electrical Syllabus.pdf"
-  },
-  {
-    "name": "electrical pyqs.pdf",
-    "size": 2629979,
-    "path": "/Year1/Basic Electrical Engeenering/electrical pyqs.pdf"
-  },
-  {
-    "name": "Electrical_BEE_Latest_2022_2023_Quantum_Series_{Searchable}.pdf",
-    "size": 11199885,
-    "path": "/Year1/Basic Electrical Engeenering/Electrical_BEE_Latest_2022_2023_Quantum_Series_{Searchable}.pdf"
-  },
-  {
-    "name": "BAS-105 Unit-IV  Part-2.pptx",
-    "size": 386846,
-    "path": "/Year1/Soft Skills/Unit 4/BAS-105 Unit-IV  Part-2.pptx"
-  },
-  {
-    "name": "BAS-105-  Unit-IV Part-1.pptx",
-    "size": 424449,
-    "path": "/Year1/Soft Skills/Unit 4/BAS-105-  Unit-IV Part-1.pptx"
-  },
-  {
-    "name": "BAS -105 Unit - IV_Notes.docx",
-    "size": 1484156,
-    "path": "/Year1/Soft Skills/Unit 4/BAS -105 Unit - IV_Notes.docx"
-  },
-  {
-    "name": "BAS 105 Unit 3 Notes.docx",
-    "size": 46974,
-    "path": "/Year1/Soft Skills/Unit 3/BAS 105 Unit 3 Notes.docx"
-  },
-  {
-    "name": "BAS-105_Unit-3 _Part-I.pptx",
-    "size": 97792,
-    "path": "/Year1/Soft Skills/Unit 3/BAS-105_Unit-3 _Part-I.pptx"
-  },
-  {
-    "name": "BAS-105 Unit-3 Part-2.pdf",
-    "size": 858882,
-    "path": "/Year1/Soft Skills/Unit 3/BAS-105 Unit-3 Part-2.pdf"
-  },
-  {
-    "name": "TED Talks_with transcripts.docx",
-    "size": 22459,
-    "path": "/Year1/Soft Skills/Unit 2/TED Talks_with transcripts.docx"
-  },
-  {
-    "name": "Note on Speaking style (Unit 2).docx",
-    "size": 16658,
-    "path": "/Year1/Soft Skills/Unit 2/Note on Speaking style (Unit 2).docx"
-  },
-  {
-    "name": "BAS 205_Unit 2_2 PART.pptx",
-    "size": 118610,
-    "path": "/Year1/Soft Skills/Unit 2/BAS 205_Unit 2_2 PART.pptx"
-  },
-  {
-    "name": "BAS 205 Unit 2 Notes.docx",
-    "size": 60205,
-    "path": "/Year1/Soft Skills/Unit 2/BAS 205 Unit 2 Notes.docx"
-  },
-  {
-    "name": "BAS 205_Unit 2_1 PART.pdf",
-    "size": 761618,
-    "path": "/Year1/Soft Skills/Unit 2/BAS 205_Unit 2_1 PART.pdf"
-  },
-  {
-    "name": "BAS 205_Unit 2_2 PART.pdf",
-    "size": 897891,
-    "path": "/Year1/Soft Skills/Unit 2/BAS 205_Unit 2_2 PART.pdf"
-  },
-  {
-    "name": "BAS 205_Unit 2_1 PART.pptx",
-    "size": 1125092,
-    "path": "/Year1/Soft Skills/Unit 2/BAS 205_Unit 2_1 PART.pptx"
-  },
-  {
-    "name": "Transformation_of_Sentences.pdf",
-    "size": 43285,
-    "path": "/Year1/Soft Skills/Unit 1/Transformation_of_Sentences.pdf"
-  },
-  {
-    "name": "Unit1 Notes (1) BAS 205.docx",
-    "size": 33149,
-    "path": "/Year1/Soft Skills/Unit 1/Unit1 Notes (1) BAS 205.docx"
-  },
-  {
-    "name": "BAS 205 UNIT -1.pptx",
-    "size": 366511,
-    "path": "/Year1/Soft Skills/Unit 1/BAS 205 UNIT -1.pptx"
-  },
-  {
-    "name": "BAS 205 UNIT -1 PART 2.pptx",
-    "size": 366510,
-    "path": "/Year1/Soft Skills/Unit 1/BAS 205 UNIT -1 PART 2.pptx"
-  },
-  {
-    "name": "SUBJECT-VERB_AGREEMENT.pdf",
-    "size": 268147,
-    "path": "/Year1/Soft Skills/Unit 1/SUBJECT-VERB_AGREEMENT.pdf"
-  },
-  {
-    "name": "Assigbment Questions Unit-5 BAS 105.docx",
-    "size": 15779,
-    "path": "/Year1/Soft Skills/Unit 5/Assigbment Questions Unit-5 BAS 105.docx"
-  },
-  {
-    "name": "Notes _ BAS 105-Unit 5.docx",
-    "size": 61144,
-    "path": "/Year1/Soft Skills/Unit 5/Notes _ BAS 105-Unit 5.docx"
-  },
-  {
-    "name": "BAS Unit 5 Part 2 Additional.pptx",
-    "size": 222388,
-    "path": "/Year1/Soft Skills/Unit 5/BAS Unit 5 Part 2 Additional.pptx"
-  },
-  {
-    "name": "PPT  _ BAS 105-Unit 5 Part 1.pptx",
-    "size": 700721,
-    "path": "/Year1/Soft Skills/Unit 5/PPT  _ BAS 105-Unit 5 Part 1.pptx"
-  },
-  {
-    "name": "PPT _ BAS 105-Unit 5 Part 2.pptx",
-    "size": 3200513,
-    "path": "/Year1/Soft Skills/Unit 5/PPT _ BAS 105-Unit 5 Part 2.pptx"
-  },
-  {
-    "name": "soft_skill_quantum (4).pdf",
-    "size": 23193475,
-    "path": "/Year1/Soft Skills/soft_skill_quantum (4).pdf"
-  }
-]
+{
+  "status": "success",
+  "files": [
+    {
+      "name": "Unit-5 Notes.pdf",
+      "size": 37841230,
+      "path": "/Year1/Programming for Problem Solving (pps)/Unit 5/Unit-5 Notes.pdf"
+    },
+    {
+      "name": "Functions Unit-4 Notes .pdf",
+      "size": 21289137,
+      "path": "/Year1/Programming for Problem Solving (pps)/Unit 4/Functions Unit-4 Notes .pdf"
+    },
+    {
+      "name": "Unit - 3 (PPS) .pdf",
+      "size": 24741629,
+      "path": "/Year1/Programming for Problem Solving (pps)/Unit 3/Unit - 3 (PPS) .pdf"
+    },
+    {
+      "name": "PPS Unit 2 Notes.pdf",
+      "size": 5328273,
+      "path": "/Year1/Programming for Problem Solving (pps)/Unit 2/PPS Unit 2 Notes.pdf"
+    },
+    {
+      "name": "PPS Unit 1.docx",
+      "size": 2128621,
+      "path": "/Year1/Programming for Problem Solving (pps)/Unit1/PPS Unit 1.docx"
+    },
+    {
+      "name": "PPS Unit 1.pdf",
+      "size": 8480924,
+      "path": "/Year1/Programming for Problem Solving (pps)/Unit1/PPS Unit 1.pdf"
+    },
+    {
+      "name": "PPS PYQ Merged.pdf",
+      "size": 2276840,
+      "path": "/Year1/Programming for Problem Solving (pps)/PPS PYQ Merged.pdf"
+    },
+    {
+      "name": "PPS (Latest 20222-2023) Quantum Series {Searchable}.pdf",
+      "size": 10344521,
+      "path": "/Year1/Programming for Problem Solving (pps)/PPS (Latest 20222-2023) Quantum Series {Searchable}.pdf"
+    },
+    {
+      "name": "Unit 4 LASER (Part 1).pdf",
+      "size": 11711010,
+      "path": "/Year1/PHYSICS/UNIT-4/Unit 4 LASER (Part 1).pdf"
+    },
+    {
+      "name": "Unit 4 FIBRE  (Part 2).pdf",
+      "size": 23289137,
+      "path": "/Year1/PHYSICS/UNIT-4/Unit 4 FIBRE  (Part 2).pdf"
+    },
+    {
+      "name": "interference.pdf",
+      "size": 998636,
+      "path": "/Year1/PHYSICS/UNIT-3/interference.pdf"
+    },
+    {
+      "name": "Unit 3 Diffraction.pdf",
+      "size": 1985105,
+      "path": "/Year1/PHYSICS/UNIT-3/Unit 3 Diffraction.pdf"
+    },
+    {
+      "name": "maxwell equation.pdf",
+      "size": 506806,
+      "path": "/Year1/PHYSICS/UNIT-2/maxwell equation.pdf"
+    },
+    {
+      "name": "Unit 2.pdf",
+      "size": 24739187,
+      "path": "/Year1/PHYSICS/UNIT-2/Unit 2.pdf"
+    },
+    {
+      "name": "Unit 1.docx",
+      "size": 1462076,
+      "path": "/Year1/PHYSICS/UNIT-1/Unit 1.docx"
+    },
+    {
+      "name": "Unit 1(1).docx",
+      "size": 1462076,
+      "path": "/Year1/PHYSICS/UNIT-1/Unit 1(1).docx"
+    },
+    {
+      "name": "Unit 1.pdf",
+      "size": 22107469,
+      "path": "/Year1/PHYSICS/UNIT-1/Unit 1.pdf"
+    },
+    {
+      "name": "manual-2020-21.pdf",
+      "size": 1186699,
+      "path": "/Year1/PHYSICS/LAB/manual-2020-21.pdf"
+    },
+    {
+      "name": "physics practical file.pdf",
+      "size": 13437105,
+      "path": "/Year1/PHYSICS/LAB/physics practical file.pdf"
+    },
+    {
+      "name": "laser.pdf",
+      "size": 1004798,
+      "path": "/Year1/PHYSICS/UNIT-5/laser.pdf"
+    },
+    {
+      "name": "optical fibre .pdf",
+      "size": 915652,
+      "path": "/Year1/PHYSICS/UNIT-5/optical fibre .pdf"
+    },
+    {
+      "name": "Unit 5 Superconductor part 1.pdf",
+      "size": 4099395,
+      "path": "/Year1/PHYSICS/UNIT-5/Unit 5 Superconductor part 1.pdf"
+    },
+    {
+      "name": "Unit 5 Nanomaterials (part 2).pdf",
+      "size": 4403745,
+      "path": "/Year1/PHYSICS/UNIT-5/Unit 5 Nanomaterials (part 2).pdf"
+    },
+    {
+      "name": "physics pyqs.pdf",
+      "size": 2683917,
+      "path": "/Year1/PHYSICS/physics pyqs.pdf"
+    },
+    {
+      "name": "Engineering_Physics_Quantum__40_Slashbyte__41_ (1).pdf",
+      "size": 7120360,
+      "path": "/Year1/PHYSICS/Engineering_Physics_Quantum__40_Slashbyte__41_ (1).pdf"
+    },
+    {
+      "name": "Unit 4 Maths Question Bank.pdf",
+      "size": 677289,
+      "path": "/Year1/Maths 2/Unit 4/Unit 4 Maths Question Bank.pdf"
+    },
+    {
+      "name": "Unit 4 comcepts.pdf",
+      "size": 4290194,
+      "path": "/Year1/Maths 2/Unit 4/Unit 4 comcepts.pdf"
+    },
+    {
+      "name": "Maths Unit 4.pdf",
+      "size": 47378718,
+      "path": "/Year1/Maths 2/Unit 4/Maths Unit 4.pdf"
+    },
+    {
+      "name": "unit 3 question bank [BAS 203] maths 2.pdf",
+      "size": 354780,
+      "path": "/Year1/Maths 2/Unit 3/unit 3 question bank [BAS 203] maths 2.pdf"
+    },
+    {
+      "name": "Document 10.pdf",
+      "size": 890675,
+      "path": "/Year1/Maths 2/Unit 3/Document 10.pdf"
+    },
+    {
+      "name": "Sequence And Series Concepts.pdf",
+      "size": 3283674,
+      "path": "/Year1/Maths 2/Unit 3/Sequence And Series Concepts.pdf"
+    },
+    {
+      "name": "Maths Unit 3.pdf",
+      "size": 26557736,
+      "path": "/Year1/Maths 2/Unit 3/Maths Unit 3.pdf"
+    },
+    {
+      "name": "Question Bank (Most Important).pdf",
+      "size": 890675,
+      "path": "/Year1/Maths 2/Unit 2/Question Bank (Most Important).pdf"
+    },
+    {
+      "name": "Laplace Concept (H).pdf",
+      "size": 5391797,
+      "path": "/Year1/Maths 2/Unit 2/Laplace Concept (H).pdf"
+    },
+    {
+      "name": "Question Bank (Most Important).pdf",
+      "size": 812100,
+      "path": "/Year1/Maths 2/Unit 1/Question Bank (Most Important).pdf"
+    },
+    {
+      "name": "Differential equations.pdf",
+      "size": 1953174,
+      "path": "/Year1/Maths 2/Unit 1/Differential equations.pdf"
+    },
+    {
+      "name": "unit 5 question bank. [BAS 203] Maths 2.pdf",
+      "size": 1376937,
+      "path": "/Year1/Maths 2/Unit 5/unit 5 question bank. [BAS 203] Maths 2.pdf"
+    },
+    {
+      "name": "Unit 5 concepts.pdf",
+      "size": 3736519,
+      "path": "/Year1/Maths 2/Unit 5/Unit 5 concepts.pdf"
+    },
+    {
+      "name": "Maths Unit 5.pdf",
+      "size": 38218970,
+      "path": "/Year1/Maths 2/Unit 5/Maths Unit 5.pdf"
+    },
+    {
+      "name": "syllabus.pdf",
+      "size": 1460801,
+      "path": "/Year1/Maths 2/syllabus.pdf"
+    },
+    {
+      "name": "Maths 2 2022-2023 {Quantum Series} Latest 1st Year.pdf",
+      "size": 5565985,
+      "path": "/Year1/Maths 2/Maths 2 2022-2023 {Quantum Series} Latest 1st Year.pdf"
+    },
+    {
+      "name": "Trial Paper (KAS-103T)_1fa504b73b967abfe1d98c681d60c5ab.pdf",
+      "size": 135260,
+      "path": "/Year1/MATHS 1/UNIT-1/Trial Paper (KAS-103T)_1fa504b73b967abfe1d98c681d60c5ab.pdf"
+    },
+    {
+      "name": "assignment 1 maths.pdf",
+      "size": 543112,
+      "path": "/Year1/MATHS 1/UNIT-1/assignment 1 maths.pdf"
+    },
+    {
+      "name": "Normal Form and its application to rank.pdf",
+      "size": 517262,
+      "path": "/Year1/MATHS 1/UNIT-1/Normal Form and its application to rank.pdf"
+    },
+    {
+      "name": "rank question 16-Dec-2020 18-28-31.pdf",
+      "size": 949600,
+      "path": "/Year1/MATHS 1/UNIT-1/rank question 16-Dec-2020 18-28-31.pdf"
+    },
+    {
+      "name": "CamScanner 12-17-2020 16.50.24.pdf",
+      "size": 1404336,
+      "path": "/Year1/MATHS 1/UNIT-1/CamScanner 12-17-2020 16.50.24.pdf"
+    },
+    {
+      "name": "CamScanner 12-16-2020 13.53.05.pdf",
+      "size": 1256610,
+      "path": "/Year1/MATHS 1/UNIT-1/CamScanner 12-16-2020 13.53.05.pdf"
+    },
+    {
+      "name": "CamScanner 12-16-2020 16.50.35.pdf",
+      "size": 1777240,
+      "path": "/Year1/MATHS 1/UNIT-1/CamScanner 12-16-2020 16.50.35.pdf"
+    },
+    {
+      "name": " KIET MATHS NOTES.pdf",
+      "size": 1875336,
+      "path": "/Year1/MATHS 1/UNIT-1/ KIET MATHS NOTES.pdf"
+    },
+    {
+      "name": "diagonalizable 25-Dec-2020 18-39-38.pdf",
+      "size": 2659116,
+      "path": "/Year1/MATHS 1/UNIT-1/diagonalizable 25-Dec-2020 18-39-38.pdf"
+    },
+    {
+      "name": "LI and LD 21-Dec-2020 15-25-20.pdf",
+      "size": 4328514,
+      "path": "/Year1/MATHS 1/UNIT-1/LI and LD 21-Dec-2020 15-25-20.pdf"
+    },
+    {
+      "name": "New Doc 2020-12-08 09.56.22.pdf",
+      "size": 4943751,
+      "path": "/Year1/MATHS 1/UNIT-1/New Doc 2020-12-08 09.56.22.pdf"
+    },
+    {
+      "name": "New Doc 2020-12-11 14.24.48.pdf",
+      "size": 5437059,
+      "path": "/Year1/MATHS 1/UNIT-1/New Doc 2020-12-11 14.24.48.pdf"
+    },
+    {
+      "name": "eigen value 22-Dec-2020 16-01-18.pdf",
+      "size": 13938026,
+      "path": "/Year1/MATHS 1/UNIT-1/eigen value 22-Dec-2020 16-01-18.pdf"
+    },
+    {
+      "name": "continuity, differentiability 30-Dec-2020 16-15-32.pdf",
+      "size": 17510628,
+      "path": "/Year1/MATHS 1/UNIT-2/continuity, differentiability 30-Dec-2020 16-15-32.pdf"
+    },
+    {
+      "name": "New Doc 2021-01-03 19.11.02.pdf",
+      "size": 17265535,
+      "path": "/Year1/MATHS 1/UNIT-2/New Doc 2021-01-03 19.11.02.pdf"
+    },
+    {
+      "name": "Engineering_Maths_Quantum___40_Slashbyte__41_ (1).pdf",
+      "size": 33582159,
+      "path": "/Year1/MATHS 1/Engineering_Maths_Quantum___40_Slashbyte__41_ (1).pdf"
+    },
+    {
+      "name": "Quiz-3_FMEM.docx",
+      "size": 35267,
+      "path": "/Year1/Fundamentals of Mechanical Engineering & Mechatronics (FMEM)/UNIT-3/Quiz-3_FMEM.docx"
+    },
+    {
+      "name": "Quiz  Unit-3.docx",
+      "size": 30757,
+      "path": "/Year1/Fundamentals of Mechanical Engineering & Mechatronics (FMEM)/UNIT-3/Quiz  Unit-3.docx"
+    },
+    {
+      "name": "Unit-2_FMEM_(Type form).pdf",
+      "size": 1641139,
+      "path": "/Year1/Fundamentals of Mechanical Engineering & Mechatronics (FMEM)/UNIT-2/Unit-2_FMEM_(Type form).pdf"
+    },
+    {
+      "name": "ONE shot.pdf",
+      "size": 2129946,
+      "path": "/Year1/Fundamentals of Mechanical Engineering & Mechatronics (FMEM)/UNIT-2/ONE shot.pdf"
+    },
+    {
+      "name": "MCQ.pdf",
+      "size": 15441607,
+      "path": "/Year1/Fundamentals of Mechanical Engineering & Mechatronics (FMEM)/UNIT-2/MCQ.pdf"
+    },
+    {
+      "name": "Quiz Unit-1.docx",
+      "size": 88308,
+      "path": "/Year1/Fundamentals of Mechanical Engineering & Mechatronics (FMEM)/UNIT-1/Quiz Unit-1.docx"
+    },
+    {
+      "name": "UNIT 1 PART II.pptx",
+      "size": 1463682,
+      "path": "/Year1/Fundamentals of Mechanical Engineering & Mechatronics (FMEM)/UNIT-1/UNIT 1 PART II.pptx"
+    },
+    {
+      "name": "UNIT 4 MCQ.docx",
+      "size": 19310,
+      "path": "/Year1/Fundamentals of Mechanical Engineering & Mechatronics (FMEM)/UNIT-4/UNIT 4 MCQ.docx"
+    },
+    {
+      "name": "Unit 4_FMEM_ 25 Question_Quiz.doc",
+      "size": 88576,
+      "path": "/Year1/Fundamentals of Mechanical Engineering & Mechatronics (FMEM)/UNIT-4/Unit 4_FMEM_ 25 Question_Quiz.doc"
+    },
+    {
+      "name": "FMEM question paper set 2 (2).doc",
+      "size": 131584,
+      "path": "/Year1/Fundamentals of Mechanical Engineering & Mechatronics (FMEM)/FMEM question paper set 2 (2).doc"
+    },
+    {
+      "name": "Past Year Paper.jpg",
+      "size": 143816,
+      "path": "/Year1/Fundamentals of Mechanical Engineering & Mechatronics (FMEM)/Past Year Paper.jpg"
+    },
+    {
+      "name": "FMEM_PUE 1 (2).doc",
+      "size": 152576,
+      "path": "/Year1/Fundamentals of Mechanical Engineering & Mechatronics (FMEM)/FMEM_PUE 1 (2).doc"
+    },
+    {
+      "name": "Unit 1-5 MCQ_s.pdf",
+      "size": 845372,
+      "path": "/Year1/Fundamentals of Mechanical Engineering & Mechatronics (FMEM)/Unit 1-5 MCQ_s.pdf"
+    },
+    {
+      "name": "Mechanical Quantum.pdf",
+      "size": 19875394,
+      "path": "/Year1/Fundamentals of Mechanical Engineering & Mechatronics (FMEM)/Mechanical Quantum.pdf"
+    },
+    {
+      "name": "EVS PYQ MERGED.pdf",
+      "size": 1714506,
+      "path": "/Year1/EVS/EVS PYQ MERGED.pdf"
+    },
+    {
+      "name": "EVS UNIT 1.pdf",
+      "size": 32984527,
+      "path": "/Year1/EVS/EVS UNIT 1.pdf"
+    },
+    {
+      "name": "EVS UNIt 2.pdf",
+      "size": 39491294,
+      "path": "/Year1/EVS/EVS UNIt 2.pdf"
+    },
+    {
+      "name": "Environment_And_Ecology Quantam (1).pdf",
+      "size": 45253021,
+      "path": "/Year1/EVS/Environment_And_Ecology Quantam (1).pdf"
+    },
+    {
+      "name": "EVS Unit 3 to 5.pdf",
+      "size": 49640480,
+      "path": "/Year1/EVS/EVS Unit 3 to 5.pdf"
+    },
+    {
+      "name": "Lab Assignment -3 Comm. Skills --converted.pdf",
+      "size": 36936,
+      "path": "/Year1/ENGLISH LAB/Lab Assignment -3 Comm. Skills --converted.pdf"
+    },
+    {
+      "name": "Lab Assignment practical 9-  Listening.docx",
+      "size": 22630,
+      "path": "/Year1/ENGLISH LAB/Lab Assignment practical 9-  Listening.docx"
+    },
+    {
+      "name": "Lab Assignment -1 Group Discussion-converted.pdf",
+      "size": 23105,
+      "path": "/Year1/ENGLISH LAB/Lab Assignment -1 Group Discussion-converted.pdf"
+    },
+    {
+      "name": "Lab Assignment 8_ Argumentation Skill-converted.pdf",
+      "size": 88304,
+      "path": "/Year1/ENGLISH LAB/Lab Assignment 8_ Argumentation Skill-converted.pdf"
+    },
+    {
+      "name": "Lab Assignment -5 Practical 5 (TC).docx",
+      "size": 16052,
+      "path": "/Year1/ENGLISH LAB/Lab Assignment -5 Practical 5 (TC).docx"
+    },
+    {
+      "name": "Lab Assignment -5 Practical 5 (TC)-converted.pdf",
+      "size": 45682,
+      "path": "/Year1/ENGLISH LAB/Lab Assignment -5 Practical 5 (TC)-converted.pdf"
+    },
+    {
+      "name": "Lab Assignment -3 Comm. Skills -.docx",
+      "size": 13422,
+      "path": "/Year1/ENGLISH LAB/Lab Assignment -3 Comm. Skills -.docx"
+    },
+    {
+      "name": "Lab Assignment- 2.docx",
+      "size": 13280,
+      "path": "/Year1/ENGLISH LAB/Lab Assignment- 2.docx"
+    },
+    {
+      "name": "Lab Assignment -1 Group Discussion.docx",
+      "size": 13071,
+      "path": "/Year1/ENGLISH LAB/Lab Assignment -1 Group Discussion.docx"
+    },
+    {
+      "name": "swot analysis-converted.pdf",
+      "size": 73457,
+      "path": "/Year1/ENGLISH LAB/swot analysis-converted.pdf"
+    },
+    {
+      "name": "Lab Assignment 7_ Speech Delivery-converted.pdf",
+      "size": 128712,
+      "path": "/Year1/ENGLISH LAB/Lab Assignment 7_ Speech Delivery-converted.pdf"
+    },
+    {
+      "name": "Lab Assignment - Practical 6 (TC)-converted.pdf",
+      "size": 107322,
+      "path": "/Year1/ENGLISH LAB/Lab Assignment - Practical 6 (TC)-converted.pdf"
+    },
+    {
+      "name": "null (1).pdf",
+      "size": 6874618,
+      "path": "/Year1/ENGLISH LAB/null (1).pdf"
+    },
+    {
+      "name": "Point _ Line.pdf",
+      "size": 386544,
+      "path": "/Year1/Engeenering Drawing/Point _ Line.pdf"
+    },
+    {
+      "name": "Point _ Line.ppsx",
+      "size": 535977,
+      "path": "/Year1/Engeenering Drawing/Point _ Line.ppsx"
+    },
+    {
+      "name": "Projection of Planes_revised.pdf",
+      "size": 847222,
+      "path": "/Year1/Engeenering Drawing/Projection of Planes_revised.pdf"
+    },
+    {
+      "name": "What is Engineering Drawing.pptx",
+      "size": 1684739,
+      "path": "/Year1/Engeenering Drawing/What is Engineering Drawing.pptx"
+    },
+    {
+      "name": "ortho projecgtion neer.ppt",
+      "size": 7908352,
+      "path": "/Year1/Engeenering Drawing/ortho projecgtion neer.ppt"
+    },
+    {
+      "name": "UNIT 4 Introduction to IC.pdf",
+      "size": 510312,
+      "path": "/Year1/Electronics/UNIT -4/UNIT 4 Introduction to IC.pdf"
+    },
+    {
+      "name": "MCQ Unit 4 KEC101T_201T.pdf",
+      "size": 857353,
+      "path": "/Year1/Electronics/UNIT -4/MCQ Unit 4 KEC101T_201T.pdf"
+    },
+    {
+      "name": "5 and 6 variable k map-compressed_1ec887e8af5bbb42719a70495d04cc05.pdf",
+      "size": 3432698,
+      "path": "/Year1/Electronics/UNIT -4/5 and 6 variable k map-compressed_1ec887e8af5bbb42719a70495d04cc05.pdf"
+    },
+    {
+      "name": "K-MAP.pdf",
+      "size": 3906412,
+      "path": "/Year1/Electronics/UNIT -4/K-MAP.pdf"
+    },
+    {
+      "name": "PPTs Unit 4 Digital Electronics Part II.pdf",
+      "size": 4222736,
+      "path": "/Year1/Electronics/UNIT -4/PPTs Unit 4 Digital Electronics Part II.pdf"
+    },
+    {
+      "name": "PPTs Unit 4 Digital Electronics Part I.pdf",
+      "size": 4415534,
+      "path": "/Year1/Electronics/UNIT -4/PPTs Unit 4 Digital Electronics Part I.pdf"
+    },
+    {
+      "name": "Unit-4   Ajeetpratap Sir Notes.pdf",
+      "size": 9003642,
+      "path": "/Year1/Electronics/UNIT -4/Unit-4   Ajeetpratap Sir Notes.pdf"
+    },
+    {
+      "name": "Introduction to WIFI.pdf",
+      "size": 467063,
+      "path": "/Year1/Electronics/UNIT -3/Introduction to WIFI.pdf"
+    },
+    {
+      "name": "MCQ Unit 3 KEC101T_201T.pdf",
+      "size": 763563,
+      "path": "/Year1/Electronics/UNIT -3/MCQ Unit 3 KEC101T_201T.pdf"
+    },
+    {
+      "name": "PPTs Complete 3.pdf",
+      "size": 2596510,
+      "path": "/Year1/Electronics/UNIT -3/PPTs Complete 3.pdf"
+    },
+    {
+      "name": "OP-AMP.pdf",
+      "size": 2778896,
+      "path": "/Year1/Electronics/UNIT -3/OP-AMP.pdf"
+    },
+    {
+      "name": "Op amp handwritten.pdf",
+      "size": 10846795,
+      "path": "/Year1/Electronics/UNIT -3/Op amp handwritten.pdf"
+    },
+    {
+      "name": "Unit 2 PPTs Complete.pdf",
+      "size": 1915441,
+      "path": "/Year1/Electronics/UNIT -2/Unit 2 PPTs Complete.pdf"
+    },
+    {
+      "name": "BJT, FET, .pdf",
+      "size": 5485651,
+      "path": "/Year1/Electronics/UNIT -2/BJT, FET, .pdf"
+    },
+    {
+      "name": "BJT hand written.pdf",
+      "size": 5694264,
+      "path": "/Year1/Electronics/UNIT -2/BJT hand written.pdf"
+    },
+    {
+      "name": "FET hand written.pdf",
+      "size": 11690940,
+      "path": "/Year1/Electronics/UNIT -2/FET hand written.pdf"
+    },
+    {
+      "name": "MCQ Unit 1 KEC101T_201T.docx",
+      "size": 348827,
+      "path": "/Year1/Electronics/UNIT -1/MCQ Unit 1 KEC101T_201T.docx"
+    },
+    {
+      "name": "Semiconductor mcq.pdf",
+      "size": 202046,
+      "path": "/Year1/Electronics/UNIT -1/Semiconductor mcq.pdf"
+    },
+    {
+      "name": "MCQ Unit 1 KEC101T_201T.pdf",
+      "size": 1029313,
+      "path": "/Year1/Electronics/UNIT -1/MCQ Unit 1 KEC101T_201T.pdf"
+    },
+    {
+      "name": "UNIT-1 (part-2).pdf",
+      "size": 1920759,
+      "path": "/Year1/Electronics/UNIT -1/UNIT-1 (part-2).pdf"
+    },
+    {
+      "name": "Unit-1, Part-4 Clamper Circuit_141573bbcebe5afdd69503770ec595a5.pdf",
+      "size": 2594649,
+      "path": "/Year1/Electronics/UNIT -1/Unit-1, Part-4 Clamper Circuit_141573bbcebe5afdd69503770ec595a5.pdf"
+    },
+    {
+      "name": "UNIT 1 ECE.docx",
+      "size": 2637423,
+      "path": "/Year1/Electronics/UNIT -1/UNIT 1 ECE.docx"
+    },
+    {
+      "name": "Unit-1, Part-6_ Series and Parallel Diodes Configuration_33ddcae553e5df5a1e1335b21f8f77da.pdf",
+      "size": 3759075,
+      "path": "/Year1/Electronics/UNIT -1/Unit-1, Part-6_ Series and Parallel Diodes Configuration_33ddcae553e5df5a1e1335b21f8f77da.pdf"
+    },
+    {
+      "name": "unit 1-converted-compressed.pdf",
+      "size": 3886679,
+      "path": "/Year1/Electronics/UNIT -1/unit 1-converted-compressed.pdf"
+    },
+    {
+      "name": "Unit-1,  Part-1_Semiconducter, Diode_36e7a11a09c978763fb9fca79a5ed718.pdf",
+      "size": 3793886,
+      "path": "/Year1/Electronics/UNIT -1/Unit-1,  Part-1_Semiconducter, Diode_36e7a11a09c978763fb9fca79a5ed718.pdf"
+    },
+    {
+      "name": "Unit-1, Part-3 Clipper Circuit_099c57ec804e750eca945efa1e141674.pdf",
+      "size": 4412668,
+      "path": "/Year1/Electronics/UNIT -1/Unit-1, Part-3 Clipper Circuit_099c57ec804e750eca945efa1e141674.pdf"
+    },
+    {
+      "name": "Unit-1, Part-2_ Rectifier_739fb2316b750e7c7d1dfbc8904c9e97.pdf",
+      "size": 4970589,
+      "path": "/Year1/Electronics/UNIT -1/Unit-1, Part-2_ Rectifier_739fb2316b750e7c7d1dfbc8904c9e97.pdf"
+    },
+    {
+      "name": "Unit-1, Part-5_ Various Diodes_cb7c0a85f7830ea6328665912a9b4b65.pdf",
+      "size": 6081253,
+      "path": "/Year1/Electronics/UNIT -1/Unit-1, Part-5_ Various Diodes_cb7c0a85f7830ea6328665912a9b4b65.pdf"
+    },
+    {
+      "name": "UNIT-1 (part-1).pdf",
+      "size": 6357115,
+      "path": "/Year1/Electronics/UNIT -1/UNIT-1 (part-1).pdf"
+    },
+    {
+      "name": "Semiconductor Notes(Abes).pdf",
+      "size": 14568049,
+      "path": "/Year1/Electronics/UNIT -1/Semiconductor Notes(Abes).pdf"
+    },
+    {
+      "name": "Unit 5 Satellite and Radar Communication.pdf",
+      "size": 248554,
+      "path": "/Year1/Electronics/UNIT -5/Unit 5 Satellite and Radar Communication.pdf"
+    },
+    {
+      "name": "UNIT-5, Evolution of Mobile Wireless Technology from 0G to 5G.pdf",
+      "size": 289972,
+      "path": "/Year1/Electronics/UNIT -5/UNIT-5, Evolution of Mobile Wireless Technology from 0G to 5G.pdf"
+    },
+    {
+      "name": "UNIT-5, DATA COMMUNICATION NETWORKS.pdf",
+      "size": 431463,
+      "path": "/Year1/Electronics/UNIT -5/UNIT-5, DATA COMMUNICATION NETWORKS.pdf"
+    },
+    {
+      "name": "Communication.pdf",
+      "size": 4232861,
+      "path": "/Year1/Electronics/UNIT -5/Communication.pdf"
+    },
+    {
+      "name": "PPTs Complete unit 5.pdf",
+      "size": 5397495,
+      "path": "/Year1/Electronics/UNIT -5/PPTs Complete unit 5.pdf"
+    },
+    {
+      "name": "electronics (1).pdf",
+      "size": 69589708,
+      "path": "/Year1/Electronics/electronics (1).pdf"
+    },
+    {
+      "name": "unit 5 polymer and organometallic compounds.doc",
+      "size": 377856,
+      "path": "/Year1/Chemistry/Chemistry Unit 5/unit 5 polymer and organometallic compounds.doc"
+    },
+    {
+      "name": "Moduel 5.pdf",
+      "size": 689533,
+      "path": "/Year1/Chemistry/Chemistry Unit 5/Moduel 5.pdf"
+    },
+    {
+      "name": "Moduel 5.docx",
+      "size": 4355029,
+      "path": "/Year1/Chemistry/Chemistry Unit 5/Moduel 5.docx"
+    },
+    {
+      "name": "module 4.pdf",
+      "size": 660683,
+      "path": "/Year1/Chemistry/Chemistry Unit 4/module 4.pdf"
+    },
+    {
+      "name": "unit 4 hardness ,alkalinity,biogas.docx",
+      "size": 555264,
+      "path": "/Year1/Chemistry/Chemistry Unit 4/unit 4 hardness ,alkalinity,biogas.docx"
+    },
+    {
+      "name": "module 4.docx",
+      "size": 4390458,
+      "path": "/Year1/Chemistry/Chemistry Unit 4/module 4.docx"
+    },
+    {
+      "name": "unit 3 cement.docx",
+      "size": 60448,
+      "path": "/Year1/Chemistry/Chemistry Unit 3/unit 3 cement.docx"
+    },
+    {
+      "name": "unit 3 corrosion and  POP.docx",
+      "size": 39940,
+      "path": "/Year1/Chemistry/Chemistry Unit 3/unit 3 corrosion and  POP.docx"
+    },
+    {
+      "name": "Module 3.pdf",
+      "size": 991722,
+      "path": "/Year1/Chemistry/Chemistry Unit 3/Module 3.pdf"
+    },
+    {
+      "name": "Module 3.docx",
+      "size": 2141965,
+      "path": "/Year1/Chemistry/Chemistry Unit 3/Module 3.docx"
+    },
+    {
+      "name": "unit 2 NMR.doc",
+      "size": 600576,
+      "path": "/Year1/Chemistry/Chemistry Unit 2/unit 2 NMR.doc"
+    },
+    {
+      "name": "unit 2 stereochemistry.docx",
+      "size": 1433613,
+      "path": "/Year1/Chemistry/Chemistry Unit 2/unit 2 stereochemistry.docx"
+    },
+    {
+      "name": "MODULE-2.docx",
+      "size": 1825312,
+      "path": "/Year1/Chemistry/Chemistry Unit 2/MODULE-2.docx"
+    },
+    {
+      "name": "MODULE-2.pdf",
+      "size": 2540068,
+      "path": "/Year1/Chemistry/Chemistry Unit 2/MODULE-2.pdf"
+    },
+    {
+      "name": "MODULE-1.docx",
+      "size": 348278,
+      "path": "/Year1/Chemistry/Chemistry Unit 1/MODULE-1.docx"
+    },
+    {
+      "name": "UNIT 1 Green Chemistry.docx",
+      "size": 288931,
+      "path": "/Year1/Chemistry/Chemistry Unit 1/UNIT 1 Green Chemistry.docx"
+    },
+    {
+      "name": "MODULE-1.pdf",
+      "size": 1353468,
+      "path": "/Year1/Chemistry/Chemistry Unit 1/MODULE-1.pdf"
+    },
+    {
+      "name": "exp.pdf",
+      "size": 102603,
+      "path": "/Year1/Chemistry/LAB/exp.pdf"
+    },
+    {
+      "name": "LAB.docx",
+      "size": 368548,
+      "path": "/Year1/Chemistry/LAB/LAB.docx"
+    },
+    {
+      "name": "All Experiments (2).pdf",
+      "size": 860885,
+      "path": "/Year1/Chemistry/LAB/All Experiments (2).pdf"
+    },
+    {
+      "name": "All Experiments (2).docx",
+      "size": 1115270,
+      "path": "/Year1/Chemistry/LAB/All Experiments (2).docx"
+    },
+    {
+      "name": "exp.docx",
+      "size": 1875103,
+      "path": "/Year1/Chemistry/LAB/exp.docx"
+    },
+    {
+      "name": "chem pyqs.pdf",
+      "size": 2149484,
+      "path": "/Year1/Chemistry/chem pyqs.pdf"
+    },
+    {
+      "name": "Chemistry All Unit MCQS_ 3 .pdf",
+      "size": 7619227,
+      "path": "/Year1/Chemistry/Chemistry All Unit MCQS_ 3 .pdf"
+    },
+    {
+      "name": "Chemistry_Quantum_AKTU_2022-2023 (1).pdf",
+      "size": 17170650,
+      "path": "/Year1/Chemistry/Chemistry_Quantum_AKTU_2022-2023 (1).pdf"
+    },
+    {
+      "name": "Unit 4.pdf",
+      "size": 37835197,
+      "path": "/Year1/Basic Electrical Engeenering/UNIT-4/Unit 4.pdf"
+    },
+    {
+      "name": "Autotransformer.pdf",
+      "size": 286378,
+      "path": "/Year1/Basic Electrical Engeenering/UNIT-3/Autotransformer.pdf"
+    },
+    {
+      "name": "Real Transformer Phasor Diagram.pdf",
+      "size": 382428,
+      "path": "/Year1/Basic Electrical Engeenering/UNIT-3/Real Transformer Phasor Diagram.pdf"
+    },
+    {
+      "name": "Working Principle and EMF Eq of Transformer.pdf",
+      "size": 388446,
+      "path": "/Year1/Basic Electrical Engeenering/UNIT-3/Working Principle and EMF Eq of Transformer.pdf"
+    },
+    {
+      "name": "Transformer Efficiency (2).pdf",
+      "size": 707948,
+      "path": "/Year1/Basic Electrical Engeenering/UNIT-3/Transformer Efficiency (2).pdf"
+    },
+    {
+      "name": "Notes of Magnetic Materials.pdf",
+      "size": 589783,
+      "path": "/Year1/Basic Electrical Engeenering/UNIT-3/Notes of Magnetic Materials.pdf"
+    },
+    {
+      "name": "Numericals on EMF equation of transformer.pdf",
+      "size": 1017174,
+      "path": "/Year1/Basic Electrical Engeenering/UNIT-3/Numericals on EMF equation of transformer.pdf"
+    },
+    {
+      "name": "Updated phasor diagram of transformer.pdf",
+      "size": 1064617,
+      "path": "/Year1/Basic Electrical Engeenering/UNIT-3/Updated phasor diagram of transformer.pdf"
+    },
+    {
+      "name": "Additional Content on Transformer .pdf",
+      "size": 5513692,
+      "path": "/Year1/Basic Electrical Engeenering/UNIT-3/Additional Content on Transformer .pdf"
+    },
+    {
+      "name": "Unit 3.pdf",
+      "size": 13013217,
+      "path": "/Year1/Basic Electrical Engeenering/UNIT-3/Unit 3.pdf"
+    },
+    {
+      "name": "Concept of Phasors.pptx",
+      "size": 498255,
+      "path": "/Year1/Basic Electrical Engeenering/UNIT-2/Concept of Phasors.pptx"
+    },
+    {
+      "name": "AC Fundamentals, Average and RMS values.pdf",
+      "size": 680538,
+      "path": "/Year1/Basic Electrical Engeenering/UNIT-2/AC Fundamentals, Average and RMS values.pdf"
+    },
+    {
+      "name": "3 phase Circuits module 2 notes.pdf",
+      "size": 1525169,
+      "path": "/Year1/Basic Electrical Engeenering/UNIT-2/3 phase Circuits module 2 notes.pdf"
+    },
+    {
+      "name": "Unit 2 Part B.pdf",
+      "size": 1889074,
+      "path": "/Year1/Basic Electrical Engeenering/UNIT-2/Unit 2 Part B.pdf"
+    },
+    {
+      "name": "UNIT 2 Part A.pdf",
+      "size": 15128624,
+      "path": "/Year1/Basic Electrical Engeenering/UNIT-2/UNIT 2 Part A.pdf"
+    },
+    {
+      "name": "IMG-20201224-WA0003.jpg",
+      "size": 61954,
+      "path": "/Year1/Basic Electrical Engeenering/UNIT-1/IMG-20201224-WA0003.jpg"
+    },
+    {
+      "name": "Star-Delta Transformation.pdf",
+      "size": 637532,
+      "path": "/Year1/Basic Electrical Engeenering/UNIT-1/Star-Delta Transformation.pdf"
+    },
+    {
+      "name": "Practice Questions.pdf",
+      "size": 462274,
+      "path": "/Year1/Basic Electrical Engeenering/UNIT-1/Practice Questions.pdf"
+    },
+    {
+      "name": "Practise questions unit 1.pdf",
+      "size": 399817,
+      "path": "/Year1/Basic Electrical Engeenering/UNIT-1/Practise questions unit 1.pdf"
+    },
+    {
+      "name": "Superposition theorem.pdf",
+      "size": 518043,
+      "path": "/Year1/Basic Electrical Engeenering/UNIT-1/Superposition theorem.pdf"
+    },
+    {
+      "name": "DC Circuits II.pdf",
+      "size": 1009135,
+      "path": "/Year1/Basic Electrical Engeenering/UNIT-1/DC Circuits II.pdf"
+    },
+    {
+      "name": "Energy consumption numerical.pdf",
+      "size": 146139,
+      "path": "/Year1/Basic Electrical Engeenering/UNIT-5/Energy consumption numerical.pdf"
+    },
+    {
+      "name": "Protection device.pdf",
+      "size": 898112,
+      "path": "/Year1/Basic Electrical Engeenering/UNIT-5/Protection device.pdf"
+    },
+    {
+      "name": "Unit-5_merged (1).pdf",
+      "size": 7428036,
+      "path": "/Year1/Basic Electrical Engeenering/UNIT-5/Unit-5_merged (1).pdf"
+    },
+    {
+      "name": "Electrical Syllabus.pdf",
+      "size": 127216,
+      "path": "/Year1/Basic Electrical Engeenering/Electrical Syllabus.pdf"
+    },
+    {
+      "name": "electrical pyqs.pdf",
+      "size": 2629979,
+      "path": "/Year1/Basic Electrical Engeenering/electrical pyqs.pdf"
+    },
+    {
+      "name": "Electrical_BEE_Latest_2022_2023_Quantum_Series_{Searchable}.pdf",
+      "size": 11199885,
+      "path": "/Year1/Basic Electrical Engeenering/Electrical_BEE_Latest_2022_2023_Quantum_Series_{Searchable}.pdf"
+    },
+    {
+      "name": "BAS-105 Unit-IV  Part-2.pptx",
+      "size": 386846,
+      "path": "/Year1/Soft Skills/Unit 4/BAS-105 Unit-IV  Part-2.pptx"
+    },
+    {
+      "name": "BAS-105-  Unit-IV Part-1.pptx",
+      "size": 424449,
+      "path": "/Year1/Soft Skills/Unit 4/BAS-105-  Unit-IV Part-1.pptx"
+    },
+    {
+      "name": "BAS -105 Unit - IV_Notes.docx",
+      "size": 1484156,
+      "path": "/Year1/Soft Skills/Unit 4/BAS -105 Unit - IV_Notes.docx"
+    },
+    {
+      "name": "BAS 105 Unit 3 Notes.docx",
+      "size": 46974,
+      "path": "/Year1/Soft Skills/Unit 3/BAS 105 Unit 3 Notes.docx"
+    },
+    {
+      "name": "BAS-105_Unit-3 _Part-I.pptx",
+      "size": 97792,
+      "path": "/Year1/Soft Skills/Unit 3/BAS-105_Unit-3 _Part-I.pptx"
+    },
+    {
+      "name": "BAS-105 Unit-3 Part-2.pdf",
+      "size": 858882,
+      "path": "/Year1/Soft Skills/Unit 3/BAS-105 Unit-3 Part-2.pdf"
+    },
+    {
+      "name": "TED Talks_with transcripts.docx",
+      "size": 22459,
+      "path": "/Year1/Soft Skills/Unit 2/TED Talks_with transcripts.docx"
+    },
+    {
+      "name": "Note on Speaking style (Unit 2).docx",
+      "size": 16658,
+      "path": "/Year1/Soft Skills/Unit 2/Note on Speaking style (Unit 2).docx"
+    },
+    {
+      "name": "BAS 205_Unit 2_2 PART.pptx",
+      "size": 118610,
+      "path": "/Year1/Soft Skills/Unit 2/BAS 205_Unit 2_2 PART.pptx"
+    },
+    {
+      "name": "BAS 205 Unit 2 Notes.docx",
+      "size": 60205,
+      "path": "/Year1/Soft Skills/Unit 2/BAS 205 Unit 2 Notes.docx"
+    },
+    {
+      "name": "BAS 205_Unit 2_1 PART.pdf",
+      "size": 761618,
+      "path": "/Year1/Soft Skills/Unit 2/BAS 205_Unit 2_1 PART.pdf"
+    },
+    {
+      "name": "BAS 205_Unit 2_2 PART.pdf",
+      "size": 897891,
+      "path": "/Year1/Soft Skills/Unit 2/BAS 205_Unit 2_2 PART.pdf"
+    },
+    {
+      "name": "BAS 205_Unit 2_1 PART.pptx",
+      "size": 1125092,
+      "path": "/Year1/Soft Skills/Unit 2/BAS 205_Unit 2_1 PART.pptx"
+    },
+    {
+      "name": "Transformation_of_Sentences.pdf",
+      "size": 43285,
+      "path": "/Year1/Soft Skills/Unit 1/Transformation_of_Sentences.pdf"
+    },
+    {
+      "name": "Unit1 Notes (1) BAS 205.docx",
+      "size": 33149,
+      "path": "/Year1/Soft Skills/Unit 1/Unit1 Notes (1) BAS 205.docx"
+    },
+    {
+      "name": "BAS 205 UNIT -1.pptx",
+      "size": 366511,
+      "path": "/Year1/Soft Skills/Unit 1/BAS 205 UNIT -1.pptx"
+    },
+    {
+      "name": "BAS 205 UNIT -1 PART 2.pptx",
+      "size": 366510,
+      "path": "/Year1/Soft Skills/Unit 1/BAS 205 UNIT -1 PART 2.pptx"
+    },
+    {
+      "name": "SUBJECT-VERB_AGREEMENT.pdf",
+      "size": 268147,
+      "path": "/Year1/Soft Skills/Unit 1/SUBJECT-VERB_AGREEMENT.pdf"
+    },
+    {
+      "name": "Assigbment Questions Unit-5 BAS 105.docx",
+      "size": 15779,
+      "path": "/Year1/Soft Skills/Unit 5/Assigbment Questions Unit-5 BAS 105.docx"
+    },
+    {
+      "name": "Notes _ BAS 105-Unit 5.docx",
+      "size": 61144,
+      "path": "/Year1/Soft Skills/Unit 5/Notes _ BAS 105-Unit 5.docx"
+    },
+    {
+      "name": "BAS Unit 5 Part 2 Additional.pptx",
+      "size": 222388,
+      "path": "/Year1/Soft Skills/Unit 5/BAS Unit 5 Part 2 Additional.pptx"
+    },
+    {
+      "name": "PPT  _ BAS 105-Unit 5 Part 1.pptx",
+      "size": 700721,
+      "path": "/Year1/Soft Skills/Unit 5/PPT  _ BAS 105-Unit 5 Part 1.pptx"
+    },
+    {
+      "name": "PPT _ BAS 105-Unit 5 Part 2.pptx",
+      "size": 3200513,
+      "path": "/Year1/Soft Skills/Unit 5/PPT _ BAS 105-Unit 5 Part 2.pptx"
+    },
+    {
+      "name": "soft_skill_quantum (4).pdf",
+      "size": 23193475,
+      "path": "/Year1/Soft Skills/soft_skill_quantum (4).pdf"
+    },
+    {
+      "name": "HVPE 1.2 Und Human Being - Self.ppt",
+      "size": 170496,
+      "path": "/Year2/Universal Human Values (UHV)/Unit -2/HVPE 1.2 Und Human Being - Self.ppt"
+    },
+    {
+      "name": "uhvpe unit-2 (1)-amendmented (1).pdf",
+      "size": 586517,
+      "path": "/Year2/Universal Human Values (UHV)/Unit -2/uhvpe unit-2 (1)-amendmented (1).pdf"
+    },
+    {
+      "name": "HVPE 1.1 Und Human Being - Self _ Body.ppt",
+      "size": 729600,
+      "path": "/Year2/Universal Human Values (UHV)/Unit -2/HVPE 1.1 Und Human Being - Self _ Body.ppt"
+    },
+    {
+      "name": "UHV Handout 2-Harmony in the Human Being.pdf",
+      "size": 399527,
+      "path": "/Year2/Universal Human Values (UHV)/Unit -2/UHV Handout 2-Harmony in the Human Being.pdf"
+    },
+    {
+      "name": "HVPE 1.3 Und Human Being - Prosperity.ppt",
+      "size": 795136,
+      "path": "/Year2/Universal Human Values (UHV)/Unit -2/HVPE 1.3 Und Human Being - Prosperity.ppt"
+    },
+    {
+      "name": "UHV Handout 1-Introduction to Value Education.pdf",
+      "size": 426190,
+      "path": "/Year2/Universal Human Values (UHV)/Unit -1/UHV Handout 1-Introduction to Value Education.pdf"
+    },
+    {
+      "name": "HVPE 1.2 Und Human Being - Self.ppt",
+      "size": 170496,
+      "path": "/Year2/Universal Human Values (UHV)/Unit -1/HVPE 1.2 Und Human Being - Self.ppt"
+    },
+    {
+      "name": "Unit I Complete short notesPPT.pdf",
+      "size": 690599,
+      "path": "/Year2/Universal Human Values (UHV)/Unit -1/Unit I Complete short notesPPT.pdf"
+    },
+    {
+      "name": "Unit I Complete short notesPPT_a28d0f0dc61c35429eda05c7535703eb.pdf",
+      "size": 690599,
+      "path": "/Year2/Universal Human Values (UHV)/Unit -1/Unit I Complete short notesPPT_a28d0f0dc61c35429eda05c7535703eb.pdf"
+    },
+    {
+      "name": "AKG unit 1 Notes.pdf",
+      "size": 628922,
+      "path": "/Year2/Universal Human Values (UHV)/Unit -1/AKG unit 1 Notes.pdf"
+    },
+    {
+      "name": "HVPE 0.2 Understanding - 4 Levels.ppt",
+      "size": 476160,
+      "path": "/Year2/Universal Human Values (UHV)/Unit -1/HVPE 0.2 Understanding - 4 Levels.ppt"
+    },
+    {
+      "name": "unit-1 UHV quantum.pdf",
+      "size": 688644,
+      "path": "/Year2/Universal Human Values (UHV)/Unit -1/unit-1 UHV quantum.pdf"
+    },
+    {
+      "name": "HVPE 0.1 Need, Guidelines, Content _ Process of VE v2.ppt",
+      "size": 426496,
+      "path": "/Year2/Universal Human Values (UHV)/Unit -1/HVPE 0.1 Need, Guidelines, Content _ Process of VE v2.ppt"
+    },
+    {
+      "name": "HVPE 1.1 Und Human Being - Self _ Body.ppt",
+      "size": 729600,
+      "path": "/Year2/Universal Human Values (UHV)/Unit -1/HVPE 1.1 Und Human Being - Self _ Body.ppt"
+    },
+    {
+      "name": "HVPE 0.1 Holistic Devl _ Role of Edu.ppt",
+      "size": 1277440,
+      "path": "/Year2/Universal Human Values (UHV)/Unit -1/HVPE 0.1 Holistic Devl _ Role of Edu.ppt"
+    },
+    {
+      "name": "important questions with solutions.pdf",
+      "size": 1122141,
+      "path": "/Year2/Universal Human Values (UHV)/Unit -1/important questions with solutions.pdf"
+    },
+    {
+      "name": "notes unit 3.pdf",
+      "size": 539608,
+      "path": "/Year2/Universal Human Values (UHV)/Unit -3/notes unit 3.pdf"
+    },
+    {
+      "name": "UHV Handout 3-Harmony in the Family.pdf",
+      "size": 410433,
+      "path": "/Year2/Universal Human Values (UHV)/Unit -3/UHV Handout 3-Harmony in the Family.pdf"
+    },
+    {
+      "name": "HVPE 2.3 Und Relationship - Justice.ppt",
+      "size": 390144,
+      "path": "/Year2/Universal Human Values (UHV)/Unit -3/HVPE 2.3 Und Relationship - Justice.ppt"
+    },
+    {
+      "name": "HVPE 2.2 Und Relationship - Respect.ppt",
+      "size": 460800,
+      "path": "/Year2/Universal Human Values (UHV)/Unit -3/HVPE 2.2 Und Relationship - Respect.ppt"
+    },
+    {
+      "name": "HVPE 2.1 Und Relationship - Trust.ppt",
+      "size": 756736,
+      "path": "/Year2/Universal Human Values (UHV)/Unit -3/HVPE 2.1 Und Relationship - Trust.ppt"
+    },
+    {
+      "name": "Unit 5.1",
+      "size": 5131187,
+      "path": "/Year2/Theory of Automata and Formal Languages (TAFL)/Notes1/Unit 5.1"
+    },
+    {
+      "name": "Unit 5.2",
+      "size": 5906467,
+      "path": "/Year2/Theory of Automata and Formal Languages (TAFL)/Notes1/Unit 5.2"
+    },
+    {
+      "name": "Unit 4.pdf",
+      "size": 9264146,
+      "path": "/Year2/Theory of Automata and Formal Languages (TAFL)/Notes1/Unit 4.pdf"
+    },
+    {
+      "name": "Unit 3.pdf",
+      "size": 10555355,
+      "path": "/Year2/Theory of Automata and Formal Languages (TAFL)/Notes1/Unit 3.pdf"
+    },
+    {
+      "name": "Unit 2.pdf",
+      "size": 12095968,
+      "path": "/Year2/Theory of Automata and Formal Languages (TAFL)/Notes1/Unit 2.pdf"
+    },
+    {
+      "name": "Imp. Questions_.pdf",
+      "size": 32836146,
+      "path": "/Year2/Theory of Automata and Formal Languages (TAFL)/Notes1/Imp. Questions_.pdf"
+    },
+    {
+      "name": "Unit 1.pdf",
+      "size": 39071700,
+      "path": "/Year2/Theory of Automata and Formal Languages (TAFL)/Notes1/Unit 1.pdf"
+    },
+    {
+      "name": "Unit 2.pdf",
+      "size": 6105333,
+      "path": "/Year2/Theory of Automata and Formal Languages (TAFL)/Handwritten/Unit 2.pdf"
+    },
+    {
+      "name": "Unit 2.pdf",
+      "size": 7179945,
+      "path": "/Year2/Theory of Automata and Formal Languages (TAFL)/Notes2/Unit 2.pdf"
+    },
+    {
+      "name": "Unit 4.pdf",
+      "size": 7777640,
+      "path": "/Year2/Theory of Automata and Formal Languages (TAFL)/Notes2/Unit 4.pdf"
+    },
+    {
+      "name": "Unit 3.pdf",
+      "size": 14598731,
+      "path": "/Year2/Theory of Automata and Formal Languages (TAFL)/Notes2/Unit 3.pdf"
+    },
+    {
+      "name": "Unit 1.pdf",
+      "size": 19930400,
+      "path": "/Year2/Theory of Automata and Formal Languages (TAFL)/Notes2/Unit 1.pdf"
+    },
+    {
+      "name": "Unit-4 PPTs.pptx",
+      "size": 1163775,
+      "path": "/Year2/Python  Programming/Unit 4/Unit-4 PPTs.pptx"
+    },
+    {
+      "name": "python unit 3.pdf",
+      "size": 1247221,
+      "path": "/Year2/Python  Programming/Unit 3/python unit 3.pdf"
+    },
+    {
+      "name": "Unit 3 PPTs.pptx",
+      "size": 1855568,
+      "path": "/Year2/Python  Programming/Unit 3/Unit 3 PPTs.pptx"
+    },
+    {
+      "name": "Unit-2 PPTs.pptx",
+      "size": 123917,
+      "path": "/Year2/Python  Programming/Unit 2/Unit-2 PPTs.pptx"
+    },
+    {
+      "name": "python unit 2.pdf",
+      "size": 590871,
+      "path": "/Year2/Python  Programming/Unit 2/python unit 2.pdf"
+    },
+    {
+      "name": "unit 1 Part-2.pdf",
+      "size": 3484598,
+      "path": "/Year2/Python  Programming/Unit 1/unit 1 Part-2.pdf"
+    },
+    {
+      "name": "Unit-1 Mooc ppts.pptx",
+      "size": 4717781,
+      "path": "/Year2/Python  Programming/Unit 1/Unit-1 Mooc ppts.pptx"
+    },
+    {
+      "name": "unit 1 Part-1.pdf",
+      "size": 5042791,
+      "path": "/Year2/Python  Programming/Unit 1/unit 1 Part-1.pdf"
+    },
+    {
+      "name": "python unit 5.pdf",
+      "size": 942258,
+      "path": "/Year2/Python  Programming/Unit 5/python unit 5.pdf"
+    },
+    {
+      "name": "Unit-5 PPTs.pptx",
+      "size": 1029339,
+      "path": "/Year2/Python  Programming/Unit 5/Unit-5 PPTs.pptx"
+    },
+    {
+      "name": "Memory Management.ppt",
+      "size": 1567744,
+      "path": "/Year2/Operating system/Notes/Memory Management.ppt"
+    },
+    {
+      "name": "OS quantum.pdf",
+      "size": 9355143,
+      "path": "/Year2/Operating system/Quantum/OS quantum.pdf"
+    },
+    {
+      "name": "Quantum.pdf",
+      "size": 10713159,
+      "path": "/Year2/Operating system/Quantum/Quantum.pdf"
+    },
+    {
+      "name": "Unit 2 handwritten.pdf",
+      "size": 24891685,
+      "path": "/Year2/Math 4/Unit -2/Unit 2 handwritten.pdf"
+    },
+    {
+      "name": "Handwritten.pdf",
+      "size": 16261537,
+      "path": "/Year2/Math 4/Unit -4/Handwritten.pdf"
+    },
+    {
+      "name": "Tower of Hanoi.pdf",
+      "size": 151486,
+      "path": "/Year2/Data Structure/Stack _ Queue/Tower of Hanoi.pdf"
+    },
+    {
+      "name": "Recursion Examples.pdf",
+      "size": 139284,
+      "path": "/Year2/Data Structure/Stack _ Queue/Recursion Examples.pdf"
+    },
+    {
+      "name": "Infix to Postfix and Infix to Prefix Conversion.pdf",
+      "size": 953318,
+      "path": "/Year2/Data Structure/Stack _ Queue/Infix to Postfix and Infix to Prefix Conversion.pdf"
+    },
+    {
+      "name": "Recursion.pdf",
+      "size": 1720226,
+      "path": "/Year2/Data Structure/Stack _ Queue/Recursion.pdf"
+    },
+    {
+      "name": "Implementation of Stack.pdf",
+      "size": 5505643,
+      "path": "/Year2/Data Structure/Stack _ Queue/Implementation of Stack.pdf"
+    },
+    {
+      "name": "Stack.pdf",
+      "size": 7687656,
+      "path": "/Year2/Data Structure/Stack _ Queue/Stack.pdf"
+    },
+    {
+      "name": "MergeSort.pdf",
+      "size": 463467,
+      "path": "/Year2/Data Structure/Searching and Sorting/MergeSort.pdf"
+    },
+    {
+      "name": "bubble sort_129.pdf",
+      "size": 1026757,
+      "path": "/Year2/Data Structure/Searching and Sorting/bubble sort_129.pdf"
+    },
+    {
+      "name": "Hashing.pdf",
+      "size": 768863,
+      "path": "/Year2/Data Structure/Searching and Sorting/Hashing.pdf"
+    },
+    {
+      "name": "Merge Sort.pdf",
+      "size": 1218805,
+      "path": "/Year2/Data Structure/Searching and Sorting/Merge Sort.pdf"
+    },
+    {
+      "name": "HeapSort.pdf",
+      "size": 1598206,
+      "path": "/Year2/Data Structure/Searching and Sorting/HeapSort.pdf"
+    },
+    {
+      "name": "SELECTION SORT (1).ppt",
+      "size": 1606656,
+      "path": "/Year2/Data Structure/Searching and Sorting/SELECTION SORT (1).ppt"
+    },
+    {
+      "name": "Quick sort-Preeti Garg.pptx",
+      "size": 3078960,
+      "path": "/Year2/Data Structure/Searching and Sorting/Quick sort-Preeti Garg.pptx"
+    },
+    {
+      "name": "Floyd Warshall Algorithm-Preeti Garg.pptx",
+      "size": 1025890,
+      "path": "/Year2/Data Structure/Graphs/Floyd Warshall Algorithm-Preeti Garg.pptx"
+    },
+    {
+      "name": "Dijkstra Algorithm-Preeti Garg.ppt",
+      "size": 2195968,
+      "path": "/Year2/Data Structure/Graphs/Dijkstra Algorithm-Preeti Garg.ppt"
+    },
+    {
+      "name": "Algorithm Time space complexity ADT.pdf",
+      "size": 655419,
+      "path": "/Year2/Data Structure/Array _ Linkedlist/Algorithm Time space complexity ADT.pdf"
+    },
+    {
+      "name": "Array Address Calculation.pdf",
+      "size": 1289798,
+      "path": "/Year2/Data Structure/Array _ Linkedlist/Array Address Calculation.pdf"
+    },
+    {
+      "name": "UNIT 1  Polynomials  its Linked List Representation.pdf",
+      "size": 1296836,
+      "path": "/Year2/Data Structure/Array _ Linkedlist/UNIT 1  Polynomials  its Linked List Representation.pdf"
+    },
+    {
+      "name": "Linked list and vs array.pdf",
+      "size": 3418288,
+      "path": "/Year2/Data Structure/Array _ Linkedlist/Linked list and vs array.pdf"
+    },
+    {
+      "name": "UNIT 1 -Linked List.pdf",
+      "size": 3757340,
+      "path": "/Year2/Data Structure/Array _ Linkedlist/UNIT 1 -Linked List.pdf"
+    },
+    {
+      "name": "Unit  1   Introduction_Array_Asymptotic notations.pdf",
+      "size": 4482501,
+      "path": "/Year2/Data Structure/Array _ Linkedlist/Unit  1   Introduction_Array_Asymptotic notations.pdf"
+    },
+    {
+      "name": "B-Trees-Preeti Garg.pptx",
+      "size": 965238,
+      "path": "/Year2/Data Structure/Trees/B-Trees-Preeti Garg.pptx"
+    },
+    {
+      "name": "Spanning Tree.pptx",
+      "size": 2768628,
+      "path": "/Year2/Data Structure/Trees/Spanning Tree.pptx"
+    },
+    {
+      "name": "3.ROM Memories.pptx",
+      "size": 244230,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -4/3.ROM Memories.pptx"
+    },
+    {
+      "name": "6.Page Replacement Algorithms.ppt",
+      "size": 2560000,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -4/6.Page Replacement Algorithms.ppt"
+    },
+    {
+      "name": "5.Instruction pipelining.ppt",
+      "size": 978432,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -3/5.Instruction pipelining.ppt"
+    },
+    {
+      "name": "2.Execution of complete instruction (1).ppt",
+      "size": 934912,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -3/2.Execution of complete instruction (1).ppt"
+    },
+    {
+      "name": "3.Program control.ppt",
+      "size": 895488,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -3/3.Program control.ppt"
+    },
+    {
+      "name": "7.Microprogramme Sequencing.pptx",
+      "size": 1267484,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -3/7.Microprogramme Sequencing.pptx"
+    },
+    {
+      "name": "1.Instruction Cycle and Sub Cycle.ppt",
+      "size": 1179136,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -3/1.Instruction Cycle and Sub Cycle.ppt"
+    },
+    {
+      "name": "4.Arithmetic pipelining.ppt",
+      "size": 1873408,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -3/4.Arithmetic pipelining.ppt"
+    },
+    {
+      "name": "6.RISC vs CISC.ppt",
+      "size": 3930112,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -3/6.RISC vs CISC.ppt"
+    },
+    {
+      "name": "unit 3.pdf",
+      "size": 22279960,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -3/unit 3.pdf"
+    },
+    {
+      "name": "22_IEEE Standard for Floating Point Numbers.pdf",
+      "size": 1026468,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -2/Other/22_IEEE Standard for Floating Point Numbers.pdf"
+    },
+    {
+      "name": "Floating Point Numbers.pptx",
+      "size": 1114283,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -2/Floating Point Numbers.pptx"
+    },
+    {
+      "name": "Booth Multiplication.ppt",
+      "size": 1315840,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -2/Booth Multiplication.ppt"
+    },
+    {
+      "name": "Array Multiplier.ppt",
+      "size": 1532928,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -2/Array Multiplier.ppt"
+    },
+    {
+      "name": "4-Bit Binary Parallel Adder Subtractor.pptx",
+      "size": 1661389,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -2/4-Bit Binary Parallel Adder Subtractor.pptx"
+    },
+    {
+      "name": "Division method Restoring.ppt",
+      "size": 2456576,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -2/Division method Restoring.ppt"
+    },
+    {
+      "name": "Division method Non Restoring.ppt",
+      "size": 2913792,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -2/Division method Non Restoring.ppt"
+    },
+    {
+      "name": "Carry Look Ahead Adder.ppt",
+      "size": 3365888,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -2/Carry Look Ahead Adder.ppt"
+    },
+    {
+      "name": "Floating Point + ALU.pptx",
+      "size": 4033125,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -2/Floating Point + ALU.pptx"
+    },
+    {
+      "name": "unit 2.pdf",
+      "size": 10728279,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -2/unit 2.pdf"
+    },
+    {
+      "name": "3_Bus Arbitration_unit1.pdf",
+      "size": 233732,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -1/other/3_Bus Arbitration_unit1.pdf"
+    },
+    {
+      "name": "2_BUS ITS ARCHITECTURE AND TYPES_unit1..pdf",
+      "size": 197636,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -1/other/2_BUS ITS ARCHITECTURE AND TYPES_unit1..pdf"
+    },
+    {
+      "name": "6_BUS SYSTEM USING MULTIPLEXER.pdf",
+      "size": 197920,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -1/other/6_BUS SYSTEM USING MULTIPLEXER.pdf"
+    },
+    {
+      "name": "1_Digital Systems_unit 1.pdf",
+      "size": 164626,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -1/other/1_Digital Systems_unit 1.pdf"
+    },
+    {
+      "name": "10_Stack Organization_unit 1.pdf",
+      "size": 951933,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -1/other/10_Stack Organization_unit 1.pdf"
+    },
+    {
+      "name": "4.Bus system using Multiplexer (1).ppt",
+      "size": 1011200,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -1/4.Bus system using Multiplexer (1).ppt"
+    },
+    {
+      "name": "6.Bus sytem using Tri-state Buffer (1).ppt",
+      "size": 1604608,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -1/6.Bus sytem using Tri-state Buffer (1).ppt"
+    },
+    {
+      "name": "COMPUTER-ORGANIZATION-AND-ARCHITECTURE-KCS-302.pdf",
+      "size": 154218,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Past year papers/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-KCS-302.pdf"
+    },
+    {
+      "name": "COMPUTER-ORGANIZATION-ARCHITECTURE-RCS-302.pdf",
+      "size": 26810,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Past year papers/COMPUTER-ORGANIZATION-ARCHITECTURE-RCS-302.pdf"
+    },
+    {
+      "name": "University exam solution_2020 (1)_5684e3a8a4ded08499e7ae28e983da1d.pdf",
+      "size": 1066657,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Past year papers/University exam solution_2020 (1)_5684e3a8a4ded08499e7ae28e983da1d.pdf"
+    },
+    {
+      "name": "3.Interrupts.pptx",
+      "size": 880291,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -5/3.Interrupts.pptx"
+    },
+    {
+      "name": "2.IO Module.pptx",
+      "size": 757869,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -5/2.IO Module.pptx"
+    },
+    {
+      "name": "5.Modes of Transfer DMA (1).pptx",
+      "size": 1333475,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -5/5.Modes of Transfer DMA (1).pptx"
+    },
+    {
+      "name": "6.Serial Communication.ppt",
+      "size": 1854976,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -5/6.Serial Communication.ppt"
+    },
+    {
+      "name": "1.Perihperal Device.pptx",
+      "size": 2765439,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -5/1.Perihperal Device.pptx"
+    },
+    {
+      "name": "4.Modes of Transfer_Programmed IO Interrupt IO (2).pptx",
+      "size": 5619492,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -5/4.Modes of Transfer_Programmed IO Interrupt IO (2).pptx"
+    },
+    {
+      "name": "COA UNit 5 Notes.pdf",
+      "size": 9850250,
+      "path": "/Year2/Computer Organization & Architecture (COA)/Unit -5/COA UNit 5 Notes.pdf"
+    },
+    {
+      "name": "Unit 1.pdf",
+      "size": 10262524,
+      "path": "/Year2/Web Designing/Notes/Unit 1.pdf"
+    },
+    {
+      "name": "CSS.pdf",
+      "size": 15417055,
+      "path": "/Year2/Web Designing/Notes/CSS.pdf"
+    },
+    {
+      "name": "Unit 2.pdf",
+      "size": 17510287,
+      "path": "/Year2/Web Designing/Notes/Unit 2.pdf"
+    },
+    {
+      "name": "Unit 3.pdf",
+      "size": 22053324,
+      "path": "/Year2/Web Designing/Notes/Unit 3.pdf"
+    },
+    {
+      "name": "HTML.pdf",
+      "size": 23969929,
+      "path": "/Year2/Web Designing/Notes/HTML.pdf"
+    },
+    {
+      "name": "Unit 4.pdf",
+      "size": 28353001,
+      "path": "/Year2/Web Designing/Notes/Unit 4.pdf"
+    },
+    {
+      "name": "Unit 5.pdf",
+      "size": 25106493,
+      "path": "/Year2/Web Designing/Notes/Unit 5.pdf"
+    },
+    {
+      "name": "2-Planning and Process development.pdf",
+      "size": 28428,
+      "path": "/Year2/Web Designing/Unit 1/2-Planning and Process development.pdf"
+    },
+    {
+      "name": "6- Web Standards-W3C Reccomendations.pdf",
+      "size": 45888,
+      "path": "/Year2/Web Designing/Unit 1/6- Web Standards-W3C Reccomendations.pdf"
+    },
+    {
+      "name": "3-Domain and Hosting.pdf",
+      "size": 246049,
+      "path": "/Year2/Web Designing/Unit 1/3-Domain and Hosting.pdf"
+    },
+    {
+      "name": "TQM notes unit-1.pdf",
+      "size": 709018,
+      "path": "/Year4/Quality Management/ppts/TQM notes unit-1.pdf"
+    },
+    {
+      "name": "Cost of Quality.pdf",
+      "size": 1002226,
+      "path": "/Year4/Quality Management/ppts/Cost of Quality.pdf"
+    },
+    {
+      "name": "UNIT-2.pdf",
+      "size": 1310342,
+      "path": "/Year4/Quality Management/ppts/UNIT-2.pdf"
+    },
+    {
+      "name": "UNIT-1.pptx",
+      "size": 2387428,
+      "path": "/Year4/Quality Management/ppts/UNIT-1.pptx"
+    },
+    {
+      "name": "Unit - 1,2.pdf",
+      "size": 14590641,
+      "path": "/Year4/Quality Management/Unit - 1,2.pdf"
+    },
+    {
+      "name": "Unit-4.2_Managing_contracts (1).pdf",
+      "size": 1374474,
+      "path": "/Year4/Software Project Management (SPM)/Unit 4/Unit-4.2_Managing_contracts (1).pdf"
+    },
+    {
+      "name": "Unit-4.1_Monitoring_and_control (1).pdf",
+      "size": 1800931,
+      "path": "/Year4/Software Project Management (SPM)/Unit 4/Unit-4.1_Monitoring_and_control (1).pdf"
+    },
+    {
+      "name": "SPM_Unit_4_LalitaMishra (1).pdf",
+      "size": 2982591,
+      "path": "/Year4/Software Project Management (SPM)/Unit 4/SPM_Unit_4_LalitaMishra (1).pdf"
+    },
+    {
+      "name": "Unit-3.1_Activity_Planning.pdf",
+      "size": 2362955,
+      "path": "/Year4/Software Project Management (SPM)/Unit 3/Unit-3.1_Activity_Planning.pdf"
+    },
+    {
+      "name": "Unit-3.2_Risk_Management.pdf",
+      "size": 2183995,
+      "path": "/Year4/Software Project Management (SPM)/Unit 3/Unit-3.2_Risk_Management.pdf"
+    },
+    {
+      "name": "SPM_Unit_3_Complete_LalitaMishra.pdf",
+      "size": 3607604,
+      "path": "/Year4/Software Project Management (SPM)/Unit 3/SPM_Unit_3_Complete_LalitaMishra.pdf"
+    },
+    {
+      "name": "2.4.pdf",
+      "size": 172404,
+      "path": "/Year4/Software Project Management (SPM)/Unit 2/2.4.pdf"
+    },
+    {
+      "name": "2.7.pdf",
+      "size": 129175,
+      "path": "/Year4/Software Project Management (SPM)/Unit 2/2.7.pdf"
+    },
+    {
+      "name": "2.5.pdf",
+      "size": 99573,
+      "path": "/Year4/Software Project Management (SPM)/Unit 2/2.5.pdf"
+    },
+    {
+      "name": "2.8.pdf",
+      "size": 103166,
+      "path": "/Year4/Software Project Management (SPM)/Unit 2/2.8.pdf"
+    },
+    {
+      "name": "2.4.1.ppt",
+      "size": 662016,
+      "path": "/Year4/Software Project Management (SPM)/Unit 2/2.4.1.ppt"
+    },
+    {
+      "name": "2.2.pdf",
+      "size": 560655,
+      "path": "/Year4/Software Project Management (SPM)/Unit 2/2.2.pdf"
+    },
+    {
+      "name": "Unit-2.1_Software_Process_and_Process_Models.pdf",
+      "size": 752210,
+      "path": "/Year4/Software Project Management (SPM)/Unit 2/Unit-2.1_Software_Process_and_Process_Models.pdf"
+    },
+    {
+      "name": "2.1.pptx",
+      "size": 737039,
+      "path": "/Year4/Software Project Management (SPM)/Unit 2/2.1.pptx"
+    },
+    {
+      "name": "2.6.pdf",
+      "size": 1296321,
+      "path": "/Year4/Software Project Management (SPM)/Unit 2/2.6.pdf"
+    },
+    {
+      "name": "Unit-2.2_Effort_Estimation.pdf",
+      "size": 1955040,
+      "path": "/Year4/Software Project Management (SPM)/Unit 2/Unit-2.2_Effort_Estimation.pdf"
+    },
+    {
+      "name": "Unit 1.1 Introduction.pdf",
+      "size": 424575,
+      "path": "/Year4/Software Project Management (SPM)/Unit 1/Unit 1.1 Introduction.pdf"
+    },
+    {
+      "name": "Unit 1.3 Cost-Benefit Evaluation Techniques.pdf",
+      "size": 381923,
+      "path": "/Year4/Software Project Management (SPM)/Unit 1/Unit 1.3 Cost-Benefit Evaluation Techniques.pdf"
+    },
+    {
+      "name": "Unit 1.2 Stepwise Project Planning.pdf",
+      "size": 504128,
+      "path": "/Year4/Software Project Management (SPM)/Unit 1/Unit 1.2 Stepwise Project Planning.pdf"
+    },
+    {
+      "name": "Unit V Part II.pptx",
+      "size": 323776,
+      "path": "/Year4/Software Project Management (SPM)/Unit 5/Unit V Part II.pptx"
+    },
+    {
+      "name": "Unit V part I.pptx",
+      "size": 451441,
+      "path": "/Year4/Software Project Management (SPM)/Unit 5/Unit V part I.pptx"
+    },
+    {
+      "name": "Unit-5.1_Managing_people (2).pdf",
+      "size": 1386678,
+      "path": "/Year4/Software Project Management (SPM)/Unit 5/Unit-5.1_Managing_people (2).pdf"
+    },
+    {
+      "name": "Unit-5.2_Working_in_teams (2).pdf",
+      "size": 1789789,
+      "path": "/Year4/Software Project Management (SPM)/Unit 5/Unit-5.2_Working_in_teams (2).pdf"
+    },
+    {
+      "name": "unit_5_SPM.pdf",
+      "size": 3739309,
+      "path": "/Year4/Software Project Management (SPM)/Unit 5/unit_5_SPM.pdf"
+    },
+    {
+      "name": "Unit 3 SE.pptx",
+      "size": 8733614,
+      "path": "/Year4/Software Engineering/Unit 3/Unit 3 SE.pptx"
+    },
+    {
+      "name": "SE Unit 2.pptx",
+      "size": 11769383,
+      "path": "/Year4/Software Engineering/Unit 2/SE Unit 2.pptx"
+    },
+    {
+      "name": "SDLC Models.pdf",
+      "size": 813662,
+      "path": "/Year4/Software Engineering/Unit 1/SDLC Models.pdf"
+    },
+    {
+      "name": "SE Unit 1.pptx",
+      "size": 9704938,
+      "path": "/Year4/Software Engineering/Unit 1/SE Unit 1.pptx"
+    },
+    {
+      "name": "Unit 5 SE.pptx",
+      "size": 10565662,
+      "path": "/Year4/Software Engineering/Unit 5/Unit 5 SE.pptx"
+    },
+    {
+      "name": "Unit-4.pdf",
+      "size": 973428,
+      "path": "/Year4/Computer System Security (CSS)/Unit-4/Unit-4.pdf"
+    },
+    {
+      "name": "Unit-4_Cryptography.ppt",
+      "size": 1240064,
+      "path": "/Year4/Computer System Security (CSS)/Unit-4/Unit-4_Cryptography.ppt"
+    },
+    {
+      "name": "Unit4.pdf",
+      "size": 5295561,
+      "path": "/Year4/Computer System Security (CSS)/Unit-4/Unit4.pdf"
+    },
+    {
+      "name": "Unit-3_Access control.docx",
+      "size": 66318,
+      "path": "/Year4/Computer System Security (CSS)/Unit-3/Unit-3_Access control.docx"
+    },
+    {
+      "name": "Unit-3_Secure architecture principles isolation and leas.pdf",
+      "size": 1326694,
+      "path": "/Year4/Computer System Security (CSS)/Unit-3/Unit-3_Secure architecture principles isolation and leas.pdf"
+    },
+    {
+      "name": "Unit-3_Web Server Side Security.pdf",
+      "size": 2250107,
+      "path": "/Year4/Computer System Security (CSS)/Unit-3/Unit-3_Web Server Side Security.pdf"
+    },
+    {
+      "name": "Unit-3_Web Client Security.pdf",
+      "size": 2544900,
+      "path": "/Year4/Computer System Security (CSS)/Unit-3/Unit-3_Web Client Security.pdf"
+    },
+    {
+      "name": "CSS UNIT-1 SKK.pdf",
+      "size": 6238335,
+      "path": "/Year4/Computer System Security (CSS)/Unit-1/CSS UNIT-1 SKK.pdf"
+    },
+    {
+      "name": "Unit 5.pdf",
+      "size": 6968185,
+      "path": "/Year4/Computer System Security (CSS)/Short Notes/Unit 5.pdf"
+    },
+    {
+      "name": "Unit 2.pdf",
+      "size": 9357255,
+      "path": "/Year4/Computer System Security (CSS)/Handwritten Notes/Unit 2.pdf"
+    },
+    {
+      "name": "Unit 4.pdf",
+      "size": 9803990,
+      "path": "/Year4/Computer System Security (CSS)/Handwritten Notes/Unit 4.pdf"
+    },
+    {
+      "name": "Unit 5.pdf",
+      "size": 28686995,
+      "path": "/Year4/Computer System Security (CSS)/Handwritten Notes/Unit 5.pdf"
+    },
+    {
+      "name": "Unit-5_Intrusion Detection Systems.pptx",
+      "size": 144930,
+      "path": "/Year4/Computer System Security (CSS)/Unit-5/Unit-5_Intrusion Detection Systems.pptx"
+    },
+    {
+      "name": "Unit5.pdf",
+      "size": 2511064,
+      "path": "/Year4/Computer System Security (CSS)/Unit-5/Unit5.pdf"
+    },
+    {
+      "name": "CSS UNIT-5.pdf",
+      "size": 5099436,
+      "path": "/Year4/Computer System Security (CSS)/Unit-5/CSS UNIT-5.pdf"
+    },
+    {
+      "name": "Unit 4 (1).pdf",
+      "size": 1421388,
+      "path": "/Year4/Cloud Computing/Unit 4/Unit 4 (1).pdf"
+    },
+    {
+      "name": "Unit 4 Cloud Computing Full Explanation Notes.pdf",
+      "size": 9646693,
+      "path": "/Year4/Cloud Computing/Unit 4/Unit 4 Cloud Computing Full Explanation Notes.pdf"
+    },
+    {
+      "name": "Unit 4.pdf",
+      "size": 10744779,
+      "path": "/Year4/Cloud Computing/Unit 4/Unit 4.pdf"
+    },
+    {
+      "name": "UNIT 3.docx",
+      "size": 226527,
+      "path": "/Year4/Cloud Computing/Unit 3/UNIT 3.docx"
+    },
+    {
+      "name": "Unit 3 (1).pdf",
+      "size": 1031802,
+      "path": "/Year4/Cloud Computing/Unit 3/Unit 3 (1).pdf"
+    },
+    {
+      "name": "Unit 3 Cloud Computing Full Explanation Notes.pdf",
+      "size": 7797198,
+      "path": "/Year4/Cloud Computing/Unit 3/Unit 3 Cloud Computing Full Explanation Notes.pdf"
+    },
+    {
+      "name": "Unit 3.pdf",
+      "size": 11769120,
+      "path": "/Year4/Cloud Computing/Unit 3/Unit 3.pdf"
+    },
+    {
+      "name": "virtualization.pptx",
+      "size": 348060,
+      "path": "/Year4/Cloud Computing/Unit 2/virtualization.pptx"
+    },
+    {
+      "name": "Unit 2.pptx",
+      "size": 607644,
+      "path": "/Year4/Cloud Computing/Unit 2/Unit 2.pptx"
+    },
+    {
+      "name": "Unit 2.pdf",
+      "size": 17649820,
+      "path": "/Year4/Cloud Computing/Unit 2/Unit 2.pdf"
+    },
+    {
+      "name": "Cloud computing  unit 2.pdf",
+      "size": 26571109,
+      "path": "/Year4/Cloud Computing/Unit 2/Cloud computing  unit 2.pdf"
+    },
+    {
+      "name": "Unit 1 Cloud Computing .pdf",
+      "size": 2124268,
+      "path": "/Year4/Cloud Computing/Unit 1/Unit 1 Cloud Computing .pdf"
+    },
+    {
+      "name": "Unit 1.pptx",
+      "size": 3844771,
+      "path": "/Year4/Cloud Computing/Unit 1/Unit 1.pptx"
+    },
+    {
+      "name": "Unit 1.pdf",
+      "size": 7650799,
+      "path": "/Year4/Cloud Computing/Unit 1/Unit 1.pdf"
+    },
+    {
+      "name": "Unit 5 (1).pdf",
+      "size": 2364494,
+      "path": "/Year4/Cloud Computing/Unit 5/Unit 5 (1).pdf"
+    },
+    {
+      "name": "Unit 5.pdf",
+      "size": 5689523,
+      "path": "/Year4/Cloud Computing/Unit 5/Unit 5.pdf"
+    },
+    {
+      "name": "Unit 5 Cloud Computing Full Explanation Notes.pdf",
+      "size": 6864601,
+      "path": "/Year4/Cloud Computing/Unit 5/Unit 5 Cloud Computing Full Explanation Notes.pdf"
+    },
+    {
+      "name": "Unit-5 Hbase.pptx",
+      "size": 915621,
+      "path": "/Year4/Big Data/Unit 5/Unit-5 Hbase.pptx"
+    },
+    {
+      "name": "Unit-5 - Hive.pptx",
+      "size": 1303718,
+      "path": "/Year4/Big Data/Unit 5/Unit-5 - Hive.pptx"
+    },
+    {
+      "name": "Unit 4.pptx",
+      "size": 703635,
+      "path": "/Year3/Microprocessor/Unit 4/Unit 4.pptx"
+    },
+    {
+      "name": "Unit-3.2.pptx",
+      "size": 96648,
+      "path": "/Year3/Microprocessor/Unit 3/Other/Unit-3.2.pptx"
+    },
+    {
+      "name": "Interrupts.pptx",
+      "size": 59775,
+      "path": "/Year3/Microprocessor/Unit 3/Interrupts.pptx"
+    },
+    {
+      "name": "8086 Memory Interface.pptx",
+      "size": 254134,
+      "path": "/Year3/Microprocessor/Unit 3/8086 Memory Interface.pptx"
+    },
+    {
+      "name": "8086 Maximum operation mode.pptx",
+      "size": 234188,
+      "path": "/Year3/Microprocessor/Unit 3/8086 Maximum operation mode.pptx"
+    },
+    {
+      "name": "8086_instruction_set.pdf",
+      "size": 356923,
+      "path": "/Year3/Microprocessor/Unit 3/8086_instruction_set.pdf"
+    },
+    {
+      "name": "8086-Pin_Configuration.pdf",
+      "size": 1329119,
+      "path": "/Year3/Microprocessor/Unit 3/8086-Pin_Configuration.pdf"
+    },
+    {
+      "name": "8085 Pin Diagram.pptx",
+      "size": 207459,
+      "path": "/Year3/Microprocessor/Unit 2/Other/8085 Pin Diagram.pptx"
+    },
+    {
+      "name": "5.REGISTER SECTION.pdf",
+      "size": 306373,
+      "path": "/Year3/Microprocessor/Unit 2/5.REGISTER SECTION.pdf"
+    },
+    {
+      "name": "3.8085 Pin Configuration-2.pdf",
+      "size": 381797,
+      "path": "/Year3/Microprocessor/Unit 2/3.8085 Pin Configuration-2.pdf"
+    },
+    {
+      "name": "4.internal architecture of 8085 microprocessor, registers, ALU, Control  status.pdf",
+      "size": 336617,
+      "path": "/Year3/Microprocessor/Unit 2/4.internal architecture of 8085 microprocessor, registers, ALU, Control  status.pdf"
+    },
+    {
+      "name": "2.8085 Pin Configuration-1.pdf",
+      "size": 445214,
+      "path": "/Year3/Microprocessor/Unit 2/2.8085 Pin Configuration-1.pdf"
+    },
+    {
+      "name": "Unit 5.ppt",
+      "size": 2831360,
+      "path": "/Year3/Microprocessor/Unit 5/Unit 5.ppt"
+    },
+    {
+      "name": "30. 8253.pptx",
+      "size": 169814,
+      "path": "/Year3/Microprocessor/30. 8253.pptx"
+    },
+    {
+      "name": "MP Syllabus.png",
+      "size": 277921,
+      "path": "/Year3/Microprocessor/MP Syllabus.png"
+    },
+    {
+      "name": "8237 DMA controller.pptx",
+      "size": 1322067,
+      "path": "/Year3/Microprocessor/8237 DMA controller.pptx"
+    },
+    {
+      "name": "29. 8255.pptx",
+      "size": 2511100,
+      "path": "/Year3/Microprocessor/29. 8255.pptx"
+    },
+    {
+      "name": "Microprocessor Quantum.pdf",
+      "size": 25502723,
+      "path": "/Year3/Microprocessor/Microprocessor Quantum.pdf"
+    },
+    {
+      "name": "1-Enterprise Java Bean(Unit-4).pptx",
+      "size": 676483,
+      "path": "/Year3/Web Technology/Unit 4/1-Enterprise Java Bean(Unit-4).pptx"
+    },
+    {
+      "name": "1-JS-Intro-opr-dt-var(unit-3).pdf",
+      "size": 587987,
+      "path": "/Year3/Web Technology/Unit 3/1-JS-Intro-opr-dt-var(unit-3).pdf"
+    },
+    {
+      "name": "3-JS-OBJECTS & Events.pdf",
+      "size": 514981,
+      "path": "/Year3/Web Technology/Unit 3/3-JS-OBJECTS & Events.pdf"
+    },
+    {
+      "name": "2-JS-stmt-loop-func(unit-3).pdf",
+      "size": 494224,
+      "path": "/Year3/Web Technology/Unit 3/2-JS-stmt-loop-func(unit-3).pdf"
+    },
+    {
+      "name": "4-JS-Document-DOM.pdf",
+      "size": 482487,
+      "path": "/Year3/Web Technology/Unit 3/4-JS-Document-DOM.pdf"
+    },
+    {
+      "name": "6-Introduction to AJAX.pdf",
+      "size": 464476,
+      "path": "/Year3/Web Technology/Unit 3/6-Introduction to AJAX.pdf"
+    },
+    {
+      "name": "5.JS-RegExp-FormValidations.pdf",
+      "size": 553763,
+      "path": "/Year3/Web Technology/Unit 3/5.JS-RegExp-FormValidations.pdf"
+    },
+    {
+      "name": "7-NETWORKING.pdf",
+      "size": 850001,
+      "path": "/Year3/Web Technology/Unit 3/7-NETWORKING.pdf"
+    },
+    {
+      "name": "3-CSS(CSS-SELECTORS-ATTRIBUTES(unit-2).pdf",
+      "size": 523135,
+      "path": "/Year3/Web Technology/Unit 2/3-CSS(CSS-SELECTORS-ATTRIBUTES(unit-2).pdf"
+    },
+    {
+      "name": "4-CSS(ADDING CSS-PSEUDO CLASS-PELEMENTS(unit-2).pdf",
+      "size": 601260,
+      "path": "/Year3/Web Technology/Unit 2/4-CSS(ADDING CSS-PSEUDO CLASS-PELEMENTS(unit-2).pdf"
+    },
+    {
+      "name": "1-HTML-List-Images-Links-Table(unit-2).pdf",
+      "size": 851385,
+      "path": "/Year3/Web Technology/Unit 2/1-HTML-List-Images-Links-Table(unit-2).pdf"
+    },
+    {
+      "name": "2-Frames and Forms(unit-2).pdf",
+      "size": 1120651,
+      "path": "/Year3/Web Technology/Unit 2/2-Frames and Forms(unit-2).pdf"
+    },
+    {
+      "name": "5-XML(unit-2).pdf",
+      "size": 902321,
+      "path": "/Year3/Web Technology/Unit 2/5-XML(unit-2).pdf"
+    },
+    {
+      "name": "1_6 .pdf",
+      "size": 298196,
+      "path": "/Year3/Web Technology/Unit 1/1_6 .pdf"
+    },
+    {
+      "name": "1_5 .pdf",
+      "size": 262183,
+      "path": "/Year3/Web Technology/Unit 1/1_5 .pdf"
+    },
+    {
+      "name": "1_1.pdf",
+      "size": 445030,
+      "path": "/Year3/Web Technology/Unit 1/1_1.pdf"
+    },
+    {
+      "name": "Unit 3.pdf",
+      "size": 2283310,
+      "path": "/Year3/Web Technology/Other notes/Unit 3.pdf"
+    },
+    {
+      "name": "Unit 5.pdf",
+      "size": 2205389,
+      "path": "/Year3/Web Technology/Other notes/Unit 5.pdf"
+    },
+    {
+      "name": "Unit 4.pdf",
+      "size": 2760115,
+      "path": "/Year3/Web Technology/Other notes/Unit 4.pdf"
+    },
+    {
+      "name": "3. Redirecting Requests to Other Resources.pptx",
+      "size": 181986,
+      "path": "/Year3/Web Technology/Unit 5/3. Redirecting Requests to Other Resources.pptx"
+    },
+    {
+      "name": "1-Servlets -Servlet Overview and Architecture.pptx",
+      "size": 351325,
+      "path": "/Year3/Web Technology/Unit 5/1-Servlets -Servlet Overview and Architecture.pptx"
+    },
+    {
+      "name": "JSP.pdf",
+      "size": 379873,
+      "path": "/Year3/Web Technology/Unit 5/JSP.pdf"
+    },
+    {
+      "name": "Program on Servlet.pdf",
+      "size": 481294,
+      "path": "/Year3/Web Technology/Unit 5/Program on Servlet.pdf"
+    },
+    {
+      "name": "JSP.ppt",
+      "size": 861696,
+      "path": "/Year3/Web Technology/Unit 5/JSP.ppt"
+    },
+    {
+      "name": "4.2 Group Discussion.pdf",
+      "size": 283706,
+      "path": "/Year3/Technical Communication/Unit 4/4.2 Group Discussion.pdf"
+    },
+    {
+      "name": "4.6 Effective Communication Competence- Dr. Chetna Sinha.pdf",
+      "size": 401611,
+      "path": "/Year3/Technical Communication/Unit 4/4.6 Effective Communication Competence- Dr. Chetna Sinha.pdf"
+    },
+    {
+      "name": "4.1 Interview skills.pdf",
+      "size": 739942,
+      "path": "/Year3/Technical Communication/Unit 4/4.1 Interview skills.pdf"
+    },
+    {
+      "name": "3 Presentation Skills.pdf",
+      "size": 559222,
+      "path": "/Year3/Technical Communication/Unit 3/3 Presentation Skills.pdf"
+    },
+    {
+      "name": "3.1 Dr. Sonia Gouri Presentation 1 PPT.pdf",
+      "size": 704732,
+      "path": "/Year3/Technical Communication/Unit 3/3.1 Dr. Sonia Gouri Presentation 1 PPT.pdf"
+    },
+    {
+      "name": "3.2 Dr. Sonia Gouri Presentation 2 PPT.pdf",
+      "size": 733794,
+      "path": "/Year3/Technical Communication/Unit 3/3.2 Dr. Sonia Gouri Presentation 2 PPT.pdf"
+    },
+    {
+      "name": "2.4  Seminar,conference.research paper writing.pdf",
+      "size": 448727,
+      "path": "/Year3/Technical Communication/Unit 2/2.4  Seminar,conference.research paper writing.pdf"
+    },
+    {
+      "name": "2.3 Synopsis wRITING.pdf",
+      "size": 524823,
+      "path": "/Year3/Technical Communication/Unit 2/2.3 Synopsis wRITING.pdf"
+    },
+    {
+      "name": "other.pdf",
+      "size": 493781,
+      "path": "/Year3/Technical Communication/Unit 2/other.pdf"
+    },
+    {
+      "name": "2.8 CV resume writing ppt.pdf",
+      "size": 624320,
+      "path": "/Year3/Technical Communication/Unit 2/2.8 CV resume writing ppt.pdf"
+    },
+    {
+      "name": "2.1 Report writing.pdf",
+      "size": 657187,
+      "path": "/Year3/Technical Communication/Unit 2/2.1 Report writing.pdf"
+    },
+    {
+      "name": "2.6 ExpertTechnical Lecture.pdf",
+      "size": 636825,
+      "path": "/Year3/Technical Communication/Unit 2/2.6 ExpertTechnical Lecture.pdf"
+    },
+    {
+      "name": "2.7 Seven_Cs.pdf",
+      "size": 790940,
+      "path": "/Year3/Technical Communication/Unit 2/2.7 Seven_Cs.pdf"
+    },
+    {
+      "name": "2.9 Technical Proposal.pdf",
+      "size": 765882,
+      "path": "/Year3/Technical Communication/Unit 2/2.9 Technical Proposal.pdf"
+    },
+    {
+      "name": "2.2 Structure of Project or Thesis writing (1).pdf",
+      "size": 774665,
+      "path": "/Year3/Technical Communication/Unit 2/2.2 Structure of Project or Thesis writing (1).pdf"
+    },
+    {
+      "name": "1.2 Language as a Tool of Communication.pdf",
+      "size": 293716,
+      "path": "/Year3/Technical Communication/Unit 1/1.2 Language as a Tool of Communication.pdf"
+    },
+    {
+      "name": "1.4 Paragraph.pdf",
+      "size": 439362,
+      "path": "/Year3/Technical Communication/Unit 1/1.4 Paragraph.pdf"
+    },
+    {
+      "name": "1.3 Reading Comprehension.pdf",
+      "size": 311982,
+      "path": "/Year3/Technical Communication/Unit 1/1.3 Reading Comprehension.pdf"
+    },
+    {
+      "name": "OTHER.pdf",
+      "size": 595189,
+      "path": "/Year3/Technical Communication/Unit 1/OTHER.pdf"
+    },
+    {
+      "name": "1.6 Dimension or Flow of Communication.pdf",
+      "size": 706869,
+      "path": "/Year3/Technical Communication/Unit 1/1.6 Dimension or Flow of Communication.pdf"
+    },
+    {
+      "name": "1.5 Technical Writing  Style.pdf",
+      "size": 676890,
+      "path": "/Year3/Technical Communication/Unit 1/1.5 Technical Writing  Style.pdf"
+    },
+    {
+      "name": "1.7 Barriers to Communication.pdf",
+      "size": 1232223,
+      "path": "/Year3/Technical Communication/Unit 1/1.7 Barriers to Communication.pdf"
+    },
+    {
+      "name": "1. Tech. Comm, Process, Features (TC  GC) - Copy.pdf",
+      "size": 1218290,
+      "path": "/Year3/Technical Communication/Unit 1/1. Tech. Comm, Process, Features (TC  GC) - Copy.pdf"
+    },
+    {
+      "name": "UNIT 1 _By Dr. Sonia Gouri.pdf",
+      "size": 2298666,
+      "path": "/Year3/Technical Communication/Unit 1/UNIT 1 _By Dr. Sonia Gouri.pdf"
+    },
+    {
+      "name": "Short Notes.pdf",
+      "size": 474025,
+      "path": "/Year3/Technical Communication/Unit 5/Short Notes.pdf"
+    },
+    {
+      "name": "Unit 4[1100].pptx",
+      "size": 1951739,
+      "path": "/Year3/Sensor & Instrumentation/Unit 4/Unit 4[1100].pptx"
+    },
+    {
+      "name": "handwritten.pdf",
+      "size": 7628784,
+      "path": "/Year3/Sensor & Instrumentation/Unit 4/handwritten.pdf"
+    },
+    {
+      "name": "Why Automation is Important.ppt",
+      "size": 144384,
+      "path": "/Year3/Sensor & Instrumentation/Unit 3/Why Automation is Important.ppt"
+    },
+    {
+      "name": "Unit 3 Sensor and Instrumentation _Graphical programming techniques[1111].pdf",
+      "size": 440447,
+      "path": "/Year3/Sensor & Instrumentation/Unit 3/Unit 3 Sensor and Instrumentation _Graphical programming techniques[1111].pdf"
+    },
+    {
+      "name": "UNIT 3 LabVIEW ppt[1110].pdf",
+      "size": 1435829,
+      "path": "/Year3/Sensor & Instrumentation/Unit 3/UNIT 3 LabVIEW ppt[1110].pdf"
+    },
+    {
+      "name": "Introduction to Virtual Instrumentation _ Graphical Programming Tec.ppt",
+      "size": 1645568,
+      "path": "/Year3/Sensor & Instrumentation/Unit 3/Introduction to Virtual Instrumentation _ Graphical Programming Tec.ppt"
+    },
+    {
+      "name": "handwritten.pdf",
+      "size": 10330277,
+      "path": "/Year3/Sensor & Instrumentation/Unit 3/handwritten.pdf"
+    },
+    {
+      "name": "Hall effect Sensors.ppt",
+      "size": 299008,
+      "path": "/Year3/Sensor & Instrumentation/Unit 2/Hall effect Sensors.ppt"
+    },
+    {
+      "name": "Accelerometer.ppt",
+      "size": 227328,
+      "path": "/Year3/Sensor & Instrumentation/Unit 2/Accelerometer.ppt"
+    },
+    {
+      "name": "Resistance Temperature Detectors (RTDs).ppt",
+      "size": 356352,
+      "path": "/Year3/Sensor & Instrumentation/Unit 2/Resistance Temperature Detectors (RTDs).ppt"
+    },
+    {
+      "name": "Concept of Thermal Imaging.pdf",
+      "size": 481565,
+      "path": "/Year3/Sensor & Instrumentation/Unit 2/Concept of Thermal Imaging.pdf"
+    },
+    {
+      "name": "Vibration Sensor and Accelerometer Working and Applications.pdf",
+      "size": 564902,
+      "path": "/Year3/Sensor & Instrumentation/Unit 2/Vibration Sensor and Accelerometer Working and Applications.pdf"
+    },
+    {
+      "name": "Flow Sensor.pdf",
+      "size": 917385,
+      "path": "/Year3/Sensor & Instrumentation/Unit 2/Flow Sensor.pdf"
+    },
+    {
+      "name": "Thermistors.ppt",
+      "size": 904704,
+      "path": "/Year3/Sensor & Instrumentation/Unit 2/Thermistors.ppt"
+    },
+    {
+      "name": "Level Sensor - Ultrasonic.ppt",
+      "size": 1079296,
+      "path": "/Year3/Sensor & Instrumentation/Unit 2/Level Sensor - Ultrasonic.ppt"
+    },
+    {
+      "name": "Thermocouples.pdf",
+      "size": 1544738,
+      "path": "/Year3/Sensor & Instrumentation/Unit 2/Thermocouples.pdf"
+    },
+    {
+      "name": "Proximity sensor_Inductive Capacitive _ Photoelectric..ppt",
+      "size": 2056192,
+      "path": "/Year3/Sensor & Instrumentation/Unit 2/Proximity sensor_Inductive Capacitive _ Photoelectric..ppt"
+    },
+    {
+      "name": "Unit 2 complete notes.pdf",
+      "size": 6572190,
+      "path": "/Year3/Sensor & Instrumentation/Unit 2/Unit 2 complete notes.pdf"
+    },
+    {
+      "name": "Unit -1 Sensors _ Instrumentation_Displacement-and-Position_ Encoders[845].pdf",
+      "size": 409897,
+      "path": "/Year3/Sensor & Instrumentation/Unit 1/Unit -1 Sensors _ Instrumentation_Displacement-and-Position_ Encoders[845].pdf"
+    },
+    {
+      "name": "Unit -1 Sensors _ Instrumentation_Linear Variable Differential Transformer22[847].pdf",
+      "size": 794251,
+      "path": "/Year3/Sensor & Instrumentation/Unit 1/Unit -1 Sensors _ Instrumentation_Linear Variable Differential Transformer22[847].pdf"
+    },
+    {
+      "name": "Unit 1- Sensor _ Instrumentation Encoders New 2204[844].pdf",
+      "size": 794859,
+      "path": "/Year3/Sensor & Instrumentation/Unit 1/Unit 1- Sensor _ Instrumentation Encoders New 2204[844].pdf"
+    },
+    {
+      "name": "Unit -1 Sensors _ Instrumentation_Measurement of Displacement Using Potentiometer22[849].pdf",
+      "size": 764635,
+      "path": "/Year3/Sensor & Instrumentation/Unit 1/Unit -1 Sensors _ Instrumentation_Measurement of Displacement Using Potentiometer22[849].pdf"
+    },
+    {
+      "name": "Unit -1 Sensors _ Instrumentation_ Strain Gauges 22[848].pdf",
+      "size": 858803,
+      "path": "/Year3/Sensor & Instrumentation/Unit 1/Unit -1 Sensors _ Instrumentation_ Strain Gauges 22[848].pdf"
+    },
+    {
+      "name": "Unit -1 Sensors _ Instruments_Definition, Classification of transducers_Rahat_PPT22[850].pdf",
+      "size": 1040040,
+      "path": "/Year3/Sensor & Instrumentation/Unit 1/Unit -1 Sensors _ Instruments_Definition, Classification of transducers_Rahat_PPT22[850].pdf"
+    },
+    {
+      "name": "Unit -1 Sensors _ Instrumentation_Optical_Encoders_22[846].pdf",
+      "size": 5086242,
+      "path": "/Year3/Sensor & Instrumentation/Unit 1/Unit -1 Sensors _ Instrumentation_Optical_Encoders_22[846].pdf"
+    },
+    {
+      "name": "handwritten.pdf",
+      "size": 6426564,
+      "path": "/Year3/Sensor & Instrumentation/Unit 1/handwritten.pdf"
+    },
+    {
+      "name": "Unit 5 smart-sensors DOC[1101].pdf",
+      "size": 334008,
+      "path": "/Year3/Sensor & Instrumentation/Unit 5/Unit 5 smart-sensors DOC[1101].pdf"
+    },
+    {
+      "name": "Unit 5 smart-sensors PDF[1102].pptx",
+      "size": 1279257,
+      "path": "/Year3/Sensor & Instrumentation/Unit 5/Unit 5 smart-sensors PDF[1102].pptx"
+    },
+    {
+      "name": "Unit 5.pdf",
+      "size": 4371137,
+      "path": "/Year3/Sensor & Instrumentation/Unit 5/Unit 5.pdf"
+    },
+    {
+      "name": "Unit 1.pptx",
+      "size": 1238628,
+      "path": "/Year3/Machine Learning (ml)/PPT Notes/Unit 1.pptx"
+    },
+    {
+      "name": "Unit 4.pptx",
+      "size": 1296726,
+      "path": "/Year3/Machine Learning (ml)/PPT Notes/Unit 4.pptx"
+    },
+    {
+      "name": "Unit 3.pptx",
+      "size": 3317283,
+      "path": "/Year3/Machine Learning (ml)/PPT Notes/Unit 3.pptx"
+    },
+    {
+      "name": "Unit 5.pptx",
+      "size": 3293976,
+      "path": "/Year3/Machine Learning (ml)/PPT Notes/Unit 5.pptx"
+    },
+    {
+      "name": "Unit 2.pptx",
+      "size": 3522529,
+      "path": "/Year3/Machine Learning (ml)/PPT Notes/Unit 2.pptx"
+    },
+    {
+      "name": "science_technology_in_india.pdf",
+      "size": 86575,
+      "path": "/Year3/Indian tradition, culture & society (ITCS)/Unit 4/science_technology_in_india.pdf"
+    },
+    {
+      "name": "Scientists of Ancient India.pptx",
+      "size": 550921,
+      "path": "/Year3/Indian tradition, culture & society (ITCS)/Unit 4/Scientists of Ancient India.pptx"
+    },
+    {
+      "name": "Ancient_Indian_Math_and_Science.ppt",
+      "size": 1485824,
+      "path": "/Year3/Indian tradition, culture & society (ITCS)/Unit 4/Ancient_Indian_Math_and_Science.ppt"
+    },
+    {
+      "name": "Ancient India_Art_Architecture_Seals & Coins.pptx",
+      "size": 3423781,
+      "path": "/Year3/Indian tradition, culture & society (ITCS)/Unit 4/Ancient India_Art_Architecture_Seals & Coins.pptx"
+    },
+    {
+      "name": "MEDICINE.pptx",
+      "size": 3957757,
+      "path": "/Year3/Indian tradition, culture & society (ITCS)/Unit 4/MEDICINE.pptx"
+    },
+    {
+      "name": "philosophicaltheories.pptx",
+      "size": 485868,
+      "path": "/Year3/Indian tradition, culture & society (ITCS)/Unit 3/philosophicaltheories.pptx"
+    },
+    {
+      "name": "adishankaracharya.pptx",
+      "size": 572090,
+      "path": "/Year3/Indian tradition, culture & society (ITCS)/Unit 3/adishankaracharya.pptx"
+    },
+    {
+      "name": "buddhism and jainism.pptx",
+      "size": 3513412,
+      "path": "/Year3/Indian tradition, culture & society (ITCS)/Unit 3/buddhism and jainism.pptx"
+    },
+    {
+      "name": "6 indian philosophy.pptx",
+      "size": 8272103,
+      "path": "/Year3/Indian tradition, culture & society (ITCS)/Unit 3/6 indian philosophy.pptx"
+    },
+    {
+      "name": "bhakti and sufi movement.pptx",
+      "size": 18275035,
+      "path": "/Year3/Indian tradition, culture & society (ITCS)/Unit 3/bhakti and sufi movement.pptx"
+    },
+    {
+      "name": "Unit 2.pptx",
+      "size": 1089688,
+      "path": "/Year3/Indian tradition, culture & society (ITCS)/Unit 2/Unit 2.pptx"
+    },
+    {
+      "name": "ITCS MODULE-1.pptx",
+      "size": 5913367,
+      "path": "/Year3/Indian tradition, culture & society (ITCS)/Unit 1/ITCS MODULE-1.pptx"
+    },
+    {
+      "name": "Notes [UNIT-1,2,3,4,5].pdf",
+      "size": 37885110,
+      "path": "/Year3/Indian tradition, culture & society (ITCS)/Other Notes/Notes [UNIT-1,2,3,4,5].pdf"
+    },
+    {
+      "name": "Paintings of India.pptx",
+      "size": 719577,
+      "path": "/Year3/Indian tradition, culture & society (ITCS)/Unit 5/Paintings of India.pptx"
+    },
+    {
+      "name": "Coins_of_India.pptx",
+      "size": 1451264,
+      "path": "/Year3/Indian tradition, culture & society (ITCS)/Unit 5/Coins_of_India.pptx"
+    },
+    {
+      "name": "Temples_Caves Architecture of India.pptx",
+      "size": 1744564,
+      "path": "/Year3/Indian tradition, culture & society (ITCS)/Unit 5/Temples_Caves Architecture of India.pptx"
+    },
+    {
+      "name": "Popular_Fairs & Festivals_of_India.pdf",
+      "size": 1596358,
+      "path": "/Year3/Indian tradition, culture & society (ITCS)/Unit 5/Popular_Fairs & Festivals_of_India.pdf"
+    },
+    {
+      "name": "Paintings_Sculpture_in Ancient India.pptx",
+      "size": 3525207,
+      "path": "/Year3/Indian tradition, culture & society (ITCS)/Unit 5/Paintings_Sculpture_in Ancient India.pptx"
+    },
+    {
+      "name": "Gupta & Maurya Architecture in Ancient India.pptx",
+      "size": 3742507,
+      "path": "/Year3/Indian tradition, culture & society (ITCS)/Unit 5/Gupta & Maurya Architecture in Ancient India.pptx"
+    },
+    {
+      "name": "Art and Architecture in the Early Dynasties.pptx",
+      "size": 6888399,
+      "path": "/Year3/Indian tradition, culture & society (ITCS)/Unit 5/Art and Architecture in the Early Dynasties.pptx"
+    },
+    {
+      "name": "Indian_Cinemas.pptx",
+      "size": 10411578,
+      "path": "/Year3/Indian tradition, culture & society (ITCS)/Unit 5/Indian_Cinemas.pptx"
+    },
+    {
+      "name": "Graph Coloring.pdf",
+      "size": 273381,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 4/Graph Coloring.pdf"
+    },
+    {
+      "name": "Backtracking.pdf",
+      "size": 368490,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 4/Backtracking.pdf"
+    },
+    {
+      "name": "All Pair Shortest paths.pdf",
+      "size": 1854921,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 4/All Pair Shortest paths.pdf"
+    },
+    {
+      "name": "Dynamic Programming (Matrix Chain Multiplication).pdf",
+      "size": 9987722,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 4/Dynamic Programming (Matrix Chain Multiplication).pdf"
+    },
+    {
+      "name": "Single source shortest paths – bellman ford.pdf",
+      "size": 153152,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 3/Single source shortest paths – bellman ford.pdf"
+    },
+    {
+      "name": "Single source shortest paths – Dijkstra’s.pdf",
+      "size": 239647,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 3/Single source shortest paths – Dijkstra’s.pdf"
+    },
+    {
+      "name": "Greedy Algorithms introduction and Knapsack problem.pdf",
+      "size": 395844,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 3/Greedy Algorithms introduction and Knapsack problem.pdf"
+    },
+    {
+      "name": "Minimum Spanning trees using Prim’s.pdf",
+      "size": 671289,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 3/Minimum Spanning trees using Prim’s.pdf"
+    },
+    {
+      "name": "Minimum Spanning trees using Kruskal’s algorithms.pdf",
+      "size": 935183,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 3/Minimum Spanning trees using Kruskal’s algorithms.pdf"
+    },
+    {
+      "name": "Binary Search algorithm and its complexity.pdf",
+      "size": 1578900,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 3/Binary Search algorithm and its complexity.pdf"
+    },
+    {
+      "name": "Strassens Matrix Multiplication.pdf",
+      "size": 2525862,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 3/Strassens Matrix Multiplication.pdf"
+    },
+    {
+      "name": "Divide-and-Conquer Convex Hull.pdf",
+      "size": 2294661,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 3/Divide-and-Conquer Convex Hull.pdf"
+    },
+    {
+      "name": "Divide-and-Conquer Approach.pdf",
+      "size": 4297636,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 3/Divide-and-Conquer Approach.pdf"
+    },
+    {
+      "name": "Fibonacci heap- insertionand mergeable heap operations.docx",
+      "size": 194438,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 2/Fibonacci heap- insertionand mergeable heap operations.docx"
+    },
+    {
+      "name": "Fibonacci heap- extract min and consolidate, decrease Key.docx",
+      "size": 304462,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 2/Fibonacci heap- extract min and consolidate, decrease Key.docx"
+    },
+    {
+      "name": "Red Black Tree Insertion.pdf",
+      "size": 1059078,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 2/Red Black Tree Insertion.pdf"
+    },
+    {
+      "name": "Red Black Tree 1.pdf",
+      "size": 999150,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 2/Red Black Tree 1.pdf"
+    },
+    {
+      "name": "Red black tree –Deletion.pdf",
+      "size": 1574653,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 2/Red black tree –Deletion.pdf"
+    },
+    {
+      "name": "Binomail Tree and Binomial Heap.pdf",
+      "size": 3729599,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 2/Binomail Tree and Binomial Heap.pdf"
+    },
+    {
+      "name": "Binomial Heap Operations.pdf",
+      "size": 4300597,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 2/Binomial Heap Operations.pdf"
+    },
+    {
+      "name": "B-tree.pdf",
+      "size": 12288391,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 2/B-tree.pdf"
+    },
+    {
+      "name": "Unit 2(DAA).pdf",
+      "size": 19427331,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 2/Unit 2(DAA).pdf"
+    },
+    {
+      "name": "Unit1_Lower bound of comparison based sorting_KCS503.pdf",
+      "size": 319344,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 1/Unit1_Lower bound of comparison based sorting_KCS503.pdf"
+    },
+    {
+      "name": "Unit1_Heap Sort_KCS503.pdf",
+      "size": 1248637,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 1/Unit1_Heap Sort_KCS503.pdf"
+    },
+    {
+      "name": "Unit1_Quick Sort and Merge Sort_KCS503.pdf",
+      "size": 1805575,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 1/Unit1_Quick Sort and Merge Sort_KCS503.pdf"
+    },
+    {
+      "name": "Unit1_Recurrence Relations_KCS503.pdf",
+      "size": 2577145,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 1/Unit1_Recurrence Relations_KCS503.pdf"
+    },
+    {
+      "name": "Unit1_Analysis and Complexity of an Algorithm_KCS503.pdf",
+      "size": 5108627,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 1/Unit1_Analysis and Complexity of an Algorithm_KCS503.pdf"
+    },
+    {
+      "name": "Randomized algorithm.docx",
+      "size": 77911,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 5/Randomized algorithm.docx"
+    },
+    {
+      "name": "Approximation algorithm.pdf",
+      "size": 283693,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 5/Approximation algorithm.pdf"
+    },
+    {
+      "name": "Polynomial and FFT.docx",
+      "size": 219863,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 5/Polynomial and FFT.docx"
+    },
+    {
+      "name": "String matching-2 Boyer Moore.docx",
+      "size": 370476,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 5/String matching-2 Boyer Moore.docx"
+    },
+    {
+      "name": "Theory of NP,NP hard and NP completeness-Part-1.pdf",
+      "size": 897721,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 5/Theory of NP,NP hard and NP completeness-Part-1.pdf"
+    },
+    {
+      "name": "Theory of NP,NP hard and NP completeness-Part-2.pdf",
+      "size": 888871,
+      "path": "/Year3/Design and Analysis of Algorithms (DAA)/Unit 5/Theory of NP,NP hard and NP completeness-Part-2.pdf"
+    },
+    {
+      "name": "Unit 4.5.pptx",
+      "size": 454644,
+      "path": "/Year3/Database Management System (DBMS)/Unit 4/Unit 4.5.pptx"
+    },
+    {
+      "name": "unit 4.3.ppt",
+      "size": 1069056,
+      "path": "/Year3/Database Management System (DBMS)/Unit 4/unit 4.3.ppt"
+    },
+    {
+      "name": "unit 4.2.ppt",
+      "size": 2863616,
+      "path": "/Year3/Database Management System (DBMS)/Unit 4/unit 4.2.ppt"
+    },
+    {
+      "name": "3.3.pptx",
+      "size": 1259616,
+      "path": "/Year3/Database Management System (DBMS)/Unit 3/3.3.pptx"
+    },
+    {
+      "name": "3.4.ppt",
+      "size": 2354176,
+      "path": "/Year3/Database Management System (DBMS)/Unit 3/3.4.ppt"
+    },
+    {
+      "name": "3.5.pptx",
+      "size": 5930821,
+      "path": "/Year3/Database Management System (DBMS)/Unit 3/3.5.pptx"
+    },
+    {
+      "name": "3.2.pptx",
+      "size": 17839836,
+      "path": "/Year3/Database Management System (DBMS)/Unit 3/3.2.pptx"
+    },
+    {
+      "name": "3.1.pptx",
+      "size": 20314317,
+      "path": "/Year3/Database Management System (DBMS)/Unit 3/3.1.pptx"
+    },
+    {
+      "name": "SQL-views.pdf",
+      "size": 295732,
+      "path": "/Year3/Database Management System (DBMS)/Unit 2/SQL-views.pdf"
+    },
+    {
+      "name": "PL-sql.pdf",
+      "size": 306710,
+      "path": "/Year3/Database Management System (DBMS)/Unit 2/PL-sql.pdf"
+    },
+    {
+      "name": "2.2.pptx",
+      "size": 349599,
+      "path": "/Year3/Database Management System (DBMS)/Unit 2/2.2.pptx"
+    },
+    {
+      "name": "Practice Questions.pptx",
+      "size": 809384,
+      "path": "/Year3/Database Management System (DBMS)/Unit 2/Practice Questions.pptx"
+    },
+    {
+      "name": "2.3.ppt",
+      "size": 1570304,
+      "path": "/Year3/Database Management System (DBMS)/Unit 2/2.3.ppt"
+    },
+    {
+      "name": "2.1.pptx",
+      "size": 11976543,
+      "path": "/Year3/Database Management System (DBMS)/Unit 2/2.1.pptx"
+    },
+    {
+      "name": "SQL Commands.pptx",
+      "size": 12735190,
+      "path": "/Year3/Database Management System (DBMS)/Unit 2/SQL Commands.pptx"
+    },
+    {
+      "name": "1.3.pdf",
+      "size": 209051,
+      "path": "/Year3/Database Management System (DBMS)/Unit 1/1.3.pdf"
+    },
+    {
+      "name": "1.1.ppt",
+      "size": 4962816,
+      "path": "/Year3/Database Management System (DBMS)/Unit 1/1.1.ppt"
+    },
+    {
+      "name": "1.2.pptx",
+      "size": 5645766,
+      "path": "/Year3/Database Management System (DBMS)/Unit 1/1.2.pptx"
+    },
+    {
+      "name": "DBMS-File 1.pdf",
+      "size": 156912411,
+      "path": "/Year3/Database Management System (DBMS)/Gate Smasher notes/DBMS-File 1.pdf"
+    },
+    {
+      "name": "Unit 5.2.pptx",
+      "size": 2407197,
+      "path": "/Year3/Database Management System (DBMS)/Unit 5/Unit 5.2.pptx"
+    },
+    {
+      "name": "unit 5.1.ppt",
+      "size": 5393920,
+      "path": "/Year3/Database Management System (DBMS)/Unit 5/unit 5.1.ppt"
+    },
+    {
+      "name": "4.1.ppt",
+      "size": 665600,
+      "path": "/Year3/Computer Network/Unit 4/4.1.ppt"
+    },
+    {
+      "name": "4.5.pptx",
+      "size": 1269209,
+      "path": "/Year3/Computer Network/Unit 4/4.5.pptx"
+    },
+    {
+      "name": "4.2.pptx",
+      "size": 2008513,
+      "path": "/Year3/Computer Network/Unit 4/4.2.pptx"
+    },
+    {
+      "name": "Subnet example.pptx",
+      "size": 263149,
+      "path": "/Year3/Computer Network/Unit 3/Subnet example.pptx"
+    },
+    {
+      "name": "29.pptx",
+      "size": 575885,
+      "path": "/Year3/Computer Network/Unit 3/29.pptx"
+    },
+    {
+      "name": "31.ppt",
+      "size": 1525248,
+      "path": "/Year3/Computer Network/Unit 3/31.ppt"
+    },
+    {
+      "name": "30.ppt",
+      "size": 1586176,
+      "path": "/Year3/Computer Network/Unit 3/30.ppt"
+    },
+    {
+      "name": "23 -28_Network layer.pptx",
+      "size": 3059048,
+      "path": "/Year3/Computer Network/Unit 3/23 -28_Network layer.pptx"
+    },
+    {
+      "name": "10_bit rate baud rate.jfif",
+      "size": 92995,
+      "path": "/Year3/Computer Network/Unit 2/10_bit rate baud rate.jfif"
+    },
+    {
+      "name": "16_HDLC.pptx",
+      "size": 418880,
+      "path": "/Year3/Computer Network/Unit 2/16_HDLC.pptx"
+    },
+    {
+      "name": "15_Error 2.pptx",
+      "size": 495251,
+      "path": "/Year3/Computer Network/Unit 2/15_Error 2.pptx"
+    },
+    {
+      "name": "14_Error 1.pptx",
+      "size": 659119,
+      "path": "/Year3/Computer Network/Unit 2/14_Error 1.pptx"
+    },
+    {
+      "name": "10_Framing.pptx",
+      "size": 680006,
+      "path": "/Year3/Computer Network/Unit 2/10_Framing.pptx"
+    },
+    {
+      "name": "20_LAN Standards and FDDI.pptx",
+      "size": 1202209,
+      "path": "/Year3/Computer Network/Unit 2/20_LAN Standards and FDDI.pptx"
+    },
+    {
+      "name": "11_flowcontrol.ppt",
+      "size": 1158144,
+      "path": "/Year3/Computer Network/Unit 2/11_flowcontrol.ppt"
+    },
+    {
+      "name": "13_flow control 3.pptx",
+      "size": 1051946,
+      "path": "/Year3/Computer Network/Unit 2/13_flow control 3.pptx"
+    },
+    {
+      "name": "19_MAC 2(channelization).pptx",
+      "size": 1186483,
+      "path": "/Year3/Computer Network/Unit 2/19_MAC 2(channelization).pptx"
+    },
+    {
+      "name": "12_flow control 2.pptx",
+      "size": 1262400,
+      "path": "/Year3/Computer Network/Unit 2/12_flow control 2.pptx"
+    },
+    {
+      "name": "21_22_Link layer switches  bridges.pptx",
+      "size": 1308580,
+      "path": "/Year3/Computer Network/Unit 2/21_22_Link layer switches  bridges.pptx"
+    },
+    {
+      "name": "18_MAC.pptx",
+      "size": 4891166,
+      "path": "/Year3/Computer Network/Unit 2/18_MAC.pptx"
+    },
+    {
+      "name": "1_Difference-Between-LAN-MAN-and-WAN.jpg",
+      "size": 166757,
+      "path": "/Year3/Computer Network/Unit 1/1_Difference-Between-LAN-MAN-and-WAN.jpg"
+    },
+    {
+      "name": "8_switching tech-converted.pptx",
+      "size": 125444,
+      "path": "/Year3/Computer Network/Unit 1/8_switching tech-converted.pptx"
+    },
+    {
+      "name": "4_network devices.pptx",
+      "size": 457238,
+      "path": "/Year3/Computer Network/Unit 1/4_network devices.pptx"
+    },
+    {
+      "name": "5_transmission media.pptx",
+      "size": 784977,
+      "path": "/Year3/Computer Network/Unit 1/5_transmission media.pptx"
+    },
+    {
+      "name": "2_osi.pptx",
+      "size": 877283,
+      "path": "/Year3/Computer Network/Unit 1/2_osi.pptx"
+    },
+    {
+      "name": "3_tcp ip.ppt",
+      "size": 1576448,
+      "path": "/Year3/Computer Network/Unit 1/3_tcp ip.ppt"
+    },
+    {
+      "name": "6_Line coding.ppt",
+      "size": 1681408,
+      "path": "/Year3/Computer Network/Unit 1/6_Line coding.ppt"
+    },
+    {
+      "name": "6_data and signals.ppt",
+      "size": 2662400,
+      "path": "/Year3/Computer Network/Unit 1/6_data and signals.ppt"
+    },
+    {
+      "name": "9_multiplexing.pptx",
+      "size": 3485620,
+      "path": "/Year3/Computer Network/Unit 1/9_multiplexing.pptx"
+    },
+    {
+      "name": "5.4.pptx",
+      "size": 206841,
+      "path": "/Year3/Computer Network/Unit 5/5.4.pptx"
+    },
+    {
+      "name": "5.6.pptx",
+      "size": 660621,
+      "path": "/Year3/Computer Network/Unit 5/5.6.pptx"
+    },
+    {
+      "name": "5.7.pptx",
+      "size": 599854,
+      "path": "/Year3/Computer Network/Unit 5/5.7.pptx"
+    },
+    {
+      "name": "5.1.pptx",
+      "size": 684577,
+      "path": "/Year3/Computer Network/Unit 5/5.1.pptx"
+    },
+    {
+      "name": "5.2.pptx",
+      "size": 766698,
+      "path": "/Year3/Computer Network/Unit 5/5.2.pptx"
+    },
+    {
+      "name": "5.8.pptx",
+      "size": 1394753,
+      "path": "/Year3/Computer Network/Unit 5/5.8.pptx"
+    },
+    {
+      "name": "5.5.ppt",
+      "size": 2128896,
+      "path": "/Year3/Computer Network/Unit 5/5.5.ppt"
+    },
+    {
+      "name": "Unit 3 Comiler_design_Syntax_Directed_Translation.pptx",
+      "size": 262497,
+      "path": "/Year3/Compiler Design/Unit 3/Unit 3 Comiler_design_Syntax_Directed_Translation.pptx"
+    },
+    {
+      "name": "Unit 2 Predictive parser.pptx",
+      "size": 127994,
+      "path": "/Year3/Compiler Design/Unit 2/Unit 2 Predictive parser.pptx"
+    },
+    {
+      "name": "Unit 2 Operator precedence parsing.pptx",
+      "size": 223408,
+      "path": "/Year3/Compiler Design/Unit 2/Unit 2 Operator precedence parsing.pptx"
+    },
+    {
+      "name": "1.3 Bootstrapping and Cross Compiler.pdf",
+      "size": 59349,
+      "path": "/Year3/Compiler Design/Unit 1/1.3 Bootstrapping and Cross Compiler.pdf"
+    },
+    {
+      "name": "1.9.1 Syntax Analysis.pdf",
+      "size": 175920,
+      "path": "/Year3/Compiler Design/Unit 1/1.9.1 Syntax Analysis.pdf"
+    },
+    {
+      "name": "Unit 1 Formal_grammar.pptx",
+      "size": 271290,
+      "path": "/Year3/Compiler Design/Unit 1/Unit 1 Formal_grammar.pptx"
+    },
+    {
+      "name": "Unit 1 LEX.pptx",
+      "size": 286950,
+      "path": "/Year3/Compiler Design/Unit 1/Unit 1 LEX.pptx"
+    },
+    {
+      "name": "Unit 1 formalgrammar_and_ CFG.pptx",
+      "size": 230526,
+      "path": "/Year3/Compiler Design/Unit 1/Unit 1 formalgrammar_and_ CFG.pptx"
+    },
+    {
+      "name": "1.1 Introduction.pdf",
+      "size": 416184,
+      "path": "/Year3/Compiler Design/Unit 1/1.1 Introduction.pdf"
+    },
+    {
+      "name": "Basic Parsing Techniques.pptx",
+      "size": 647084,
+      "path": "/Year3/Compiler Design/Unit 1/Basic Parsing Techniques.pptx"
+    },
+    {
+      "name": "1.8 Lex.pdf",
+      "size": 825277,
+      "path": "/Year3/Compiler Design/Unit 1/1.8 Lex.pdf"
+    },
+    {
+      "name": "1.9 Syntax Analysis - CFG.pdf",
+      "size": 1861495,
+      "path": "/Year3/Compiler Design/Unit 1/1.9 Syntax Analysis - CFG.pdf"
+    },
+    {
+      "name": "Unit 4 symbol table.pptx",
+      "size": 1657130,
+      "path": "/Year3/Compiler Design/Unit 4/Unit 4 symbol table.pptx"
+    },
+    {
+      "name": "Qunatum.pdf",
+      "size": 46229801,
+      "path": "/Year3/Software Testing/Qunatum.pdf"
+    }
+  ]
+}
